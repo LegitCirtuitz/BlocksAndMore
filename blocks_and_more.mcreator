@@ -653,48 +653,6 @@
       "path": "~/Stairs/EmeraldStairsRecipe"
     },
     {
-      "name": "Acid",
-      "type": "fluid",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "acid",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/blocksandmore/fluid/AcidFluid.java",
-          "src/main/resources/assets/blocks_and_more/models/item/acid_bucket.json",
-          "src/main/java/net/mcreator/blocksandmore/item/AcidItem.java",
-          "src/main/resources/assets/blocks_and_more/models/block/acid.json",
-          "src/main/resources/assets/blocks_and_more/blockstates/acid.json",
-          "src/main/resources/assets/blocks_and_more/items/acid_bucket.json",
-          "src/main/java/net/mcreator/blocksandmore/block/AcidBlock.java"
-        ]
-      },
-      "path": "~/Acid"
-    },
-    {
-      "name": "AcidCorrosion",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "acid_corrosion",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ],
-        "files": [
-          "src/main/java/net/mcreator/blocksandmore/procedures/AcidCorrosionProcedure.java"
-        ]
-      },
-      "path": "~/Acid"
-    },
-    {
       "name": "DiamondStairsRecipe",
       "type": "recipe",
       "compiles": true,
@@ -999,19 +957,6 @@
       "path": "~/Stairs/DeepslateDiamondStairs"
     },
     {
-      "name": "AcidBucketRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "acid_bucket_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/blocks_and_more/recipe/acid_bucket_recipe.json"
-        ]
-      },
-      "path": "~/Acid"
-    },
-    {
       "name": "OakLogStairsRecipe",
       "type": "recipe",
       "compiles": true,
@@ -1119,7 +1064,6 @@
       "~CUSTOM:IronStairs"
     ],
     "BLOCKS:minecraft:replaceable": [
-      "~CUSTOM:Acid",
       "~CUSTOM:LiquidSugar"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
@@ -1179,9 +1123,6 @@
       "item.blocks_and_more.block_of_metal": "Block Of Metal",
       "item.blocks_and_more.diamond_stair": "Diamond Stair",
       "item.blocks_and_more.wemmbu_stair": "Wemmbu Stair",
-      "item.blocks_and_more.acid_bucket": "Acid Bucket",
-      "fluid.blocks_and_more.acid": "Acid",
-      "block.blocks_and_more.acid": "Acid",
       "item.blocks_and_more.emerald_ore_stairs": "Emerald Ore Stairs",
       "item.blocks_and_more.deepslate_emerald_ore_stairs": "Deepslate Emerald Ore Stairs",
       "item.blocks_and_more.deepslate_diamond_stairs": "Deepslate Diamond Stairs",
@@ -1239,10 +1180,6 @@
       },
       {
         "name": "BlockOfMetal",
-        "children": []
-      },
-      {
-        "name": "Acid",
         "children": []
       },
       {

@@ -12,7 +12,6 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.core.registries.Registries;
 
 import net.mcreator.blocksandmore.item.LiquidSugarItem;
-import net.mcreator.blocksandmore.item.AcidItem;
 import net.mcreator.blocksandmore.BlocksAndMoreMod;
 
 import java.util.function.Function;
@@ -35,7 +34,6 @@ public class BlocksAndMoreModItems {
 	public static Item EMERALD_STAIR;
 	public static Item DIAMOND_STAIR;
 	public static Item WEMMBU_STAIR;
-	public static Item ACID_BUCKET;
 	public static Item EMERALD_ORE_STAIRS;
 	public static Item DEEPSLATE_EMERALD_ORE_STAIRS;
 	public static Item DEEPSLATE_DIAMOND_STAIRS;
@@ -67,7 +65,6 @@ public class BlocksAndMoreModItems {
 		EMERALD_STAIR = block(BlocksAndMoreModBlocks.EMERALD_STAIR, "emerald_stair");
 		DIAMOND_STAIR = block(BlocksAndMoreModBlocks.DIAMOND_STAIR, "diamond_stair");
 		WEMMBU_STAIR = block(BlocksAndMoreModBlocks.WEMMBU_STAIR, "wemmbu_stair");
-		ACID_BUCKET = register("acid_bucket", AcidItem::new);
 		EMERALD_ORE_STAIRS = block(BlocksAndMoreModBlocks.EMERALD_ORE_STAIRS, "emerald_ore_stairs");
 		DEEPSLATE_EMERALD_ORE_STAIRS = block(BlocksAndMoreModBlocks.DEEPSLATE_EMERALD_ORE_STAIRS, "deepslate_emerald_ore_stairs");
 		DEEPSLATE_DIAMOND_STAIRS = block(BlocksAndMoreModBlocks.DEEPSLATE_DIAMOND_STAIRS, "deepslate_diamond_stairs");

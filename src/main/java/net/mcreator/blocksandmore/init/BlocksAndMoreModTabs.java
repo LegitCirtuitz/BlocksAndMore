@@ -36,7 +36,6 @@ public class BlocksAndMoreModTabs {
 					tabData.accept(BlocksAndMoreModBlocks.EMERALD_STAIR.asItem());
 					tabData.accept(BlocksAndMoreModBlocks.DIAMOND_STAIR.asItem());
 					tabData.accept(BlocksAndMoreModBlocks.WEMMBU_STAIR.asItem());
-					tabData.accept(BlocksAndMoreModItems.ACID_BUCKET);
 					tabData.accept(BlocksAndMoreModBlocks.EMERALD_ORE_STAIRS.asItem());
 					tabData.accept(BlocksAndMoreModBlocks.DEEPSLATE_EMERALD_ORE_STAIRS.asItem());
 					tabData.accept(BlocksAndMoreModBlocks.DEEPSLATE_DIAMOND_STAIRS.asItem());

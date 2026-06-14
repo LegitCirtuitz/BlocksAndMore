@@ -33,7 +33,6 @@ public class BlocksAndMoreModBlocks {
 	public static Block EMERALD_STAIR;
 	public static Block DIAMOND_STAIR;
 	public static Block WEMMBU_STAIR;
-	public static Block ACID;
 	public static Block EMERALD_ORE_STAIRS;
 	public static Block DEEPSLATE_EMERALD_ORE_STAIRS;
 	public static Block DEEPSLATE_DIAMOND_STAIRS;
@@ -65,7 +64,6 @@ public class BlocksAndMoreModBlocks {
 		EMERALD_STAIR = register("emerald_stair", EmeraldStairBlock::new);
 		DIAMOND_STAIR = register("diamond_stair", DiamondStairBlock::new);
 		WEMMBU_STAIR = register("wemmbu_stair", WemmbuStairBlock::new);
-		ACID = register("acid", AcidBlock::new);
 		EMERALD_ORE_STAIRS = register("emerald_ore_stairs", EmeraldOreStairsBlock::new);
 		DEEPSLATE_EMERALD_ORE_STAIRS = register("deepslate_emerald_ore_stairs", DeepslateEmeraldOreStairsBlock::new);
 		DEEPSLATE_DIAMOND_STAIRS = register("deepslate_diamond_stairs", DeepslateDiamondStairsBlock::new);

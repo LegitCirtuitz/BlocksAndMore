@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "blocks_and_more:acid",
     "blocks_and_more:liquid_sugar"
   ]
 }
