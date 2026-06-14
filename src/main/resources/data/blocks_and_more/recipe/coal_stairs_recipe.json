@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a  ",
+    "aa ",
+    "aab"
+  ],
+  "key": {
+    "a": "minecraft:coal",
+    "b": "minecraft:coal_block"
+  },
+  "result": {
+    "id": "blocks_and_more:coal_stairs",
+    "count": 6
+  }
+}

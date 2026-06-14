@@ -1,0 +1,10 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "particle": "minecraft:block/spruce_planks",
+    "bottom": "minecraft:block/spruce_log_top",
+    "top": "minecraft:block/spruce_log_top",
+    "side": "minecraft:block/spruce_log"
+  },
+  "render_type": "solid"
+}

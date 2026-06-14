@@ -1,0 +1,10 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "particle": "minecraft:block/coal_block",
+    "bottom": "minecraft:block/coal_block",
+    "top": "minecraft:block/coal_block",
+    "side": "minecraft:block/coal_block"
+  },
+  "render_type": "solid"
+}

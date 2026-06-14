@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a  ",
+    "ab ",
+    "abc"
+  ],
+  "key": {
+    "a": "minecraft:emerald_block",
+    "b": "minecraft:emerald",
+    "c": "minecraft:emerald_ore"
+  },
+  "result": {
+    "id": "blocks_and_more:emerald_stair",
+    "count": 6
+  }
+}

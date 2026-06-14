@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "blocks_and_more",
+  "version": "1.0.1",
+  "name": "Blocks and more",
+  "authors": [
+    "ItsCirtwitz"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "MIT License",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mcreator.blocksandmore.BlocksAndMoreMod"
+    ],
+    "client": [
+      "net.mcreator.blocksandmore.BlocksAndMoreModClient"
+    ]
+  },
+  "accessWidener": "META-INF/blocks_and_more.classtweaker",
+  "mixins": [
+    "blocks_and_more.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.21.8",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

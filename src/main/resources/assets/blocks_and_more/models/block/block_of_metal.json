@@ -1,0 +1,9 @@
+{
+  "parent": "blocks_and_more:custom/block_of_metal",
+  "textures": {
+    "all": "blocks_and_more:block/bom",
+    "particle": "blocks_and_more:block/bom",
+    "0": "blocks_and_more:block/bom"
+  },
+  "render_type": "solid"
+}

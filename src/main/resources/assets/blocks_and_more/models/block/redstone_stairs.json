@@ -1,0 +1,10 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "particle": "minecraft:block/redstone_block",
+    "bottom": "minecraft:block/redstone_block",
+    "top": "minecraft:block/redstone_block",
+    "side": "minecraft:block/redstone_block"
+  },
+  "render_type": "solid"
+}

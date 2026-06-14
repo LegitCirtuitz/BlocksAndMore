@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a  ",
+    "aa ",
+    "aaa"
+  ],
+  "key": {
+    "a": "minecraft:redstone"
+  },
+  "result": {
+    "id": "blocks_and_more:redstone_stairs",
+    "count": 2
+  }
+}

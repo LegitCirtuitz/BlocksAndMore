@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a  ",
+    "ab ",
+    "bbb"
+  ],
+  "key": {
+    "a": "minecraft:amethyst_shard",
+    "b": "minecraft:amethyst_block"
+  },
+  "result": {
+    "id": "blocks_and_more:amethyst_stairs",
+    "count": 6
+  }
+}

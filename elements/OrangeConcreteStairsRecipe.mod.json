@@ -1,0 +1,59 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 6,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "Blocks.OAK_STAIRS"
+      },
+      {
+        "value": "Blocks.DARK_OAK_STAIRS"
+      },
+      {
+        "value": "Blocks.PALE_OAK_STAIRS"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.CONCRETE#1"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.CONCRETE#1"
+      },
+      {
+        "value": "Blocks.CONCRETE#1"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.CONCRETE#1"
+      },
+      {
+        "value": "Blocks.CONCRETE#1"
+      },
+      {
+        "value": "Blocks.CONCRETE#1"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:OrangeConcreteStairs"
+    },
+    "name": "orange_concrete_stairs_recipe",
+    "namespace": "mod"
+  }
+}

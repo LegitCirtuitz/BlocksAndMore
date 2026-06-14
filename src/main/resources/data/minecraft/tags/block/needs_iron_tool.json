@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "blocks_and_more:iron_stairs",
+    "blocks_and_more:gold_stairs",
+    "blocks_and_more:emerald_stair",
+    "blocks_and_more:deepslate_diamond_stairs"
+  ]
+}

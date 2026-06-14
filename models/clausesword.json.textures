@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "0": "top_sword_texture",
+        "1": "bottom_sword_texture",
+        "2": "guard_texture",
+        "3": "hilt_texture"
+      }
+    }
+  }
+}

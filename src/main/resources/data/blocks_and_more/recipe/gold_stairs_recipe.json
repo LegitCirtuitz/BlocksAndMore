@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a  ",
+    "ab ",
+    "abc"
+  ],
+  "key": {
+    "a": "minecraft:gold_block",
+    "b": "minecraft:gold_ingot",
+    "c": "minecraft:gold_nugget"
+  },
+  "result": {
+    "id": "blocks_and_more:gold_stairs",
+    "count": 6
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aea"
+  ],
+  "key": {
+    "a": "minecraft:netherite_block",
+    "b": "minecraft:command_block",
+    "c": "minecraft:beacon",
+    "d": "minecraft:mace",
+    "e": "minecraft:chain_command_block"
+  },
+  "result": {
+    "id": "minecraft:mace",
+    "count": 2
+  }
+}

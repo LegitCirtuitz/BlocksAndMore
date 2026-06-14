@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "bdb",
+    "cba"
+  ],
+  "key": {
+    "a": "minecraft:dragon_breath",
+    "b": "minecraft:dragon_head",
+    "c": "minecraft:netherite_block",
+    "d": "minecraft:dragon_egg"
+  },
+  "result": {
+    "id": "minecraft:chain_command_block",
+    "count": 1
+  }
+}

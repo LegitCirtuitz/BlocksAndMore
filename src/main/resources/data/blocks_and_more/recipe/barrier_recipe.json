@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "ded",
+    "fbc"
+  ],
+  "key": {
+    "a": "minecraft:command_block",
+    "b": "minecraft:enchanted_golden_apple",
+    "c": "minecraft:fishing_rod",
+    "d": "minecraft:mace",
+    "e": "blocks_and_more:liquid_sugar_bucket",
+    "f": "minecraft:chain_command_block"
+  },
+  "result": {
+    "id": "minecraft:barrier",
+    "count": 1
+  }
+}

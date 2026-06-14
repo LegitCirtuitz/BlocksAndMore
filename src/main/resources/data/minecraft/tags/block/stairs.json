@@ -1,0 +1,32 @@
+{
+  "replace": false,
+  "values": [
+    "blocks_and_more:yellow_concrete_stairs",
+    "blocks_and_more:acacia_log_stairs",
+    "blocks_and_more:deepslate_emerald_ore_stairs",
+    "blocks_and_more:redstone_ore_stairs",
+    "blocks_and_more:deepslate_diamond_stairs",
+    "blocks_and_more:red_concrete_stairs",
+    "blocks_and_more:amethyst_stairs",
+    "blocks_and_more:coal_stairs",
+    "blocks_and_more:beacon_stairs",
+    "blocks_and_more:emerald_ore_stairs",
+    "blocks_and_more:iron_stairs",
+    "blocks_and_more:dark_oak_log_stairs",
+    "blocks_and_more:oak_log_stairs",
+    "blocks_and_more:spruce_log_stairs",
+    "blocks_and_more:redstone_stairs",
+    "blocks_and_more:diamond_stair",
+    "blocks_and_more:diamond_ore_stairs",
+    "blocks_and_more:wemmbu_stair",
+    "blocks_and_more:emerald_stair",
+    "blocks_and_more:iron_ore_stairs",
+    "blocks_and_more:green_concrete_stairs",
+    "blocks_and_more:orange_concrete_stairs",
+    "blocks_and_more:blue_concrete_stairs",
+    "blocks_and_more:gold_stairs",
+    "blocks_and_more:light_blue_concrete_stairs",
+    "blocks_and_more:grass_stairs",
+    "blocks_and_more:cyan_concrete_stairs"
+  ]
+}

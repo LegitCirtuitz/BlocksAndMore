@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "blocks_and_more:liquid_sugar",
+    "blocks_and_more:flowing_liquid_sugar",
+    "blocks_and_more:acid",
+    "blocks_and_more:flowing_acid"
+  ]
+}

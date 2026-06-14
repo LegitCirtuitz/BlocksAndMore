@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "blocks_and_more:acacia_log_stairs",
+    "blocks_and_more:dark_oak_log_stairs",
+    "blocks_and_more:acid",
+    "blocks_and_more:liquid_sugar",
+    "blocks_and_more:oak_log_stairs",
+    "blocks_and_more:spruce_log_stairs"
+  ]
+}

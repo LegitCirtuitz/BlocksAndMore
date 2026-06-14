@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a  ",
+    "ab ",
+    "abb"
+  ],
+  "key": {
+    "a": "minecraft:diamond",
+    "b": "minecraft:diamond_block"
+  },
+  "result": {
+    "id": "blocks_and_more:diamond_stair",
+    "count": 5
+  }
+}

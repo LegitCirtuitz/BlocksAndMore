@@ -1,0 +1,10 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "particle": "minecraft:block/emerald_ore",
+    "bottom": "minecraft:block/emerald_ore",
+    "top": "minecraft:block/emerald_ore",
+    "side": "minecraft:block/emerald_ore"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a  ",
+    "ab ",
+    "aaa"
+  ],
+  "key": {
+    "a": "#minecraft:dirt",
+    "b": "minecraft:grass_block"
+  },
+  "result": {
+    "id": "blocks_and_more:grass_stairs",
+    "count": 1
+  }
+}

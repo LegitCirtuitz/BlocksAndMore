@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "blocks_and_more:blocks/redstone_ore_stairs",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "blocks_and_more:redstone_ore_stairs"
+        }
+      ]
+    }
+  ]
+}

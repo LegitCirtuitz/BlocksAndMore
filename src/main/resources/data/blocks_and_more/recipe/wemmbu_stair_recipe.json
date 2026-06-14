@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cde",
+    "aba"
+  ],
+  "key": {
+    "a": "minecraft:egg",
+    "b": "minecraft:netherite_block",
+    "c": "minecraft:fishing_rod",
+    "d": "minecraft:mace",
+    "e": "minecraft:dragon_breath"
+  },
+  "result": {
+    "id": "blocks_and_more:wemmbu_stair",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a  ",
+    "bc ",
+    "dee"
+  ],
+  "key": {
+    "a": "minecraft:water_bucket",
+    "b": "minecraft:lava_bucket",
+    "c": "minecraft:fishing_rod",
+    "d": "minecraft:tnt",
+    "e": "minecraft:barrier"
+  },
+  "result": {
+    "id": "blocks_and_more:acid_bucket",
+    "count": 1
+  }
+}

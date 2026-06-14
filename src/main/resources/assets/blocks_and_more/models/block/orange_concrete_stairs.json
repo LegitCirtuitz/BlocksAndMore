@@ -1,0 +1,10 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "particle": "blocks_and_more:block/orconcretestairs",
+    "bottom": "blocks_and_more:block/orconcretestairs",
+    "top": "blocks_and_more:block/orconcretestairs",
+    "side": "blocks_and_more:block/orconcretestairs"
+  },
+  "render_type": "solid"
+}

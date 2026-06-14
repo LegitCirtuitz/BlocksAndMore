@@ -1,0 +1,49 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.REEDS"
+      },
+      {
+        "value": "Blocks.REEDS"
+      },
+      {
+        "value": "Blocks.REEDS"
+      },
+      {
+        "value": "Items.SUGAR"
+      },
+      {
+        "value": "Items.SUGAR"
+      },
+      {
+        "value": "Items.SUGAR"
+      },
+      {
+        "value": "Blocks.REEDS"
+      },
+      {
+        "value": "Items.BUCKET"
+      },
+      {
+        "value": "Blocks.REEDS"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:LiquidSugar.bucket"
+    },
+    "name": "liquid_sugar_bucket_recipe",
+    "namespace": "mod"
+  }
+}

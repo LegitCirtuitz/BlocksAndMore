@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a  ",
+    "aa ",
+    "aaa"
+  ],
+  "key": {
+    "a": "minecraft:blue_concrete"
+  },
+  "result": {
+    "id": "blocks_and_more:blue_concrete_stairs",
+    "count": 6
+  }
+}

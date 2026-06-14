@@ -1,0 +1,49 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.COMMAND_BLOCK"
+      },
+      {
+        "value": "Items.GOLDEN_APPLE#1"
+      },
+      {
+        "value": "Items.FISHING_ROD"
+      },
+      {
+        "value": "Items.MACE"
+      },
+      {
+        "value": "CUSTOM:LiquidSugar.bucket"
+      },
+      {
+        "value": "Items.MACE"
+      },
+      {
+        "value": "Blocks.CHAIN_COMMAND_BLOCK"
+      },
+      {
+        "value": "Items.GOLDEN_APPLE#1"
+      },
+      {
+        "value": "Items.FISHING_ROD"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Blocks.BARRIER"
+    },
+    "name": "barrier_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": "minecraft:mace",
+    "b": "minecraft:redstone_block",
+    "c": "minecraft:dragon_egg"
+  },
+  "result": {
+    "id": "minecraft:command_block",
+    "count": 1
+  }
+}

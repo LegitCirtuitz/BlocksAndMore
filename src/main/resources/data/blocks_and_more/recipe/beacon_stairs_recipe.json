@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bab",
+    "aba"
+  ],
+  "key": {
+    "a": "minecraft:beacon",
+    "b": "minecraft:netherite_block"
+  },
+  "result": {
+    "id": "blocks_and_more:beacon_stairs",
+    "count": 5
+  }
+}

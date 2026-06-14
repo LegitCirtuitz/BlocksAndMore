@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bbb",
+    "aca"
+  ],
+  "key": {
+    "a": "minecraft:sugar_cane",
+    "b": "minecraft:sugar",
+    "c": "minecraft:bucket"
+  },
+  "result": {
+    "id": "blocks_and_more:liquid_sugar_bucket",
+    "count": 1
+  }
+}
