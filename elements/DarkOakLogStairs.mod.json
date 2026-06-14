@@ -72,7 +72,7 @@
     "lightOpacity": 15,
     "tickRate": 0,
     "tickRandomly": false,
-    "isReplaceable": true,
+    "isReplaceable": false,
     "canProvidePower": false,
     "emittedRedstonePower": {
       "fixedValue": 15.0

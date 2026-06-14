@@ -7,7 +7,7 @@ import net.minecraft.world.level.block.Blocks;
 
 public class AcaciaLogStairsBlock extends StairBlock {
 	public AcaciaLogStairsBlock(BlockBehaviour.Properties properties) {
-		super(Blocks.AIR.defaultBlockState(), properties.sound(SoundType.WOOD).strength(1f, 10f).replaceable());
+		super(Blocks.AIR.defaultBlockState(), properties.sound(SoundType.WOOD).strength(1f, 10f));
 	}
 
 	@Override

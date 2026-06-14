@@ -1119,10 +1119,6 @@
       "~CUSTOM:IronStairs"
     ],
     "BLOCKS:minecraft:replaceable": [
-      "~CUSTOM:OakLogStairs",
-      "~CUSTOM:SpruceLogStairs",
-      "~CUSTOM:DarkOakLogStairs",
-      "~CUSTOM:AcaciaLogStairs",
       "~CUSTOM:Acid",
       "~CUSTOM:LiquidSugar"
     ],
@@ -1198,7 +1194,10 @@
       "item.blocks_and_more.redstone_ore_stairs": "Redstone Ore Stairs",
       "item.blocks_and_more.spruce_log_stairs": "Spruce Log Stairs",
       "item.blocks_and_more.acacia_log_stairs": "Acacia Log Stairs",
-      "item_group.blocks_and_more.blocks_and_stuff_1": "Blocks And More "
+      "item_group.blocks_and_more.blocks_and_stuff_1": "Blocks And Stuff ",
+      "item.blocks_and_more.red_concrete_stairsw": "Red Concrete Stairs",
+      "item.blocks_and_more.orange_concrete_stairs": "Orange Concrete Stairs",
+      "item.blocks_and_more.red_concrete_stairs": "Red Concrete Stairs"
     }
   },
   "metadata": {

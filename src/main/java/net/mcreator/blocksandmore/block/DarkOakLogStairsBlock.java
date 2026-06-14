@@ -7,7 +7,7 @@ import net.minecraft.world.level.block.Blocks;
 
 public class DarkOakLogStairsBlock extends StairBlock {
 	public DarkOakLogStairsBlock(BlockBehaviour.Properties properties) {
-		super(Blocks.AIR.defaultBlockState(), properties.sound(SoundType.WOOD).strength(1f, 10f).replaceable());
+		super(Blocks.AIR.defaultBlockState(), properties.sound(SoundType.WOOD).strength(1f, 10f));
 	}
 
 	@Override
