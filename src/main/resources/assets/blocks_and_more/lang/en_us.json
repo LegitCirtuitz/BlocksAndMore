@@ -51,5 +51,6 @@
   "item.blocks_and_more.redstone_stairs": "Redstone Stairs",
   "item.blocks_and_more.redstone_ore_stairs": "Redstone Ore Stairs",
   "item.blocks_and_more.spruce_log_stairs": "Spruce Log Stairs",
-  "item.blocks_and_more.acacia_log_stairs": "Acacia Log Stairs"
+  "item.blocks_and_more.acacia_log_stairs": "Acacia Log Stairs",
+  "item_group.blocks_and_more.blocks_and_stuff_1": "Blocks And More "
 }

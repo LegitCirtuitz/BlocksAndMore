@@ -871,7 +871,8 @@
           "src/main/resources/assets/blocks_and_more/models/block/dark_oak_log_stairs_outer.json",
           "src/main/resources/assets/blocks_and_more/blockstates/dark_oak_log_stairs.json"
         ]
-      }
+      },
+      "path": "~/Stairs/DarkOakLogStairs"
     },
     {
       "name": "IronOreStairs",
@@ -1049,6 +1050,20 @@
         ]
       },
       "path": "~/Stairs/DiamondOreStair"
+    },
+    {
+      "name": "DarkOakLogStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_oak_log_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/blocks_and_more/recipe/dark_oak_log_stairs_recipe.json",
+          "src/main/resources/data/blocks_and_more/advancement/recipes/dark_oak_log_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Stairs/DarkOakLogStairs"
     }
   ],
   "variable_elements": [],
@@ -1182,7 +1197,8 @@
       "item.blocks_and_more.redstone_stairs": "Redstone Stairs",
       "item.blocks_and_more.redstone_ore_stairs": "Redstone Ore Stairs",
       "item.blocks_and_more.spruce_log_stairs": "Spruce Log Stairs",
-      "item.blocks_and_more.acacia_log_stairs": "Acacia Log Stairs"
+      "item.blocks_and_more.acacia_log_stairs": "Acacia Log Stairs",
+      "item_group.blocks_and_more.blocks_and_stuff_1": "Blocks And More "
     }
   },
   "metadata": {
@@ -1323,6 +1339,10 @@
           },
           {
             "name": "DiamondOreStair",
+            "children": []
+          },
+          {
+            "name": "DarkOakLogStairs",
             "children": []
           }
         ]
