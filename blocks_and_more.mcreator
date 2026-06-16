@@ -18,7 +18,7 @@
           "src/main/resources/assets/blocks_and_more/blockstates/red_concrete_stairs.json"
         ]
       },
-      "path": "~/Stairs/RedConcreteStairs"
+      "path": "~/Blocks/Stairs/ConcreteStairs/RedConcreteStairs"
     },
     {
       "name": "BlockOfMetal",
@@ -36,7 +36,7 @@
           "src/main/resources/data/blocks_and_more/loot_table/blocks/block_of_metal.json"
         ]
       },
-      "path": "~/BlockOfMetal"
+      "path": "~/Blocks/BasicBlocks/BlockOfMetal"
     },
     {
       "name": "RedConcreteStairsRecipe",
@@ -49,7 +49,7 @@
           "src/main/resources/data/blocks_and_more/recipe/red_concrete_stairs_recipe.json"
         ]
       },
-      "path": "~/Stairs/RedConcreteStairs"
+      "path": "~/Blocks/Stairs/ConcreteStairs/RedConcreteStairs"
     },
     {
       "name": "BlocksAndStuff1",
@@ -80,7 +80,7 @@
           "src/main/resources/assets/blocks_and_more/models/block/orange_concrete_stairs_outer.json"
         ]
       },
-      "path": "~/Stairs/OrangeConcreteStairs"
+      "path": "~/Blocks/Stairs/ConcreteStairs/OrangeConcreteStairs"
     },
     {
       "name": "OrangeConcreteStairsRecipe",
@@ -94,7 +94,7 @@
           "src/main/resources/data/blocks_and_more/advancement/recipes/orange_concrete_stairs_recipe.json"
         ]
       },
-      "path": "~/Stairs/OrangeConcreteStairs"
+      "path": "~/Blocks/Stairs/ConcreteStairs/OrangeConcreteStairs"
     },
     {
       "name": "YellowConcreteStairs",
@@ -114,7 +114,7 @@
           "src/main/resources/assets/blocks_and_more/models/block/yellow_concrete_stairs_outer.json"
         ]
       },
-      "path": "~/Stairs/YellowConcreteStairs"
+      "path": "~/Blocks/Stairs/ConcreteStairs/YellowConcreteStairs"
     },
     {
       "name": "YellowConcreteStairsRecipe",
@@ -128,7 +128,7 @@
           "src/main/resources/data/blocks_and_more/advancement/recipes/yellow_concrete_stairs_recipe.json"
         ]
       },
-      "path": "~/Stairs/YellowConcreteStairs"
+      "path": "~/Blocks/Stairs/ConcreteStairs/YellowConcreteStairs"
     },
     {
       "name": "GreenConcreteStairs",
@@ -148,7 +148,7 @@
           "src/main/resources/assets/blocks_and_more/models/block/green_concrete_stairs.json"
         ]
       },
-      "path": "~/Stairs/GreenConcreteStairs"
+      "path": "~/Blocks/Stairs/ConcreteStairs/GreenConcreteStairs"
     },
     {
       "name": "GreenConcreteStairsRecipe",
@@ -162,7 +162,7 @@
           "src/main/resources/data/blocks_and_more/recipe/green_concrete_stairs_recipe.json"
         ]
       },
-      "path": "~/Stairs/GreenConcreteStairs"
+      "path": "~/Blocks/Stairs/ConcreteStairs/GreenConcreteStairs"
     },
     {
       "name": "GrassStairs",
@@ -182,7 +182,7 @@
           "src/main/resources/assets/blocks_and_more/models/item/grass_stairs.json"
         ]
       },
-      "path": "~/Stairs/GrassStairs"
+      "path": "~/Blocks/Stairs/VanillaBasedStairs/GrassStairs"
     },
     {
       "name": "BeaconStairs",
@@ -202,7 +202,7 @@
           "src/main/resources/assets/blocks_and_more/models/block/beacon_stairs_inner.json"
         ]
       },
-      "path": "~/Stairs/BeaconStairs"
+      "path": "~/Blocks/Stairs/VanillaBasedStairs/BeaconStairs"
     },
     {
       "name": "BeaconStairsRecipe",
@@ -216,7 +216,7 @@
           "src/main/resources/data/blocks_and_more/recipe/beacon_stairs_recipe.json"
         ]
       },
-      "path": "~/Stairs/BeaconStairs"
+      "path": "~/Blocks/Stairs/VanillaBasedStairs/BeaconStairs"
     },
     {
       "name": "GrassStairsRecipe",
@@ -230,7 +230,7 @@
           "src/main/resources/data/blocks_and_more/recipe/grass_stairs_recipe.json"
         ]
       },
-      "path": "~/Stairs/GrassStairs"
+      "path": "~/Blocks/Stairs/VanillaBasedStairs/GrassStairs"
     },
     {
       "name": "BlockOfMetalRecipe",
@@ -244,7 +244,7 @@
           "src/main/resources/data/blocks_and_more/advancement/recipes/block_of_metal_recipe.json"
         ]
       },
-      "path": "~/BlockOfMetal"
+      "path": "~/Blocks/BasicBlocks/BlockOfMetal"
     },
     {
       "name": "BlockofMetalRecipeSmelt",
@@ -258,7 +258,7 @@
           "src/main/resources/data/blocks_and_more/recipe/blockof_metal_recipe_smelt.json"
         ]
       },
-      "path": "~/BlockOfMetal"
+      "path": "~/Blocks/BasicBlocks/BlockOfMetal"
     },
     {
       "name": "IronStairs",
@@ -278,7 +278,7 @@
           "src/main/resources/assets/blocks_and_more/blockstates/iron_stairs.json"
         ]
       },
-      "path": "~/Stairs/IronStairs"
+      "path": "~/Blocks/Stairs/VanillaBasedStairs/IronStairs"
     },
     {
       "name": "IronStairsRecipe",
@@ -292,7 +292,7 @@
           "src/main/resources/data/blocks_and_more/recipe/iron_stairs_recipe.json"
         ]
       },
-      "path": "~/Stairs/IronStairs"
+      "path": "~/Blocks/Stairs/VanillaBasedStairs/IronStairs"
     },
     {
       "name": "LiquidSugar",
@@ -350,7 +350,7 @@
           "src/main/resources/assets/blocks_and_more/models/block/light_blue_concrete_stairs.json"
         ]
       },
-      "path": "~/Stairs/LightBlueConcreteStairs"
+      "path": "~/Blocks/Stairs/ConcreteStairs/LightBlueConcreteStairs"
     },
     {
       "name": "CyanConcreteStairs",
@@ -370,7 +370,7 @@
           "src/main/resources/assets/blocks_and_more/blockstates/cyan_concrete_stairs.json"
         ]
       },
-      "path": "~/Stairs/CyanConcreteStairs"
+      "path": "~/Blocks/Stairs/ConcreteStairs/CyanConcreteStairs"
     },
     {
       "name": "BlueConcreteStairs",
@@ -390,7 +390,7 @@
           "src/main/resources/assets/blocks_and_more/models/block/blue_concrete_stairs_outer.json"
         ]
       },
-      "path": "~/Stairs/BlueConcreteStairs"
+      "path": "~/Blocks/Stairs/ConcreteStairs/BlueConcreteStairs"
     },
     {
       "name": "LightBlueConcreteStairsRecipe",
@@ -403,7 +403,7 @@
           "src/main/resources/data/blocks_and_more/recipe/light_blue_concrete_stairs_recipe.json"
         ]
       },
-      "path": "~/Stairs/LightBlueConcreteStairs"
+      "path": "~/Blocks/Stairs/ConcreteStairs/LightBlueConcreteStairs"
     },
     {
       "name": "LiquidSugarBucket",
@@ -430,7 +430,7 @@
           "src/main/resources/data/blocks_and_more/advancement/recipes/cyan_concrete_stairs_recipe.json"
         ]
       },
-      "path": "~/Stairs/CyanConcreteStairs"
+      "path": "~/Blocks/Stairs/ConcreteStairs/CyanConcreteStairs"
     },
     {
       "name": "BlueConcreteStairsRecipe",
@@ -443,7 +443,7 @@
           "src/main/resources/data/blocks_and_more/recipe/blue_concrete_stairs_recipe.json"
         ]
       },
-      "path": "~/Stairs/BlueConcreteStairs"
+      "path": "~/Blocks/Stairs/ConcreteStairs/BlueConcreteStairs"
     },
     {
       "name": "GoldStairs",
@@ -463,7 +463,7 @@
           "src/main/resources/assets/blocks_and_more/models/item/gold_stairs.json"
         ]
       },
-      "path": "~/Stairs/GoldStairs"
+      "path": "~/Blocks/Stairs/VanillaBasedStairs/GoldStairs"
     },
     {
       "name": "CoalStairs",
@@ -483,7 +483,7 @@
           "src/main/resources/assets/blocks_and_more/models/block/coal_stairs.json"
         ]
       },
-      "path": "~/Stairs/CoalStairs"
+      "path": "~/Blocks/Stairs/VanillaBasedStairs/CoalStairs"
     },
     {
       "name": "GoldStairsRecipe",
@@ -496,7 +496,7 @@
           "src/main/resources/data/blocks_and_more/recipe/gold_stairs_recipe.json"
         ]
       },
-      "path": "~/Stairs/GoldStairs"
+      "path": "~/Blocks/Stairs/VanillaBasedStairs/GoldStairs"
     },
     {
       "name": "CoalStairsRecipe",
@@ -510,7 +510,7 @@
           "src/main/resources/data/blocks_and_more/recipe/coal_stairs_recipe.json"
         ]
       },
-      "path": "~/Stairs/CoalStairs"
+      "path": "~/Blocks/Stairs/VanillaBasedStairs/CoalStairs"
     },
     {
       "name": "EmeraldStair",
@@ -530,7 +530,7 @@
           "src/main/resources/assets/blocks_and_more/models/block/emerald_stair.json"
         ]
       },
-      "path": "~/Stairs/EmeraldStairsRecipe"
+      "path": "~/Blocks/Stairs/VanillaBasedStairs/EmeraldStairs"
     },
     {
       "name": "DiamondStair",
@@ -550,7 +550,7 @@
           "src/main/resources/assets/blocks_and_more/models/item/diamond_stair.json"
         ]
       },
-      "path": "~/Stairs/DiamondStairs"
+      "path": "~/Blocks/Stairs/VanillaBasedStairs/DiamondStairs"
     },
     {
       "name": "WemmbuStair",
@@ -570,7 +570,7 @@
           "src/main/resources/assets/blocks_and_more/models/block/wemmbu_stair.json"
         ]
       },
-      "path": "~/Stairs/WemmbuStair"
+      "path": "~/Blocks/Stairs/MiscStairs/WemmbuStair"
     },
     {
       "name": "WemmbuStairRecipe",
@@ -583,7 +583,7 @@
           "src/main/resources/data/blocks_and_more/recipe/wemmbu_stair_recipe.json"
         ]
       },
-      "path": "~/Stairs/WemmbuStair"
+      "path": "~/Blocks/Stairs/MiscStairs/WemmbuStair"
     },
     {
       "name": "CommandBlockRecipe",
@@ -650,7 +650,7 @@
           "src/main/resources/data/blocks_and_more/advancement/recipes/emerald_stairs_recipe.json"
         ]
       },
-      "path": "~/Stairs/EmeraldStairsRecipe"
+      "path": "~/Blocks/Stairs/VanillaBasedStairs/EmeraldStairs"
     },
     {
       "name": "DiamondStairsRecipe",
@@ -663,7 +663,7 @@
           "src/main/resources/data/blocks_and_more/recipe/diamond_stairs_recipe.json"
         ]
       },
-      "path": "~/Stairs/DiamondStairs"
+      "path": "~/Blocks/Stairs/VanillaBasedStairs/DiamondStairs"
     },
     {
       "name": "EmeraldOreStairs",
@@ -683,7 +683,7 @@
           "src/main/resources/data/blocks_and_more/loot_table/blocks/emerald_ore_stairs.json"
         ]
       },
-      "path": "~/Stairs/EmeraldOreStairs"
+      "path": "~/Blocks/Stairs/OreStairs/EmeraldOreStairs"
     },
     {
       "name": "DeepslateEmeraldOreStairs",
@@ -703,7 +703,7 @@
           "src/main/resources/assets/blocks_and_more/models/block/deepslate_emerald_ore_stairs_outer.json"
         ]
       },
-      "path": "~/Stairs/DeepslateEmeraldStairs"
+      "path": "~/Blocks/Stairs/OreStairs/DeepslateEmeraldStairs"
     },
     {
       "name": "EmeraldOreRecipe",
@@ -716,7 +716,7 @@
           "src/main/resources/data/blocks_and_more/recipe/emerald_ore_recipe.json"
         ]
       },
-      "path": "~/Stairs/EmeraldOreStairs"
+      "path": "~/Blocks/Stairs/OreStairs/EmeraldOreStairs"
     },
     {
       "name": "DeepSlateEmeraldOreStairsRecipe",
@@ -730,7 +730,7 @@
           "src/main/resources/data/blocks_and_more/recipe/deep_slate_emerald_ore_stairs_recipe.json"
         ]
       },
-      "path": "~/Stairs/DeepslateEmeraldStairs"
+      "path": "~/Blocks/Stairs/OreStairs/DeepslateEmeraldStairs"
     },
     {
       "name": "DeepslateDiamondStairs",
@@ -750,7 +750,7 @@
           "src/main/resources/assets/blocks_and_more/models/item/deepslate_diamond_stairs.json"
         ]
       },
-      "path": "~/Stairs/DeepslateDiamondStairs"
+      "path": "~/Blocks/Stairs/OreStairs/DeepslateDiamondStairs"
     },
     {
       "name": "OakLogStairs",
@@ -770,7 +770,7 @@
           "src/main/resources/assets/blocks_and_more/items/oak_log_stairs.json"
         ]
       },
-      "path": "~/Stairs/OakLogStairs"
+      "path": "~/Blocks/Stairs/LogStairs/OakLogStairs"
     },
     {
       "name": "AmethystStairs",
@@ -790,7 +790,7 @@
           "src/main/resources/assets/blocks_and_more/models/block/amethyst_stairs.json"
         ]
       },
-      "path": "~/Stairs/AmethystStairs"
+      "path": "~/Blocks/Stairs/VanillaBasedStairs/AmethystStairs"
     },
     {
       "name": "DiamondOreStairs",
@@ -810,7 +810,7 @@
           "src/main/resources/data/blocks_and_more/loot_table/blocks/diamond_ore_stairs.json"
         ]
       },
-      "path": "~/Stairs/DiamondOreStair"
+      "path": "~/Blocks/Stairs/OreStairs/DiamondOreStair"
     },
     {
       "name": "DarkOakLogStairs",
@@ -830,7 +830,7 @@
           "src/main/resources/assets/blocks_and_more/blockstates/dark_oak_log_stairs.json"
         ]
       },
-      "path": "~/Stairs/DarkOakLogStairs"
+      "path": "~/Blocks/Stairs/LogStairs/DarkOakLogStairs"
     },
     {
       "name": "IronOreStairs",
@@ -850,7 +850,7 @@
           "src/main/resources/assets/blocks_and_more/models/item/iron_ore_stairs.json"
         ]
       },
-      "path": "~/Stairs/IronOreStairs"
+      "path": "~/Blocks/Stairs/OreStairs/IronOreStairs"
     },
     {
       "name": "RedstoneStairs",
@@ -870,7 +870,7 @@
           "src/main/java/net/mcreator/blocksandmore/block/RedstoneStairsBlock.java"
         ]
       },
-      "path": "~/Stairs/RedstoneStairs"
+      "path": "~/Blocks/Stairs/VanillaBasedStairs/RedstoneStairs"
     },
     {
       "name": "RedstoneOreStairs",
@@ -890,7 +890,7 @@
           "src/main/resources/data/blocks_and_more/loot_table/blocks/redstone_ore_stairs.json"
         ]
       },
-      "path": "~/Stairs/RedstoneOreStairs"
+      "path": "~/Blocks/Stairs/OreStairs/RedstoneOreStairs"
     },
     {
       "name": "SpruceLogStairs",
@@ -910,7 +910,7 @@
           "src/main/resources/assets/blocks_and_more/models/block/spruce_log_stairs_outer.json"
         ]
       },
-      "path": "~/Stairs/SpruceLogStairs"
+      "path": "~/Blocks/Stairs/LogStairs/SpruceLogStairs"
     },
     {
       "name": "AcaciaLogStairs",
@@ -930,7 +930,7 @@
           "src/main/resources/assets/blocks_and_more/blockstates/acacia_log_stairs.json"
         ]
       },
-      "path": "~/Stairs/AcaciaLogStairs"
+      "path": "~/Blocks/Stairs/LogStairs/AcaciaLogStairs"
     },
     {
       "name": "RedstoneStairsRecipe",
@@ -944,7 +944,7 @@
           "src/main/resources/data/blocks_and_more/recipe/redstone_stairs_recipe.json"
         ]
       },
-      "path": "~/Stairs/RedstoneStairs"
+      "path": "~/Blocks/Stairs/VanillaBasedStairs/RedstoneStairs"
     },
     {
       "name": "DeepslateDiamondStairsRecipe",
@@ -958,7 +958,7 @@
           "src/main/resources/data/blocks_and_more/recipe/deepslate_diamond_stairs_recipe.json"
         ]
       },
-      "path": "~/Stairs/DeepslateDiamondStairs"
+      "path": "~/Blocks/Stairs/OreStairs/DeepslateDiamondStairs"
     },
     {
       "name": "OakLogStairsRecipe",
@@ -971,7 +971,7 @@
           "src/main/resources/data/blocks_and_more/recipe/oak_log_stairs_recipe.json"
         ]
       },
-      "path": "~/Stairs/OakLogStairs"
+      "path": "~/Blocks/Stairs/LogStairs/OakLogStairs"
     },
     {
       "name": "AmethystStairsRecipe",
@@ -985,7 +985,7 @@
           "src/main/resources/data/blocks_and_more/advancement/recipes/amethyst_stairs_recipe.json"
         ]
       },
-      "path": "~/Stairs/AmethystStairs"
+      "path": "~/Blocks/Stairs/VanillaBasedStairs/AmethystStairs"
     },
     {
       "name": "DiamondOreStairsRecipe",
@@ -998,7 +998,7 @@
           "src/main/resources/data/blocks_and_more/recipe/diamond_ore_stairs_recipe.json"
         ]
       },
-      "path": "~/Stairs/DiamondOreStair"
+      "path": "~/Blocks/Stairs/OreStairs/DiamondOreStair"
     },
     {
       "name": "DarkOakLogStairsRecipe",
@@ -1012,7 +1012,7 @@
           "src/main/resources/data/blocks_and_more/advancement/recipes/dark_oak_log_stairs_recipe.json"
         ]
       },
-      "path": "~/Stairs/DarkOakLogStairs"
+      "path": "~/Blocks/Stairs/LogStairs/DarkOakLogStairs"
     },
     {
       "name": "IronOreStairsRecipe",
@@ -1026,7 +1026,7 @@
           "src/main/resources/data/blocks_and_more/recipe/iron_ore_stairs_recipe.json"
         ]
       },
-      "path": "~/Stairs/IronOreStairs"
+      "path": "~/Blocks/Stairs/OreStairs/IronOreStairs"
     },
     {
       "name": "RedstoneOreStairsRecipe",
@@ -1040,7 +1040,7 @@
           "src/main/resources/data/blocks_and_more/recipe/redstone_ore_stairs_recipe.json"
         ]
       },
-      "path": "~/Stairs/RedstoneOreStairs"
+      "path": "~/Blocks/Stairs/OreStairs/RedstoneOreStairs"
     },
     {
       "name": "SpruceLogStairsRecipe",
@@ -1054,7 +1054,7 @@
           "src/main/resources/data/blocks_and_more/recipe/spruce_log_stairs_recipe.json"
         ]
       },
-      "path": "~/Stairs/SpruceLogStairs"
+      "path": "~/Blocks/Stairs/LogStairs/SpruceLogStairs"
     },
     {
       "name": "AcaciaLogStairsRecipe",
@@ -1068,7 +1068,7 @@
           "src/main/resources/data/blocks_and_more/advancement/recipes/acacia_log_stairs_recipe.json"
         ]
       },
-      "path": "~/Stairs/AcaciaLogStairs"
+      "path": "~/Blocks/Stairs/LogStairs/AcaciaLogStairs"
     }
   ],
   "variable_elements": [],
@@ -1218,123 +1218,158 @@
         "children": []
       },
       {
-        "name": "BlockOfMetal",
-        "children": []
-      },
-      {
         "name": "Others",
         "children": []
       },
       {
-        "name": "Stairs",
+        "name": "Blocks",
         "children": [
           {
-            "name": "RedConcreteStairs",
-            "children": []
+            "name": "Stairs",
+            "children": [
+              {
+                "name": "ConcreteStairs",
+                "children": [
+                  {
+                    "name": "RedConcreteStairs",
+                    "children": []
+                  },
+                  {
+                    "name": "OrangeConcreteStairs",
+                    "children": []
+                  },
+                  {
+                    "name": "YellowConcreteStairs",
+                    "children": []
+                  },
+                  {
+                    "name": "GreenConcreteStairs",
+                    "children": []
+                  },
+                  {
+                    "name": "LightBlueConcreteStairs",
+                    "children": []
+                  },
+                  {
+                    "name": "CyanConcreteStairs",
+                    "children": []
+                  },
+                  {
+                    "name": "BlueConcreteStairs",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "OreStairs",
+                "children": [
+                  {
+                    "name": "EmeraldOreStairs",
+                    "children": []
+                  },
+                  {
+                    "name": "DeepslateEmeraldStairs",
+                    "children": []
+                  },
+                  {
+                    "name": "DeepslateDiamondStairs",
+                    "children": []
+                  },
+                  {
+                    "name": "DiamondOreStair",
+                    "children": []
+                  },
+                  {
+                    "name": "IronOreStairs",
+                    "children": []
+                  },
+                  {
+                    "name": "RedstoneOreStairs",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "VanillaBasedStairs",
+                "children": [
+                  {
+                    "name": "GrassStairs",
+                    "children": []
+                  },
+                  {
+                    "name": "BeaconStairs",
+                    "children": []
+                  },
+                  {
+                    "name": "IronStairs",
+                    "children": []
+                  },
+                  {
+                    "name": "DiamondStairs",
+                    "children": []
+                  },
+                  {
+                    "name": "EmeraldStairs",
+                    "children": []
+                  },
+                  {
+                    "name": "GoldStairs",
+                    "children": []
+                  },
+                  {
+                    "name": "CoalStairs",
+                    "children": []
+                  },
+                  {
+                    "name": "RedstoneStairs",
+                    "children": []
+                  },
+                  {
+                    "name": "AmethystStairs",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "LogStairs",
+                "children": [
+                  {
+                    "name": "OakLogStairs",
+                    "children": []
+                  },
+                  {
+                    "name": "DarkOakLogStairs",
+                    "children": []
+                  },
+                  {
+                    "name": "SpruceLogStairs",
+                    "children": []
+                  },
+                  {
+                    "name": "AcaciaLogStairs",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "MiscStairs",
+                "children": [
+                  {
+                    "name": "WemmbuStair",
+                    "children": []
+                  }
+                ]
+              }
+            ]
           },
           {
-            "name": "OrangeConcreteStairs",
-            "children": []
-          },
-          {
-            "name": "YellowConcreteStairs",
-            "children": []
-          },
-          {
-            "name": "GreenConcreteStairs",
-            "children": []
-          },
-          {
-            "name": "GrassStairs",
-            "children": []
-          },
-          {
-            "name": "BeaconStairs",
-            "children": []
-          },
-          {
-            "name": "IronStairs",
-            "children": []
-          },
-          {
-            "name": "DiamondStairs",
-            "children": []
-          },
-          {
-            "name": "EmeraldOreStairs",
-            "children": []
-          },
-          {
-            "name": "LightBlueConcreteStairs",
-            "children": []
-          },
-          {
-            "name": "CyanConcreteStairs",
-            "children": []
-          },
-          {
-            "name": "BlueConcreteStairs",
-            "children": []
-          },
-          {
-            "name": "DeepslateEmeraldStairs",
-            "children": []
-          },
-          {
-            "name": "EmeraldStairsRecipe",
-            "children": []
-          },
-          {
-            "name": "GoldStairs",
-            "children": []
-          },
-          {
-            "name": "CoalStairs",
-            "children": []
-          },
-          {
-            "name": "RedstoneStairs",
-            "children": []
-          },
-          {
-            "name": "DeepslateDiamondStairs",
-            "children": []
-          },
-          {
-            "name": "WemmbuStair",
-            "children": []
-          },
-          {
-            "name": "AmethystStairs",
-            "children": []
-          },
-          {
-            "name": "OakLogStairs",
-            "children": []
-          },
-          {
-            "name": "DiamondOreStair",
-            "children": []
-          },
-          {
-            "name": "DarkOakLogStairs",
-            "children": []
-          },
-          {
-            "name": "IronOreStairs",
-            "children": []
-          },
-          {
-            "name": "RedstoneOreStairs",
-            "children": []
-          },
-          {
-            "name": "SpruceLogStairs",
-            "children": []
-          },
-          {
-            "name": "AcaciaLogStairs",
-            "children": []
+            "name": "BasicBlocks",
+            "children": [
+              {
+                "name": "BlockOfMetal",
+                "children": []
+              }
+            ]
           }
         ]
       }
@@ -1345,9 +1380,12 @@
     "modName": "Blocks and more",
     "version": "1.0.3",
     "author": "ItsCirtwitz",
+    "websiteURL": "https://mcreator.net",
     "license": "MIT License",
     "serverSideOnly": false,
-    "requiredMods": [],
+    "requiredMods": [
+      "fabric-api"
+    ],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
