@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a  ",
+    "ab ",
+    "abb"
+  ],
+  "key": {
+    "a": "minecraft:redstone_ore",
+    "b": "minecraft:redstone"
+  },
+  "result": {
+    "id": "blocks_and_more:redstone_ore_stairs",
+    "count": 8
+  }
+}

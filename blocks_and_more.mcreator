@@ -849,7 +849,8 @@
           "src/main/java/net/mcreator/blocksandmore/block/IronOreStairsBlock.java",
           "src/main/resources/assets/blocks_and_more/models/item/iron_ore_stairs.json"
         ]
-      }
+      },
+      "path": "~/Stairs/IronOreStairs"
     },
     {
       "name": "RedstoneStairs",
@@ -888,7 +889,8 @@
           "src/main/resources/assets/blocks_and_more/items/redstone_ore_stairs.json",
           "src/main/resources/data/blocks_and_more/loot_table/blocks/redstone_ore_stairs.json"
         ]
-      }
+      },
+      "path": "~/Stairs/RedstoneOreStairs"
     },
     {
       "name": "SpruceLogStairs",
@@ -907,7 +909,8 @@
           "src/main/resources/assets/blocks_and_more/items/spruce_log_stairs.json",
           "src/main/resources/assets/blocks_and_more/models/block/spruce_log_stairs_outer.json"
         ]
-      }
+      },
+      "path": "~/Stairs/SpruceLogStairs"
     },
     {
       "name": "AcaciaLogStairs",
@@ -926,7 +929,8 @@
           "src/main/resources/assets/blocks_and_more/models/item/acacia_log_stairs.json",
           "src/main/resources/assets/blocks_and_more/blockstates/acacia_log_stairs.json"
         ]
-      }
+      },
+      "path": "~/Stairs/AcaciaLogStairs"
     },
     {
       "name": "RedstoneStairsRecipe",
@@ -1009,6 +1013,62 @@
         ]
       },
       "path": "~/Stairs/DarkOakLogStairs"
+    },
+    {
+      "name": "IronOreStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_ore_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/blocks_and_more/advancement/recipes/iron_ore_stairs_recipe.json",
+          "src/main/resources/data/blocks_and_more/recipe/iron_ore_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Stairs/IronOreStairs"
+    },
+    {
+      "name": "RedstoneOreStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_ore_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/blocks_and_more/advancement/recipes/redstone_ore_stairs_recipe.json",
+          "src/main/resources/data/blocks_and_more/recipe/redstone_ore_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Stairs/RedstoneOreStairs"
+    },
+    {
+      "name": "SpruceLogStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spruce_log_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/blocks_and_more/advancement/recipes/spruce_log_stairs_recipe.json",
+          "src/main/resources/data/blocks_and_more/recipe/spruce_log_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Stairs/SpruceLogStairs"
+    },
+    {
+      "name": "AcaciaLogStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acacia_log_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/blocks_and_more/recipe/acacia_log_stairs_recipe.json",
+          "src/main/resources/data/blocks_and_more/advancement/recipes/acacia_log_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Stairs/AcaciaLogStairs"
     }
   ],
   "variable_elements": [],
@@ -1259,6 +1319,22 @@
           {
             "name": "DarkOakLogStairs",
             "children": []
+          },
+          {
+            "name": "IronOreStairs",
+            "children": []
+          },
+          {
+            "name": "RedstoneOreStairs",
+            "children": []
+          },
+          {
+            "name": "SpruceLogStairs",
+            "children": []
+          },
+          {
+            "name": "AcaciaLogStairs",
+            "children": []
           }
         ]
       }
@@ -1267,9 +1343,8 @@
   "workspaceSettings": {
     "modid": "blocks_and_more",
     "modName": "Blocks and more",
-    "version": "1.0.1",
+    "version": "1.0.3",
     "author": "ItsCirtwitz",
-    "websiteURL": "https://mcreator.net",
     "license": "MIT License",
     "serverSideOnly": false,
     "requiredMods": [],

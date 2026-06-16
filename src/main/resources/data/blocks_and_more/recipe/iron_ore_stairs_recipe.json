@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a  ",
+    "ab ",
+    "abb"
+  ],
+  "key": {
+    "a": "minecraft:iron_ingot",
+    "b": "minecraft:iron_ore"
+  },
+  "result": {
+    "id": "blocks_and_more:iron_ore_stairs",
+    "count": 8
+  }
+}
