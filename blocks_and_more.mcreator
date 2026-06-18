@@ -1408,6 +1408,40 @@
         ]
       },
       "path": "~/Blocks/Slabs/YellowConcreteSlab"
+    },
+    {
+      "name": "WhiteConcreteSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_concrete_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/blocks_and_more/models/block/white_concrete_slab_top.json",
+          "src/main/resources/data/blocks_and_more/loot_table/blocks/white_concrete_slab.json",
+          "src/main/resources/assets/blocks_and_more/models/block/white_concrete_slab_full.json",
+          "src/main/resources/assets/blocks_and_more/items/white_concrete_slab.json",
+          "src/main/resources/assets/blocks_and_more/models/item/white_concrete_slab.json",
+          "src/main/resources/assets/blocks_and_more/blockstates/white_concrete_slab.json",
+          "src/main/resources/assets/blocks_and_more/models/block/white_concrete_slab.json",
+          "src/main/java/net/mcreator/blocksandmore/block/WhiteConcreteSlabBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Slabs/WhiteConcreteSlab"
+    },
+    {
+      "name": "WhiteConcreteSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_concrete_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/blocks_and_more/recipe/white_concrete_slab_recipe.json",
+          "src/main/resources/data/blocks_and_more/advancement/recipes/white_concrete_slab_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Slabs/WhiteConcreteSlab"
     }
   ],
   "variable_elements": [],
@@ -1450,6 +1484,7 @@
       "~CUSTOM:RedConcreteStairs"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:WhiteConcreteSlab",
       "~CUSTOM:YellowConcreteSlab",
       "~CUSTOM:RedConcreteSlab",
       "~CUSTOM:OrangeConcreteSlab",
@@ -1500,6 +1535,7 @@
       "~CUSTOM:OakLogStairs"
     ],
     "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:WhiteConcreteSlab",
       "~CUSTOM:YellowConcreteSlab",
       "~CUSTOM:RedConcreteSlab",
       "~CUSTOM:OrangeConcreteSlab"
@@ -1550,7 +1586,8 @@
       "item.blocks_and_more.warped_stem_stairs": "Warped Stem Stairs",
       "item.blocks_and_more.orange_concrete_slab": "Orange Concrete Slab",
       "item.blocks_and_more.red_concrete_slab": "Red Concrete Slab",
-      "item.blocks_and_more.yellow_concrete_slab": "Yellow Concrete Slab"
+      "item.blocks_and_more.yellow_concrete_slab": "Yellow Concrete Slab",
+      "item.blocks_and_more.white_concrete_slab": "White Concrete Slab"
     }
   },
   "metadata": {
@@ -1785,6 +1822,10 @@
               },
               {
                 "name": "YellowConcreteSlab",
+                "children": []
+              },
+              {
+                "name": "WhiteConcreteSlab",
                 "children": []
               }
             ]

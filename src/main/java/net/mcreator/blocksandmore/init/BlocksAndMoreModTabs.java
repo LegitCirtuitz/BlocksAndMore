@@ -58,6 +58,7 @@ public class BlocksAndMoreModTabs {
 					tabData.accept(BlocksAndMoreModBlocks.ORANGE_CONCRETE_SLAB.asItem());
 					tabData.accept(BlocksAndMoreModBlocks.RED_CONCRETE_SLAB.asItem());
 					tabData.accept(BlocksAndMoreModBlocks.YELLOW_CONCRETE_SLAB.asItem());
+					tabData.accept(BlocksAndMoreModBlocks.WHITE_CONCRETE_SLAB.asItem());
 				}).build());
 	}
 }

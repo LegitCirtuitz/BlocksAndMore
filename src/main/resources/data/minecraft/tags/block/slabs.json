@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "blocks_and_more:white_concrete_slab",
     "blocks_and_more:yellow_concrete_slab",
     "blocks_and_more:orange_concrete_slab",
     "blocks_and_more:red_concrete_slab"

@@ -1,0 +1,725 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "blocks_and_more:white_concrete_slab_recipe"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_ingredient_0": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_1": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:granite_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_2": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:polished_granite_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_3": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diorite_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_4": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:polished_diorite_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_5": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:andesite_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_6": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:polished_andesite_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_7": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cobbled_deepslate_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_8": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:polished_deepslate_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_9": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:deepslate_tile_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_10": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:deepslate_brick_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_11": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tuff_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_12": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:polished_tuff_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_13": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tuff_brick_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_14": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:mud_brick_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_15": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:mossy_cobblestone_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_16": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:blackstone_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_17": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:polished_blackstone_brick_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_18": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:polished_blackstone_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_19": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cut_copper_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_20": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:exposed_cut_copper_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_21": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:weathered_cut_copper_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_22": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:oxidized_cut_copper_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_23": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:waxed_cut_copper_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_24": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:waxed_exposed_cut_copper_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_25": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:waxed_weathered_cut_copper_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_26": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:waxed_oxidized_cut_copper_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_27": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:smooth_quartz_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_28": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:smooth_sandstone_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_29": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cut_sandstone_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_30": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:smooth_red_sandstone_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_31": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cut_red_sandstone_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_32": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:red_nether_brick_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_33": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:mossy_stone_brick_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_34": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:resin_brick_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_35": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:end_stone_brick_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_36": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:purpur_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_37": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:wooden_slabs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_38": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:oak_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_39": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:spruce_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_40": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:birch_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_41": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:jungle_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_42": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:acacia_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_43": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:dark_oak_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_44": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:pale_oak_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_45": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crimson_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_46": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:warped_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_47": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:mangrove_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_48": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cherry_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_49": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bamboo_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_50": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bamboo_mosaic_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_51": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:slabs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_52": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:smooth_stone_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_53": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:sandstone_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_54": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:petrified_oak_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_55": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cobblestone_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_56": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:brick_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_57": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_brick_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_58": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:nether_brick_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_59": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:quartz_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_60": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:red_sandstone_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_61": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:prismarine_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_62": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:prismarine_brick_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_63": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:dark_prismarine_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_ingredient_0",
+      "has_ingredient_1",
+      "has_ingredient_2",
+      "has_ingredient_3",
+      "has_ingredient_4",
+      "has_ingredient_5",
+      "has_ingredient_6",
+      "has_ingredient_7",
+      "has_ingredient_8",
+      "has_ingredient_9",
+      "has_ingredient_10",
+      "has_ingredient_11",
+      "has_ingredient_12",
+      "has_ingredient_13",
+      "has_ingredient_14",
+      "has_ingredient_15",
+      "has_ingredient_16",
+      "has_ingredient_17",
+      "has_ingredient_18",
+      "has_ingredient_19",
+      "has_ingredient_20",
+      "has_ingredient_21",
+      "has_ingredient_22",
+      "has_ingredient_23",
+      "has_ingredient_24",
+      "has_ingredient_25",
+      "has_ingredient_26",
+      "has_ingredient_27",
+      "has_ingredient_28",
+      "has_ingredient_29",
+      "has_ingredient_30",
+      "has_ingredient_31",
+      "has_ingredient_32",
+      "has_ingredient_33",
+      "has_ingredient_34",
+      "has_ingredient_35",
+      "has_ingredient_36",
+      "has_ingredient_37",
+      "has_ingredient_38",
+      "has_ingredient_39",
+      "has_ingredient_40",
+      "has_ingredient_41",
+      "has_ingredient_42",
+      "has_ingredient_43",
+      "has_ingredient_44",
+      "has_ingredient_45",
+      "has_ingredient_46",
+      "has_ingredient_47",
+      "has_ingredient_48",
+      "has_ingredient_49",
+      "has_ingredient_50",
+      "has_ingredient_51",
+      "has_ingredient_52",
+      "has_ingredient_53",
+      "has_ingredient_54",
+      "has_ingredient_55",
+      "has_ingredient_56",
+      "has_ingredient_57",
+      "has_ingredient_58",
+      "has_ingredient_59",
+      "has_ingredient_60",
+      "has_ingredient_61",
+      "has_ingredient_62",
+      "has_ingredient_63"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "blocks_and_more:white_concrete_slab_recipe"
+    ]
+  }
+}

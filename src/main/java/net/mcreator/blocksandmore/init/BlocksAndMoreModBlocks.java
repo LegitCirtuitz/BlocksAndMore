@@ -55,6 +55,7 @@ public class BlocksAndMoreModBlocks {
 	public static Block ORANGE_CONCRETE_SLAB;
 	public static Block RED_CONCRETE_SLAB;
 	public static Block YELLOW_CONCRETE_SLAB;
+	public static Block WHITE_CONCRETE_SLAB;
 
 	public static void load() {
 		RED_CONCRETE_STAIRS = register("red_concrete_stairs", RedConcreteStairsBlock::new);
@@ -96,6 +97,7 @@ public class BlocksAndMoreModBlocks {
 		ORANGE_CONCRETE_SLAB = register("orange_concrete_slab", OrangeConcreteSlabBlock::new);
 		RED_CONCRETE_SLAB = register("red_concrete_slab", RedConcreteSlabBlock::new);
 		YELLOW_CONCRETE_SLAB = register("yellow_concrete_slab", YellowConcreteSlabBlock::new);
+		WHITE_CONCRETE_SLAB = register("white_concrete_slab", WhiteConcreteSlabBlock::new);
 	}
 
 	// Start of user code block custom blocks
