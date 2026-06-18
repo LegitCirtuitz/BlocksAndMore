@@ -1273,12 +1273,47 @@
         ]
       },
       "path": "~/Blocks/Stairs/LogStairs/CrimsonStemStairs"
+    },
+    {
+      "name": "WarpedStemStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warped_stem_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/blocks_and_more/models/block/warped_stem_stairs.json",
+          "src/main/java/net/mcreator/blocksandmore/block/WarpedStemStairsBlock.java",
+          "src/main/resources/assets/blocks_and_more/items/warped_stem_stairs.json",
+          "src/main/resources/assets/blocks_and_more/models/block/warped_stem_stairs_inner.json",
+          "src/main/resources/data/blocks_and_more/loot_table/blocks/warped_stem_stairs.json",
+          "src/main/resources/assets/blocks_and_more/models/block/warped_stem_stairs_outer.json",
+          "src/main/resources/assets/blocks_and_more/blockstates/warped_stem_stairs.json",
+          "src/main/resources/assets/blocks_and_more/models/item/warped_stem_stairs.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/LogStairs/WarpedStemStairs"
+    },
+    {
+      "name": "WarpedStemStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warped_stem_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/blocks_and_more/advancement/recipes/warped_stem_stairs_recipe.json",
+          "src/main/resources/data/blocks_and_more/recipe/warped_stem_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/LogStairs/WarpedStemStairs"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:WarpedStemStairs",
       "~CUSTOM:CrimsonStemStairs",
       "~CUSTOM:PaleOakLogStairs",
       "~CUSTOM:CherryLogStairs",
@@ -1346,6 +1381,7 @@
       "~CUSTOM:LightBlueConcreteStairs"
     ],
     "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:WarpedStemStairs",
       "~CUSTOM:CrimsonStemStairs",
       "~CUSTOM:PaleOakLogStairs",
       "~CUSTOM:CherryLogStairs",
@@ -1399,7 +1435,8 @@
       "item.blocks_and_more.mangrove_log_stairs": "Mangrove Log Stairs",
       "item.blocks_and_more.cherry_log_stairs": "Cherry Log Stairs",
       "item.blocks_and_more.pale_oak_log_stairs": "Pale Oak Log Stairs",
-      "item.blocks_and_more.crimson_stem_stairs": "Crimson Stem Stairs"
+      "item.blocks_and_more.crimson_stem_stairs": "Crimson Stem Stairs",
+      "item.blocks_and_more.warped_stem_stairs": "Warped Stem Stairs"
     }
   },
   "metadata": {
@@ -1593,6 +1630,10 @@
                   },
                   {
                     "name": "CrimsonStemStairs",
+                    "children": []
+                  },
+                  {
+                    "name": "WarpedStemStairs",
                     "children": []
                   }
                 ]

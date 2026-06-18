@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a  ",
+    "aa ",
+    "aaa"
+  ],
+  "key": {
+    "a": "minecraft:warped_stem"
+  },
+  "result": {
+    "id": "blocks_and_more:warped_stem_stairs",
+    "count": 8
+  }
+}
