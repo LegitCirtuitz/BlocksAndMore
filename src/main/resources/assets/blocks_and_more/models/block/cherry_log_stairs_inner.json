@@ -1,0 +1,10 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "particle": "minecraft:block/cherry_log_top",
+    "bottom": "minecraft:block/cherry_log_top",
+    "top": "minecraft:block/cherry_log_top",
+    "side": "minecraft:block/cherry_log"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "particle": "minecraft:block/birch_log_top",
+    "bottom": "minecraft:block/birch_log_top",
+    "top": "minecraft:block/birch_log_top",
+    "side": "minecraft:block/birch_log"
+  },
+  "render_type": "solid"
+}

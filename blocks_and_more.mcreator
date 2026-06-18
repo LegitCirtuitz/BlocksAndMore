@@ -1069,12 +1069,222 @@
         ]
       },
       "path": "~/Blocks/Stairs/LogStairs/AcaciaLogStairs"
+    },
+    {
+      "name": "BirchLogStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "birch_log_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/blocks_and_more/loot_table/blocks/birch_log_stairs.json",
+          "src/main/resources/assets/blocks_and_more/models/block/birch_log_stairs_inner.json",
+          "src/main/resources/assets/blocks_and_more/models/block/birch_log_stairs.json",
+          "src/main/resources/assets/blocks_and_more/models/block/birch_log_stairs_outer.json",
+          "src/main/resources/assets/blocks_and_more/models/item/birch_log_stairs.json",
+          "src/main/resources/assets/blocks_and_more/items/birch_log_stairs.json",
+          "src/main/java/net/mcreator/blocksandmore/block/BirchLogStairsBlock.java",
+          "src/main/resources/assets/blocks_and_more/blockstates/birch_log_stairs.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/LogStairs/BirchLogStairs"
+    },
+    {
+      "name": "BirchLogStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "birch_log_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/blocks_and_more/advancement/recipes/birch_log_stairs_recipe.json",
+          "src/main/resources/data/blocks_and_more/recipe/birch_log_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/LogStairs/BirchLogStairs"
+    },
+    {
+      "name": "JungleLogStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jungle_log_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/blocks_and_more/items/jungle_log_stairs.json",
+          "src/main/java/net/mcreator/blocksandmore/block/JungleLogStairsBlock.java",
+          "src/main/resources/assets/blocks_and_more/models/block/jungle_log_stairs_outer.json",
+          "src/main/resources/assets/blocks_and_more/models/item/jungle_log_stairs.json",
+          "src/main/resources/assets/blocks_and_more/blockstates/jungle_log_stairs.json",
+          "src/main/resources/assets/blocks_and_more/models/block/jungle_log_stairs_inner.json",
+          "src/main/resources/data/blocks_and_more/loot_table/blocks/jungle_log_stairs.json",
+          "src/main/resources/assets/blocks_and_more/models/block/jungle_log_stairs.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/LogStairs/JungleLogStairs"
+    },
+    {
+      "name": "JungleLogStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jungle_log_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/blocks_and_more/advancement/recipes/jungle_log_stairs_recipe.json",
+          "src/main/resources/data/blocks_and_more/recipe/jungle_log_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/LogStairs/JungleLogStairs"
+    },
+    {
+      "name": "MangroveLogStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mangrove_log_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/blocksandmore/block/MangroveLogStairsBlock.java",
+          "src/main/resources/assets/blocks_and_more/models/block/mangrove_log_stairs_inner.json",
+          "src/main/resources/assets/blocks_and_more/items/mangrove_log_stairs.json",
+          "src/main/resources/assets/blocks_and_more/blockstates/mangrove_log_stairs.json",
+          "src/main/resources/assets/blocks_and_more/models/item/mangrove_log_stairs.json",
+          "src/main/resources/assets/blocks_and_more/models/block/mangrove_log_stairs.json",
+          "src/main/resources/assets/blocks_and_more/models/block/mangrove_log_stairs_outer.json",
+          "src/main/resources/data/blocks_and_more/loot_table/blocks/mangrove_log_stairs.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/LogStairs/MangroveLogStairs"
+    },
+    {
+      "name": "MangroveLogStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mangrove_log_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/blocks_and_more/advancement/recipes/mangrove_log_stairs_recipe.json",
+          "src/main/resources/data/blocks_and_more/recipe/mangrove_log_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/LogStairs/MangroveLogStairs"
+    },
+    {
+      "name": "CherryLogStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_log_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/blocks_and_more/models/block/cherry_log_stairs.json",
+          "src/main/resources/assets/blocks_and_more/models/item/cherry_log_stairs.json",
+          "src/main/resources/assets/blocks_and_more/blockstates/cherry_log_stairs.json",
+          "src/main/java/net/mcreator/blocksandmore/block/CherryLogStairsBlock.java",
+          "src/main/resources/assets/blocks_and_more/models/block/cherry_log_stairs_outer.json",
+          "src/main/resources/assets/blocks_and_more/items/cherry_log_stairs.json",
+          "src/main/resources/data/blocks_and_more/loot_table/blocks/cherry_log_stairs.json",
+          "src/main/resources/assets/blocks_and_more/models/block/cherry_log_stairs_inner.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/LogStairs/CherryLogStairs"
+    },
+    {
+      "name": "CherryLogStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_log_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/blocks_and_more/recipe/cherry_log_stairs_recipe.json",
+          "src/main/resources/data/blocks_and_more/advancement/recipes/cherry_log_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/LogStairs/CherryLogStairs"
+    },
+    {
+      "name": "PaleOakLogStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pale_oak_log_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/blocksandmore/block/PaleOakLogStairsBlock.java",
+          "src/main/resources/assets/blocks_and_more/models/block/pale_oak_log_stairs_outer.json",
+          "src/main/resources/data/blocks_and_more/loot_table/blocks/pale_oak_log_stairs.json",
+          "src/main/resources/assets/blocks_and_more/models/block/pale_oak_log_stairs_inner.json",
+          "src/main/resources/assets/blocks_and_more/models/item/pale_oak_log_stairs.json",
+          "src/main/resources/assets/blocks_and_more/models/block/pale_oak_log_stairs.json",
+          "src/main/resources/assets/blocks_and_more/items/pale_oak_log_stairs.json",
+          "src/main/resources/assets/blocks_and_more/blockstates/pale_oak_log_stairs.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/LogStairs/PaleOakLogStairs"
+    },
+    {
+      "name": "PaleOakLogStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pale_oak_log_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/blocks_and_more/recipe/pale_oak_log_stairs_recipe.json",
+          "src/main/resources/data/blocks_and_more/advancement/recipes/pale_oak_log_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/LogStairs/PaleOakLogStairs"
+    },
+    {
+      "name": "CrimsonStemStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_stem_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/blocksandmore/block/CrimsonStemStairsBlock.java",
+          "src/main/resources/assets/blocks_and_more/blockstates/crimson_stem_stairs.json",
+          "src/main/resources/assets/blocks_and_more/models/block/crimson_stem_stairs_outer.json",
+          "src/main/resources/assets/blocks_and_more/items/crimson_stem_stairs.json",
+          "src/main/resources/assets/blocks_and_more/models/block/crimson_stem_stairs_inner.json",
+          "src/main/resources/assets/blocks_and_more/models/item/crimson_stem_stairs.json",
+          "src/main/resources/assets/blocks_and_more/models/block/crimson_stem_stairs.json",
+          "src/main/resources/data/blocks_and_more/loot_table/blocks/crimson_stem_stairs.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/LogStairs/CrimsonStemStairs"
+    },
+    {
+      "name": "CrimsonStemStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_stem_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/blocks_and_more/advancement/recipes/crimson_stem_stairs_recipe.json",
+          "src/main/resources/data/blocks_and_more/recipe/crimson_stem_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/LogStairs/CrimsonStemStairs"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:CrimsonStemStairs",
+      "~CUSTOM:PaleOakLogStairs",
+      "~CUSTOM:CherryLogStairs",
+      "~CUSTOM:MangroveLogStairs",
+      "~CUSTOM:JungleLogStairs",
+      "~CUSTOM:BirchLogStairs",
       "~CUSTOM:AcaciaLogStairs",
       "~CUSTOM:SpruceLogStairs",
       "~CUSTOM:RedstoneOreStairs",
@@ -1136,6 +1346,12 @@
       "~CUSTOM:LightBlueConcreteStairs"
     ],
     "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:CrimsonStemStairs",
+      "~CUSTOM:PaleOakLogStairs",
+      "~CUSTOM:CherryLogStairs",
+      "~CUSTOM:MangroveLogStairs",
+      "~CUSTOM:JungleLogStairs",
+      "~CUSTOM:BirchLogStairs",
       "~CUSTOM:AcaciaLogStairs",
       "~CUSTOM:SpruceLogStairs",
       "~CUSTOM:DarkOakLogStairs",
@@ -1177,7 +1393,13 @@
       "item.blocks_and_more.cyan_concrete_stairs": "Cyan Concrete Stairs",
       "item.blocks_and_more.blue_concrete_stairs": "Blue Concrete Stairs",
       "item.blocks_and_more.gold_stairs": "Gold Stairs",
-      "item.blocks_and_more.coal_stairs": "Coal Stairs"
+      "item.blocks_and_more.coal_stairs": "Coal Stairs",
+      "item.blocks_and_more.birch_log_stairs": "Birch Log Stairs",
+      "item.blocks_and_more.jungle_log_stairs": "Jungle Log Stairs",
+      "item.blocks_and_more.mangrove_log_stairs": "Mangrove Log Stairs",
+      "item.blocks_and_more.cherry_log_stairs": "Cherry Log Stairs",
+      "item.blocks_and_more.pale_oak_log_stairs": "Pale Oak Log Stairs",
+      "item.blocks_and_more.crimson_stem_stairs": "Crimson Stem Stairs"
     }
   },
   "metadata": {
@@ -1347,6 +1569,30 @@
                   },
                   {
                     "name": "AcaciaLogStairs",
+                    "children": []
+                  },
+                  {
+                    "name": "BirchLogStairs",
+                    "children": []
+                  },
+                  {
+                    "name": "JungleLogStairs",
+                    "children": []
+                  },
+                  {
+                    "name": "MangroveLogStairs",
+                    "children": []
+                  },
+                  {
+                    "name": "CherryLogStairs",
+                    "children": []
+                  },
+                  {
+                    "name": "PaleOakLogStairs",
+                    "children": []
+                  },
+                  {
+                    "name": "CrimsonStemStairs",
                     "children": []
                   }
                 ]

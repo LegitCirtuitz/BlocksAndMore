@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "blocks_and_more:blocks/crimson_stem_stairs",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "blocks_and_more:crimson_stem_stairs"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a  ",
+    "aa ",
+    "aaa"
+  ],
+  "key": {
+    "a": "minecraft:jungle_log"
+  },
+  "result": {
+    "id": "blocks_and_more:jungle_log_stairs",
+    "count": 8
+  }
+}

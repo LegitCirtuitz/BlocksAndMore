@@ -31,5 +31,11 @@
   "item.blocks_and_more.cyan_concrete_stairs": "Cyan Concrete Stairs",
   "item.blocks_and_more.blue_concrete_stairs": "Blue Concrete Stairs",
   "item.blocks_and_more.gold_stairs": "Gold Stairs",
-  "item.blocks_and_more.coal_stairs": "Coal Stairs"
+  "item.blocks_and_more.coal_stairs": "Coal Stairs",
+  "item.blocks_and_more.birch_log_stairs": "Birch Log Stairs",
+  "item.blocks_and_more.jungle_log_stairs": "Jungle Log Stairs",
+  "item.blocks_and_more.mangrove_log_stairs": "Mangrove Log Stairs",
+  "item.blocks_and_more.cherry_log_stairs": "Cherry Log Stairs",
+  "item.blocks_and_more.pale_oak_log_stairs": "Pale Oak Log Stairs",
+  "item.blocks_and_more.crimson_stem_stairs": "Crimson Stem Stairs"
 }

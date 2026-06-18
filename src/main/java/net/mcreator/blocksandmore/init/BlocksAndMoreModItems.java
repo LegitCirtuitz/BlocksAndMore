@@ -46,6 +46,12 @@ public class BlocksAndMoreModItems {
 	public static Item REDSTONE_ORE_STAIRS;
 	public static Item SPRUCE_LOG_STAIRS;
 	public static Item ACACIA_LOG_STAIRS;
+	public static Item BIRCH_LOG_STAIRS;
+	public static Item JUNGLE_LOG_STAIRS;
+	public static Item MANGROVE_LOG_STAIRS;
+	public static Item CHERRY_LOG_STAIRS;
+	public static Item PALE_OAK_LOG_STAIRS;
+	public static Item CRIMSON_STEM_STAIRS;
 
 	public static void load() {
 		RED_CONCRETE_STAIRS = block(BlocksAndMoreModBlocks.RED_CONCRETE_STAIRS, "red_concrete_stairs");
@@ -77,6 +83,12 @@ public class BlocksAndMoreModItems {
 		REDSTONE_ORE_STAIRS = block(BlocksAndMoreModBlocks.REDSTONE_ORE_STAIRS, "redstone_ore_stairs");
 		SPRUCE_LOG_STAIRS = block(BlocksAndMoreModBlocks.SPRUCE_LOG_STAIRS, "spruce_log_stairs");
 		ACACIA_LOG_STAIRS = block(BlocksAndMoreModBlocks.ACACIA_LOG_STAIRS, "acacia_log_stairs");
+		BIRCH_LOG_STAIRS = block(BlocksAndMoreModBlocks.BIRCH_LOG_STAIRS, "birch_log_stairs");
+		JUNGLE_LOG_STAIRS = block(BlocksAndMoreModBlocks.JUNGLE_LOG_STAIRS, "jungle_log_stairs");
+		MANGROVE_LOG_STAIRS = block(BlocksAndMoreModBlocks.MANGROVE_LOG_STAIRS, "mangrove_log_stairs");
+		CHERRY_LOG_STAIRS = block(BlocksAndMoreModBlocks.CHERRY_LOG_STAIRS, "cherry_log_stairs");
+		PALE_OAK_LOG_STAIRS = block(BlocksAndMoreModBlocks.PALE_OAK_LOG_STAIRS, "pale_oak_log_stairs");
+		CRIMSON_STEM_STAIRS = block(BlocksAndMoreModBlocks.CRIMSON_STEM_STAIRS, "crimson_stem_stairs");
 	}
 
 	// Start of user code block custom items

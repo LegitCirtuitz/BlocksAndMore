@@ -45,6 +45,12 @@ public class BlocksAndMoreModBlocks {
 	public static Block REDSTONE_ORE_STAIRS;
 	public static Block SPRUCE_LOG_STAIRS;
 	public static Block ACACIA_LOG_STAIRS;
+	public static Block BIRCH_LOG_STAIRS;
+	public static Block JUNGLE_LOG_STAIRS;
+	public static Block MANGROVE_LOG_STAIRS;
+	public static Block CHERRY_LOG_STAIRS;
+	public static Block PALE_OAK_LOG_STAIRS;
+	public static Block CRIMSON_STEM_STAIRS;
 
 	public static void load() {
 		RED_CONCRETE_STAIRS = register("red_concrete_stairs", RedConcreteStairsBlock::new);
@@ -76,6 +82,12 @@ public class BlocksAndMoreModBlocks {
 		REDSTONE_ORE_STAIRS = register("redstone_ore_stairs", RedstoneOreStairsBlock::new);
 		SPRUCE_LOG_STAIRS = register("spruce_log_stairs", SpruceLogStairsBlock::new);
 		ACACIA_LOG_STAIRS = register("acacia_log_stairs", AcaciaLogStairsBlock::new);
+		BIRCH_LOG_STAIRS = register("birch_log_stairs", BirchLogStairsBlock::new);
+		JUNGLE_LOG_STAIRS = register("jungle_log_stairs", JungleLogStairsBlock::new);
+		MANGROVE_LOG_STAIRS = register("mangrove_log_stairs", MangroveLogStairsBlock::new);
+		CHERRY_LOG_STAIRS = register("cherry_log_stairs", CherryLogStairsBlock::new);
+		PALE_OAK_LOG_STAIRS = register("pale_oak_log_stairs", PaleOakLogStairsBlock::new);
+		CRIMSON_STEM_STAIRS = register("crimson_stem_stairs", CrimsonStemStairsBlock::new);
 	}
 
 	// Start of user code block custom blocks

@@ -48,6 +48,12 @@ public class BlocksAndMoreModTabs {
 					tabData.accept(BlocksAndMoreModBlocks.REDSTONE_ORE_STAIRS.asItem());
 					tabData.accept(BlocksAndMoreModBlocks.SPRUCE_LOG_STAIRS.asItem());
 					tabData.accept(BlocksAndMoreModBlocks.ACACIA_LOG_STAIRS.asItem());
+					tabData.accept(BlocksAndMoreModBlocks.BIRCH_LOG_STAIRS.asItem());
+					tabData.accept(BlocksAndMoreModBlocks.JUNGLE_LOG_STAIRS.asItem());
+					tabData.accept(BlocksAndMoreModBlocks.MANGROVE_LOG_STAIRS.asItem());
+					tabData.accept(BlocksAndMoreModBlocks.CHERRY_LOG_STAIRS.asItem());
+					tabData.accept(BlocksAndMoreModBlocks.PALE_OAK_LOG_STAIRS.asItem());
+					tabData.accept(BlocksAndMoreModBlocks.CRIMSON_STEM_STAIRS.asItem());
 				}).build());
 	}
 }

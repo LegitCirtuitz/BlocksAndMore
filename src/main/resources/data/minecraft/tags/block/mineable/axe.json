@@ -1,9 +1,15 @@
 {
   "replace": false,
   "values": [
+    "blocks_and_more:cherry_log_stairs",
+    "blocks_and_more:birch_log_stairs",
+    "blocks_and_more:crimson_stem_stairs",
     "blocks_and_more:acacia_log_stairs",
+    "blocks_and_more:jungle_log_stairs",
     "blocks_and_more:dark_oak_log_stairs",
     "blocks_and_more:oak_log_stairs",
-    "blocks_and_more:spruce_log_stairs"
+    "blocks_and_more:spruce_log_stairs",
+    "blocks_and_more:mangrove_log_stairs",
+    "blocks_and_more:pale_oak_log_stairs"
   ]
 }

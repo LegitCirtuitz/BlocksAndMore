@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a  ",
+    "aa ",
+    "aaa"
+  ],
+  "key": {
+    "a": "minecraft:pale_oak_log"
+  },
+  "result": {
+    "id": "blocks_and_more:pale_oak_log_stairs",
+    "count": 1
+  }
+}
