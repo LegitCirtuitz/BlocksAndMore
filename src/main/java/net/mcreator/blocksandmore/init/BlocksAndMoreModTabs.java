@@ -55,6 +55,9 @@ public class BlocksAndMoreModTabs {
 					tabData.accept(BlocksAndMoreModBlocks.PALE_OAK_LOG_STAIRS.asItem());
 					tabData.accept(BlocksAndMoreModBlocks.CRIMSON_STEM_STAIRS.asItem());
 					tabData.accept(BlocksAndMoreModBlocks.WARPED_STEM_STAIRS.asItem());
+					tabData.accept(BlocksAndMoreModBlocks.ORANGE_CONCRETE_SLAB.asItem());
+					tabData.accept(BlocksAndMoreModBlocks.RED_CONCRETE_SLAB.asItem());
+					tabData.accept(BlocksAndMoreModBlocks.YELLOW_CONCRETE_SLAB.asItem());
 				}).build());
 	}
 }

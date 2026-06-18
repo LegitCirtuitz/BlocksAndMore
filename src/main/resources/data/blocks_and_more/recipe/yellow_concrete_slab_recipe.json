@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": "minecraft:yellow_concrete"
+  },
+  "result": {
+    "id": "blocks_and_more:yellow_concrete_slab",
+    "count": 2
+  }
+}

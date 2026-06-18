@@ -1,0 +1,49 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 8,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.CONCRETE#1"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.CONCRETE#1"
+      },
+      {
+        "value": "Blocks.CONCRETE#1"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.CONCRETE#1"
+      },
+      {
+        "value": "Blocks.CONCRETE#1"
+      },
+      {
+        "value": "Blocks.CONCRETE#1"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:OrangeConcreteSlab"
+    },
+    "name": "orange_concrete_slab_recipe",
+    "namespace": "mod"
+  }
+}

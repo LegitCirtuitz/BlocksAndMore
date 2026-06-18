@@ -52,6 +52,9 @@ public class BlocksAndMoreModBlocks {
 	public static Block PALE_OAK_LOG_STAIRS;
 	public static Block CRIMSON_STEM_STAIRS;
 	public static Block WARPED_STEM_STAIRS;
+	public static Block ORANGE_CONCRETE_SLAB;
+	public static Block RED_CONCRETE_SLAB;
+	public static Block YELLOW_CONCRETE_SLAB;
 
 	public static void load() {
 		RED_CONCRETE_STAIRS = register("red_concrete_stairs", RedConcreteStairsBlock::new);
@@ -90,6 +93,9 @@ public class BlocksAndMoreModBlocks {
 		PALE_OAK_LOG_STAIRS = register("pale_oak_log_stairs", PaleOakLogStairsBlock::new);
 		CRIMSON_STEM_STAIRS = register("crimson_stem_stairs", CrimsonStemStairsBlock::new);
 		WARPED_STEM_STAIRS = register("warped_stem_stairs", WarpedStemStairsBlock::new);
+		ORANGE_CONCRETE_SLAB = register("orange_concrete_slab", OrangeConcreteSlabBlock::new);
+		RED_CONCRETE_SLAB = register("red_concrete_slab", RedConcreteSlabBlock::new);
+		YELLOW_CONCRETE_SLAB = register("yellow_concrete_slab", YellowConcreteSlabBlock::new);
 	}
 
 	// Start of user code block custom blocks

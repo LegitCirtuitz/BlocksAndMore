@@ -1307,6 +1307,107 @@
         ]
       },
       "path": "~/Blocks/Stairs/LogStairs/WarpedStemStairs"
+    },
+    {
+      "name": "RedConcreteSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_concrete_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/blocks_and_more/recipe/red_concrete_slab_recipe.json",
+          "src/main/resources/data/blocks_and_more/advancement/recipes/red_concrete_slab_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Slabs/RedConcreteSlab"
+    },
+    {
+      "name": "OrangeConcreteSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_concrete_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/blocks_and_more/models/item/orange_concrete_slab.json",
+          "src/main/resources/assets/blocks_and_more/models/block/orange_concrete_slab.json",
+          "src/main/resources/assets/blocks_and_more/models/block/orange_concrete_slab_full.json",
+          "src/main/java/net/mcreator/blocksandmore/block/OrangeConcreteSlabBlock.java",
+          "src/main/resources/data/blocks_and_more/loot_table/blocks/orange_concrete_slab.json",
+          "src/main/resources/assets/blocks_and_more/blockstates/orange_concrete_slab.json",
+          "src/main/resources/assets/blocks_and_more/models/block/orange_concrete_slab_top.json",
+          "src/main/resources/assets/blocks_and_more/items/orange_concrete_slab.json"
+        ]
+      },
+      "path": "~/Blocks/Slabs/OrangeConcreteSlab"
+    },
+    {
+      "name": "OrangeConcreteSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_concrete_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/blocks_and_more/recipe/orange_concrete_slab_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Slabs/OrangeConcreteSlab"
+    },
+    {
+      "name": "RedConcreteSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_concrete_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/blocksandmore/block/RedConcreteSlabBlock.java",
+          "src/main/resources/data/blocks_and_more/loot_table/blocks/red_concrete_slab.json",
+          "src/main/resources/assets/blocks_and_more/blockstates/red_concrete_slab.json",
+          "src/main/resources/assets/blocks_and_more/models/block/red_concrete_slab_full.json",
+          "src/main/resources/assets/blocks_and_more/models/block/red_concrete_slab_top.json",
+          "src/main/resources/assets/blocks_and_more/models/item/red_concrete_slab.json",
+          "src/main/resources/assets/blocks_and_more/models/block/red_concrete_slab.json",
+          "src/main/resources/assets/blocks_and_more/items/red_concrete_slab.json"
+        ]
+      },
+      "path": "~/Blocks/Slabs/RedConcreteSlab"
+    },
+    {
+      "name": "YellowConcreteSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_concrete_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/blocks_and_more/models/item/yellow_concrete_slab.json",
+          "src/main/resources/assets/blocks_and_more/models/block/yellow_concrete_slab.json",
+          "src/main/resources/assets/blocks_and_more/blockstates/yellow_concrete_slab.json",
+          "src/main/resources/assets/blocks_and_more/items/yellow_concrete_slab.json",
+          "src/main/java/net/mcreator/blocksandmore/block/YellowConcreteSlabBlock.java",
+          "src/main/resources/assets/blocks_and_more/models/block/yellow_concrete_slab_full.json",
+          "src/main/resources/assets/blocks_and_more/models/block/yellow_concrete_slab_top.json",
+          "src/main/resources/data/blocks_and_more/loot_table/blocks/yellow_concrete_slab.json"
+        ]
+      },
+      "path": "~/Blocks/Slabs/YellowConcreteSlab"
+    },
+    {
+      "name": "YellowConcreteSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_concrete_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/blocks_and_more/advancement/recipes/yellow_concrete_slab_recipe.json",
+          "src/main/resources/data/blocks_and_more/recipe/yellow_concrete_slab_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Slabs/YellowConcreteSlab"
     }
   ],
   "variable_elements": [],
@@ -1349,6 +1450,9 @@
       "~CUSTOM:RedConcreteStairs"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:YellowConcreteSlab",
+      "~CUSTOM:RedConcreteSlab",
+      "~CUSTOM:OrangeConcreteSlab",
       "~CUSTOM:RedstoneOreStairs",
       "~CUSTOM:IronOreStairs",
       "~CUSTOM:DeepslateDiamondStairs",
@@ -1372,6 +1476,8 @@
       "~CUSTOM:LiquidSugar"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:RedConcreteSlab",
+      "~CUSTOM:OrangeConcreteSlab",
       "~CUSTOM:RedstoneOreStairs",
       "~CUSTOM:IronOreStairs",
       "~CUSTOM:WemmbuStair",
@@ -1392,6 +1498,11 @@
       "~CUSTOM:SpruceLogStairs",
       "~CUSTOM:DarkOakLogStairs",
       "~CUSTOM:OakLogStairs"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:YellowConcreteSlab",
+      "~CUSTOM:RedConcreteSlab",
+      "~CUSTOM:OrangeConcreteSlab"
     ]
   },
   "tab_element_order": {},
@@ -1436,7 +1547,10 @@
       "item.blocks_and_more.cherry_log_stairs": "Cherry Log Stairs",
       "item.blocks_and_more.pale_oak_log_stairs": "Pale Oak Log Stairs",
       "item.blocks_and_more.crimson_stem_stairs": "Crimson Stem Stairs",
-      "item.blocks_and_more.warped_stem_stairs": "Warped Stem Stairs"
+      "item.blocks_and_more.warped_stem_stairs": "Warped Stem Stairs",
+      "item.blocks_and_more.orange_concrete_slab": "Orange Concrete Slab",
+      "item.blocks_and_more.red_concrete_slab": "Red Concrete Slab",
+      "item.blocks_and_more.yellow_concrete_slab": "Yellow Concrete Slab"
     }
   },
   "metadata": {
@@ -1654,6 +1768,23 @@
             "children": [
               {
                 "name": "BlockOfMetal",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Slabs",
+            "children": [
+              {
+                "name": "RedConcreteSlab",
+                "children": []
+              },
+              {
+                "name": "OrangeConcreteSlab",
+                "children": []
+              },
+              {
+                "name": "YellowConcreteSlab",
                 "children": []
               }
             ]

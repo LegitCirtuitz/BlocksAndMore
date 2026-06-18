@@ -4,6 +4,7 @@
 package net.mcreator.blocksandmore.init;
 
 import net.mcreator.blocksandmore.fluid.LiquidSugarFluid;
+import net.mcreator.blocksandmore.block.OrangeConcreteSlabBlock;
 import net.mcreator.blocksandmore.block.EmeraldStairBlock;
 import net.mcreator.blocksandmore.block.BlockOfMetalBlock;
 
@@ -16,6 +17,7 @@ public class BlocksAndMoreModBlocksRenderers {
 		BlockOfMetalBlock.registerRenderLayer();
 		LiquidSugarFluid.registerRenderLayer();
 		EmeraldStairBlock.registerRenderLayer();
+		OrangeConcreteSlabBlock.registerRenderLayer();
 	}
 	// Start of user code block custom block renderers
 	// End of user code block custom block renderers
