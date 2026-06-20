@@ -1666,7 +1666,21 @@
           "src/main/resources/data/blocks_and_more/loot_table/blocks/grass_slab.json"
         ]
       },
-      "path": "~/Blocks/Slabs"
+      "path": "~/Blocks/Slabs/GrassSlab"
+    },
+    {
+      "name": "GrassSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grass_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/blocks_and_more/recipe/grass_slab_recipe.json",
+          "src/main/resources/data/blocks_and_more/advancement/recipes/grass_slab_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Slabs/GrassSlab"
     }
   ],
   "variable_elements": [],
@@ -2106,6 +2120,10 @@
               },
               {
                 "name": "LightGrayConcreteSlab",
+                "children": []
+              },
+              {
+                "name": "GrassSlab",
                 "children": []
               }
             ]
