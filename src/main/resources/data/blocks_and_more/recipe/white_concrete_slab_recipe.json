@@ -1,11 +1,12 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "ingredients": [
-    "minecraft:white_concrete",
-    "minecraft:white_concrete",
-    "minecraft:white_concrete"
+  "pattern": [
+    "aaa"
   ],
+  "key": {
+    "a": "minecraft:white_concrete"
+  },
   "result": {
     "id": "blocks_and_more:white_concrete_slab",
     "count": 3

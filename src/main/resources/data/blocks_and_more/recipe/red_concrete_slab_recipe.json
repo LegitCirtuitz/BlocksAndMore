@@ -2,8 +2,6 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "a  ",
-    "aa ",
     "aaa"
   ],
   "key": {
@@ -11,6 +9,6 @@
   },
   "result": {
     "id": "blocks_and_more:red_concrete_slab",
-    "count": 8
+    "count": 3
   }
 }

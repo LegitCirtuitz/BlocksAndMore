@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": "minecraft:pink_concrete"
+  },
+  "result": {
+    "id": "blocks_and_more:pink_concrete_slab",
+    "count": 3
+  }
+}

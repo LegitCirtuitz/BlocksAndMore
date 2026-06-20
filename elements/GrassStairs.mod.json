@@ -2,8 +2,8 @@
   "_fv": 85,
   "_type": "block",
   "definition": {
-    "texture": "minecraft:grass_block_side",
-    "textureTop": "minecraft:grass_block_side",
+    "texture": "minecraft:grass_block_top",
+    "textureTop": "minecraft:grass_block_top",
     "textureLeft": "",
     "textureFront": "minecraft:grass_block_side",
     "textureRight": "",

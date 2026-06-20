@@ -59,6 +59,12 @@ public class BlocksAndMoreModTabs {
 					tabData.accept(BlocksAndMoreModBlocks.RED_CONCRETE_SLAB.asItem());
 					tabData.accept(BlocksAndMoreModBlocks.YELLOW_CONCRETE_SLAB.asItem());
 					tabData.accept(BlocksAndMoreModBlocks.WHITE_CONCRETE_SLAB.asItem());
+					tabData.accept(BlocksAndMoreModBlocks.LIGHT_BLUE_CONCRETE_SLAB.asItem());
+					tabData.accept(BlocksAndMoreModBlocks.LIME_CONCRETE_SLAB.asItem());
+					tabData.accept(BlocksAndMoreModBlocks.PINK_CONCRETE_SLAB.asItem());
+					tabData.accept(BlocksAndMoreModBlocks.GRAY_CONCRETE_SLAB.asItem());
+					tabData.accept(BlocksAndMoreModBlocks.LIGHT_GRAY_CONCRETE_SLAB.asItem());
+					tabData.accept(BlocksAndMoreModBlocks.GRASS_SLAB.asItem());
 				}).build());
 	}
 }

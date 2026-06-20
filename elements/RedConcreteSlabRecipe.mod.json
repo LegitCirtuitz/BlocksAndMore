@@ -3,7 +3,7 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 8,
+    "recipeRetstackSize": 3,
     "group": "",
     "unlockingItems": [
       {
@@ -206,7 +206,10 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Blocks.CONCRETE#14"
+        "value": ""
+      },
+      {
+        "value": ""
       },
       {
         "value": ""
@@ -215,10 +218,7 @@
         "value": ""
       },
       {
-        "value": "Blocks.CONCRETE#14"
-      },
-      {
-        "value": "Blocks.CONCRETE#14"
+        "value": ""
       },
       {
         "value": ""
