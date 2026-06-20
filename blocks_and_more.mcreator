@@ -1320,7 +1320,7 @@
           "src/main/resources/data/blocks_and_more/advancement/recipes/red_concrete_slab_recipe.json"
         ]
       },
-      "path": "~/Blocks/Slabs/RedConcreteSlab"
+      "path": "~/Blocks/Slabs/Concrete Slabs/RedConcreteSlab"
     },
     {
       "name": "OrangeConcreteSlab",
@@ -1340,7 +1340,7 @@
           "src/main/resources/assets/blocks_and_more/items/orange_concrete_slab.json"
         ]
       },
-      "path": "~/Blocks/Slabs/OrangeConcreteSlab"
+      "path": "~/Blocks/Slabs/Concrete Slabs/OrangeConcreteSlab"
     },
     {
       "name": "OrangeConcreteSlabRecipe",
@@ -1354,7 +1354,7 @@
           "src/main/resources/data/blocks_and_more/advancement/recipes/orange_concrete_slab_recipe.json"
         ]
       },
-      "path": "~/Blocks/Slabs/OrangeConcreteSlab"
+      "path": "~/Blocks/Slabs/Concrete Slabs/OrangeConcreteSlab"
     },
     {
       "name": "RedConcreteSlab",
@@ -1374,7 +1374,7 @@
           "src/main/resources/assets/blocks_and_more/items/red_concrete_slab.json"
         ]
       },
-      "path": "~/Blocks/Slabs/RedConcreteSlab"
+      "path": "~/Blocks/Slabs/Concrete Slabs/RedConcreteSlab"
     },
     {
       "name": "YellowConcreteSlab",
@@ -1394,7 +1394,7 @@
           "src/main/resources/data/blocks_and_more/loot_table/blocks/yellow_concrete_slab.json"
         ]
       },
-      "path": "~/Blocks/Slabs/YellowConcreteSlab"
+      "path": "~/Blocks/Slabs/Concrete Slabs/YellowConcreteSlab"
     },
     {
       "name": "YellowConcreteSlabRecipe",
@@ -1408,7 +1408,7 @@
           "src/main/resources/data/blocks_and_more/recipe/yellow_concrete_slab_recipe.json"
         ]
       },
-      "path": "~/Blocks/Slabs/YellowConcreteSlab"
+      "path": "~/Blocks/Slabs/Concrete Slabs/YellowConcreteSlab"
     },
     {
       "name": "WhiteConcreteSlab",
@@ -1428,7 +1428,7 @@
           "src/main/java/net/mcreator/blocksandmore/block/WhiteConcreteSlabBlock.java"
         ]
       },
-      "path": "~/Blocks/Slabs/WhiteConcreteSlab"
+      "path": "~/Blocks/Slabs/Concrete Slabs/WhiteConcreteSlab"
     },
     {
       "name": "WhiteConcreteSlabRecipe",
@@ -1442,7 +1442,7 @@
           "src/main/resources/data/blocks_and_more/advancement/recipes/white_concrete_slab_recipe.json"
         ]
       },
-      "path": "~/Blocks/Slabs/WhiteConcreteSlab"
+      "path": "~/Blocks/Slabs/Concrete Slabs/WhiteConcreteSlab"
     },
     {
       "name": "MagentaConcreteSlab",
@@ -1462,7 +1462,7 @@
           "src/main/resources/assets/blocks_and_more/models/item/magenta_concrete_slab.json"
         ]
       },
-      "path": "~/Blocks/Slabs/MagentaConcreteSlab"
+      "path": "~/Blocks/Slabs/Concrete Slabs/MagentaConcreteSlab"
     },
     {
       "name": "MagentaConcreteSlabRecipe",
@@ -1476,7 +1476,7 @@
           "src/main/resources/data/blocks_and_more/recipe/magenta_concrete_slab_recipe.json"
         ]
       },
-      "path": "~/Blocks/Slabs/MagentaConcreteSlab"
+      "path": "~/Blocks/Slabs/Concrete Slabs/MagentaConcreteSlab"
     },
     {
       "name": "LightBlueConcreteSlab",
@@ -1496,7 +1496,7 @@
           "src/main/java/net/mcreator/blocksandmore/block/LightBlueConcreteSlabBlock.java"
         ]
       },
-      "path": "~/Blocks/Slabs/LightBlueConcreteSlab"
+      "path": "~/Blocks/Slabs/Concrete Slabs/LightBlueConcreteSlab"
     },
     {
       "name": "LightBlueConcreteSlabRecipe",
@@ -1510,7 +1510,7 @@
           "src/main/resources/data/blocks_and_more/recipe/light_blue_concrete_slab_recipe.json"
         ]
       },
-      "path": "~/Blocks/Slabs/LightBlueConcreteSlab"
+      "path": "~/Blocks/Slabs/Concrete Slabs/LightBlueConcreteSlab"
     },
     {
       "name": "LimeConcreteSlab",
@@ -1530,7 +1530,7 @@
           "src/main/resources/assets/blocks_and_more/models/block/lime_concrete_slab.json"
         ]
       },
-      "path": "~/Blocks/Slabs/LimeConcreteSlab"
+      "path": "~/Blocks/Slabs/Concrete Slabs/LimeConcreteSlab"
     },
     {
       "name": "LimeConcreteSlabRecipe",
@@ -1544,7 +1544,7 @@
           "src/main/resources/data/blocks_and_more/recipe/lime_concrete_slab_recipe.json"
         ]
       },
-      "path": "~/Blocks/Slabs/LimeConcreteSlab"
+      "path": "~/Blocks/Slabs/Concrete Slabs/LimeConcreteSlab"
     },
     {
       "name": "PinkConcreteSlab",
@@ -1564,7 +1564,7 @@
           "src/main/resources/assets/blocks_and_more/blockstates/pink_concrete_slab.json"
         ]
       },
-      "path": "~/Blocks/Slabs/PinkConcreteSlab"
+      "path": "~/Blocks/Slabs/Concrete Slabs/PinkConcreteSlab"
     },
     {
       "name": "PinkConcreteSlabRecipe",
@@ -1578,7 +1578,7 @@
           "src/main/resources/data/blocks_and_more/advancement/recipes/pink_concrete_slab_recipe.json"
         ]
       },
-      "path": "~/Blocks/Slabs/PinkConcreteSlab"
+      "path": "~/Blocks/Slabs/Concrete Slabs/PinkConcreteSlab"
     },
     {
       "name": "GrayConcreteSlab",
@@ -1598,7 +1598,7 @@
           "src/main/resources/assets/blocks_and_more/models/item/gray_concrete_slab.json"
         ]
       },
-      "path": "~/Blocks/Slabs/GrayConcreteSlab"
+      "path": "~/Blocks/Slabs/Concrete Slabs/GrayConcreteSlab"
     },
     {
       "name": "GrayConcreteSlabRecipe",
@@ -1612,7 +1612,7 @@
           "src/main/resources/data/blocks_and_more/recipe/gray_concrete_slab_recipe.json"
         ]
       },
-      "path": "~/Blocks/Slabs/GrayConcreteSlab"
+      "path": "~/Blocks/Slabs/Concrete Slabs/GrayConcreteSlab"
     },
     {
       "name": "LightGrayConcreteSlab",
@@ -1632,7 +1632,7 @@
           "src/main/resources/data/blocks_and_more/loot_table/blocks/light_gray_concrete_slab.json"
         ]
       },
-      "path": "~/Blocks/Slabs/LightGrayConcreteSlab"
+      "path": "~/Blocks/Slabs/Concrete Slabs/LightGrayConcreteSlab"
     },
     {
       "name": "LightGrayConcreteSlabRecipe",
@@ -1646,7 +1646,7 @@
           "src/main/resources/data/blocks_and_more/advancement/recipes/light_gray_concrete_slab_recipe.json"
         ]
       },
-      "path": "~/Blocks/Slabs/LightGrayConcreteSlab"
+      "path": "~/Blocks/Slabs/Concrete Slabs/LightGrayConcreteSlab"
     },
     {
       "name": "GrassSlab",
@@ -1666,7 +1666,7 @@
           "src/main/resources/data/blocks_and_more/loot_table/blocks/grass_slab.json"
         ]
       },
-      "path": "~/Blocks/Slabs/GrassSlab"
+      "path": "~/Blocks/Slabs/Misc Slabs/GrassSlab"
     },
     {
       "name": "GrassSlabRecipe",
@@ -1680,7 +1680,7 @@
           "src/main/resources/data/blocks_and_more/advancement/recipes/grass_slab_recipe.json"
         ]
       },
-      "path": "~/Blocks/Slabs/GrassSlab"
+      "path": "~/Blocks/Slabs/Misc Slabs/GrassSlab"
     }
   ],
   "variable_elements": [],
@@ -2083,48 +2083,58 @@
             "name": "Slabs",
             "children": [
               {
-                "name": "RedConcreteSlab",
-                "children": []
+                "name": "Concrete Slabs",
+                "children": [
+                  {
+                    "name": "RedConcreteSlab",
+                    "children": []
+                  },
+                  {
+                    "name": "OrangeConcreteSlab",
+                    "children": []
+                  },
+                  {
+                    "name": "YellowConcreteSlab",
+                    "children": []
+                  },
+                  {
+                    "name": "WhiteConcreteSlab",
+                    "children": []
+                  },
+                  {
+                    "name": "MagentaConcreteSlab",
+                    "children": []
+                  },
+                  {
+                    "name": "LightBlueConcreteSlab",
+                    "children": []
+                  },
+                  {
+                    "name": "LimeConcreteSlab",
+                    "children": []
+                  },
+                  {
+                    "name": "PinkConcreteSlab",
+                    "children": []
+                  },
+                  {
+                    "name": "GrayConcreteSlab",
+                    "children": []
+                  },
+                  {
+                    "name": "LightGrayConcreteSlab",
+                    "children": []
+                  }
+                ]
               },
               {
-                "name": "OrangeConcreteSlab",
-                "children": []
-              },
-              {
-                "name": "YellowConcreteSlab",
-                "children": []
-              },
-              {
-                "name": "WhiteConcreteSlab",
-                "children": []
-              },
-              {
-                "name": "MagentaConcreteSlab",
-                "children": []
-              },
-              {
-                "name": "LightBlueConcreteSlab",
-                "children": []
-              },
-              {
-                "name": "LimeConcreteSlab",
-                "children": []
-              },
-              {
-                "name": "PinkConcreteSlab",
-                "children": []
-              },
-              {
-                "name": "GrayConcreteSlab",
-                "children": []
-              },
-              {
-                "name": "LightGrayConcreteSlab",
-                "children": []
-              },
-              {
-                "name": "GrassSlab",
-                "children": []
+                "name": "Misc Slabs",
+                "children": [
+                  {
+                    "name": "GrassSlab",
+                    "children": []
+                  }
+                ]
               }
             ]
           }
