@@ -64,6 +64,10 @@ public class BlocksAndMoreModItems {
 	public static Item GRAY_CONCRETE_SLAB;
 	public static Item LIGHT_GRAY_CONCRETE_SLAB;
 	public static Item GRASS_SLAB;
+	public static Item BEACON_SLAB;
+	public static Item SANDSTONE_SLAB;
+	public static Item RED_SANDSTONE_SLAB;
+	public static Item CYAN_CONCRETE_SLAB;
 
 	public static void load() {
 		RED_CONCRETE_STAIRS = block(BlocksAndMoreModBlocks.RED_CONCRETE_STAIRS, "red_concrete_stairs");
@@ -113,6 +117,10 @@ public class BlocksAndMoreModItems {
 		GRAY_CONCRETE_SLAB = block(BlocksAndMoreModBlocks.GRAY_CONCRETE_SLAB, "gray_concrete_slab");
 		LIGHT_GRAY_CONCRETE_SLAB = block(BlocksAndMoreModBlocks.LIGHT_GRAY_CONCRETE_SLAB, "light_gray_concrete_slab");
 		GRASS_SLAB = block(BlocksAndMoreModBlocks.GRASS_SLAB, "grass_slab");
+		BEACON_SLAB = block(BlocksAndMoreModBlocks.BEACON_SLAB, "beacon_slab");
+		SANDSTONE_SLAB = block(BlocksAndMoreModBlocks.SANDSTONE_SLAB, "sandstone_slab");
+		RED_SANDSTONE_SLAB = block(BlocksAndMoreModBlocks.RED_SANDSTONE_SLAB, "red_sandstone_slab");
+		CYAN_CONCRETE_SLAB = block(BlocksAndMoreModBlocks.CYAN_CONCRETE_SLAB, "cyan_concrete_slab");
 	}
 
 	// Start of user code block custom items

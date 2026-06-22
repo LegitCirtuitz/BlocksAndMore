@@ -1681,6 +1681,142 @@
         ]
       },
       "path": "~/Blocks/Slabs/Misc Slabs/GrassSlab"
+    },
+    {
+      "name": "BeaconSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beacon_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/blocksandmore/block/BeaconSlabBlock.java",
+          "src/main/resources/assets/blocks_and_more/models/item/beacon_slab.json",
+          "src/main/resources/assets/blocks_and_more/models/block/beacon_slab_top.json",
+          "src/main/resources/assets/blocks_and_more/blockstates/beacon_slab.json",
+          "src/main/resources/assets/blocks_and_more/models/block/beacon_slab_full.json",
+          "src/main/resources/assets/blocks_and_more/items/beacon_slab.json",
+          "src/main/resources/data/blocks_and_more/loot_table/blocks/beacon_slab.json",
+          "src/main/resources/assets/blocks_and_more/models/block/beacon_slab.json"
+        ]
+      },
+      "path": "~/Blocks/Slabs/Misc Slabs/BeaconSlab"
+    },
+    {
+      "name": "BeaconSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beacon_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/blocks_and_more/recipe/beacon_slab_recipe.json",
+          "src/main/resources/data/blocks_and_more/advancement/recipes/beacon_slab_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Slabs/Misc Slabs/BeaconSlab"
+    },
+    {
+      "name": "SandstoneSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandstone_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/blocks_and_more/models/item/sandstone_slab.json",
+          "src/main/java/net/mcreator/blocksandmore/block/SandstoneSlabBlock.java",
+          "src/main/resources/assets/blocks_and_more/models/block/sandstone_slab_top.json",
+          "src/main/resources/assets/blocks_and_more/models/block/sandstone_slab.json",
+          "src/main/resources/assets/blocks_and_more/models/block/sandstone_slab_full.json",
+          "src/main/resources/assets/blocks_and_more/blockstates/sandstone_slab.json",
+          "src/main/resources/assets/blocks_and_more/items/sandstone_slab.json",
+          "src/main/resources/data/blocks_and_more/loot_table/blocks/sandstone_slab.json"
+        ]
+      },
+      "path": "~/Blocks/Slabs/Misc Slabs/SandstoneSlab"
+    },
+    {
+      "name": "SandstoneSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandstone_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/blocks_and_more/advancement/recipes/sandstone_slab_recipe.json",
+          "src/main/resources/data/blocks_and_more/recipe/sandstone_slab_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Slabs/Misc Slabs/SandstoneSlab"
+    },
+    {
+      "name": "RedSandstoneSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_sandstone_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/blocks_and_more/loot_table/blocks/red_sandstone_slab.json",
+          "src/main/resources/assets/blocks_and_more/items/red_sandstone_slab.json",
+          "src/main/resources/assets/blocks_and_more/blockstates/red_sandstone_slab.json",
+          "src/main/java/net/mcreator/blocksandmore/block/RedSandstoneSlabBlock.java",
+          "src/main/resources/assets/blocks_and_more/models/block/red_sandstone_slab_top.json",
+          "src/main/resources/assets/blocks_and_more/models/item/red_sandstone_slab.json",
+          "src/main/resources/assets/blocks_and_more/models/block/red_sandstone_slab_full.json",
+          "src/main/resources/assets/blocks_and_more/models/block/red_sandstone_slab.json"
+        ]
+      },
+      "path": "~/Blocks/Slabs/Misc Slabs/RedSandstoneSlab"
+    },
+    {
+      "name": "RedSandstoneSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_sandstone_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/blocks_and_more/advancement/recipes/red_sandstone_slab_recipe.json",
+          "src/main/resources/data/blocks_and_more/recipe/red_sandstone_slab_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Slabs/Misc Slabs/RedSandstoneSlab"
+    },
+    {
+      "name": "CyanConcreteSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_concrete_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/blocks_and_more/models/item/cyan_concrete_slab.json",
+          "src/main/resources/assets/blocks_and_more/blockstates/cyan_concrete_slab.json",
+          "src/main/resources/data/blocks_and_more/loot_table/blocks/cyan_concrete_slab.json",
+          "src/main/resources/assets/blocks_and_more/models/block/cyan_concrete_slab.json",
+          "src/main/resources/assets/blocks_and_more/items/cyan_concrete_slab.json",
+          "src/main/resources/assets/blocks_and_more/models/block/cyan_concrete_slab_top.json",
+          "src/main/java/net/mcreator/blocksandmore/block/CyanConcreteSlabBlock.java",
+          "src/main/resources/assets/blocks_and_more/models/block/cyan_concrete_slab_full.json"
+        ]
+      },
+      "path": "~/Blocks/Slabs/Concrete Slabs/CyanConcreteSlab"
+    },
+    {
+      "name": "CyanConcreteSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_concrete_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/blocks_and_more/advancement/recipes/cyan_concrete_slab_recipe.json",
+          "src/main/resources/data/blocks_and_more/recipe/cyan_concrete_slab_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Slabs/Concrete Slabs/CyanConcreteSlab"
     }
   ],
   "variable_elements": [],
@@ -1723,6 +1859,10 @@
       "~CUSTOM:RedConcreteStairs"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:CyanConcreteSlab",
+      "~CUSTOM:RedSandstoneSlab",
+      "~CUSTOM:SandstoneSlab",
+      "~CUSTOM:BeaconSlab",
       "~CUSTOM:LightGrayConcreteSlab",
       "~CUSTOM:GrayConcreteSlab",
       "~CUSTOM:PinkConcreteSlab",
@@ -1756,14 +1896,16 @@
       "~CUSTOM:LiquidSugar"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:CyanConcreteSlab",
+      "~CUSTOM:BeaconSlab",
       "~CUSTOM:LightGrayConcreteSlab",
       "~CUSTOM:GrayConcreteSlab",
       "~CUSTOM:PinkConcreteSlab",
       "~CUSTOM:LimeConcreteSlab",
       "~CUSTOM:LightBlueConcreteSlab",
-      "~CUSTOM:YellowConcreteSlab",
-      "~CUSTOM:WhiteConcreteSlab",
       "~CUSTOM:MagentaConcreteSlab",
+      "~CUSTOM:WhiteConcreteSlab",
+      "~CUSTOM:YellowConcreteSlab",
       "~CUSTOM:RedConcreteSlab",
       "~CUSTOM:OrangeConcreteSlab",
       "~CUSTOM:RedstoneOreStairs",
@@ -1788,6 +1930,10 @@
       "~CUSTOM:OakLogStairs"
     ],
     "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:CyanConcreteSlab",
+      "~CUSTOM:RedSandstoneSlab",
+      "~CUSTOM:SandstoneSlab",
+      "~CUSTOM:BeaconSlab",
       "~CUSTOM:GrassSlab",
       "~CUSTOM:LightGrayConcreteSlab",
       "~CUSTOM:GrayConcreteSlab",
@@ -1857,7 +2003,11 @@
       "item.blocks_and_more.pink_concrete_slab": "Pink Concrete Slab",
       "item.blocks_and_more.gray_concrete_slab": "Gray Concrete Slab",
       "item.blocks_and_more.light_gray_concrete_slab": "Light Gray Concrete Slab",
-      "item.blocks_and_more.grass_slab": "Grass Slab"
+      "item.blocks_and_more.grass_slab": "Grass Slab",
+      "item.blocks_and_more.beacon_slab": "Beacon Slab",
+      "item.blocks_and_more.sandstone_slab": "Sandstone Slab",
+      "item.blocks_and_more.red_sandstone_slab": "Red Sandstone Slab",
+      "item.blocks_and_more.cyan_concrete_slab": "Cyan Concrete Slab"
     }
   },
   "metadata": {
@@ -2124,6 +2274,10 @@
                   {
                     "name": "LightGrayConcreteSlab",
                     "children": []
+                  },
+                  {
+                    "name": "CyanConcreteSlab",
+                    "children": []
                   }
                 ]
               },
@@ -2132,6 +2286,18 @@
                 "children": [
                   {
                     "name": "GrassSlab",
+                    "children": []
+                  },
+                  {
+                    "name": "SandstoneSlab",
+                    "children": []
+                  },
+                  {
+                    "name": "BeaconSlab",
+                    "children": []
+                  },
+                  {
+                    "name": "RedSandstoneSlab",
                     "children": []
                   }
                 ]

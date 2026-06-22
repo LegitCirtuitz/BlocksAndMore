@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "blocks_and_more:wemmbu_stair",
+    "blocks_and_more:beacon_slab",
+    "blocks_and_more:cyan_concrete_slab",
     "blocks_and_more:pink_concrete_slab",
     "blocks_and_more:light_blue_concrete_slab",
     "blocks_and_more:light_gray_concrete_slab",

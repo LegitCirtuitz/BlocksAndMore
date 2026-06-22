@@ -63,6 +63,10 @@ public class BlocksAndMoreModBlocks {
 	public static Block GRAY_CONCRETE_SLAB;
 	public static Block LIGHT_GRAY_CONCRETE_SLAB;
 	public static Block GRASS_SLAB;
+	public static Block BEACON_SLAB;
+	public static Block SANDSTONE_SLAB;
+	public static Block RED_SANDSTONE_SLAB;
+	public static Block CYAN_CONCRETE_SLAB;
 
 	public static void load() {
 		RED_CONCRETE_STAIRS = register("red_concrete_stairs", RedConcreteStairsBlock::new);
@@ -112,6 +116,10 @@ public class BlocksAndMoreModBlocks {
 		GRAY_CONCRETE_SLAB = register("gray_concrete_slab", GrayConcreteSlabBlock::new);
 		LIGHT_GRAY_CONCRETE_SLAB = register("light_gray_concrete_slab", LightGrayConcreteSlabBlock::new);
 		GRASS_SLAB = register("grass_slab", GrassSlabBlock::new);
+		BEACON_SLAB = register("beacon_slab", BeaconSlabBlock::new);
+		SANDSTONE_SLAB = register("sandstone_slab", SandstoneSlabBlock::new);
+		RED_SANDSTONE_SLAB = register("red_sandstone_slab", RedSandstoneSlabBlock::new);
+		CYAN_CONCRETE_SLAB = register("cyan_concrete_slab", CyanConcreteSlabBlock::new);
 	}
 
 	// Start of user code block custom blocks

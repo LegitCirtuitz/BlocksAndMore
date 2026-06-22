@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": "minecraft:sandstone"
+  },
+  "result": {
+    "id": "blocks_and_more:sandstone_slab",
+    "count": 3
+  }
+}

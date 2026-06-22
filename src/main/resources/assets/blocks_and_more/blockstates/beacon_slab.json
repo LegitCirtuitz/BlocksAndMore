@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "blocks_and_more:block/beacon_slab"
+    },
+    "type=top": {
+      "model": "blocks_and_more:block/beacon_slab_top"
+    },
+    "type=double": {
+      "model": "blocks_and_more:block/beacon_slab_full"
+    }
+  }
+}

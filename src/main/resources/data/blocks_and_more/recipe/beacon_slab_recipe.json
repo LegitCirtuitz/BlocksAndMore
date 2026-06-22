@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": "minecraft:beacon"
+  },
+  "result": {
+    "id": "blocks_and_more:beacon_slab",
+    "count": 6
+  }
+}
