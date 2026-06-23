@@ -24,7 +24,6 @@ public class BlocksAndMoreModTabs {
 					tabData.accept(BlocksAndMoreModBlocks.BLOCK_OF_METAL.asItem());
 					tabData.accept(BlocksAndMoreModBlocks.ORANGE_CONCRETE_STAIRS.asItem());
 					tabData.accept(BlocksAndMoreModBlocks.YELLOW_CONCRETE_STAIRS.asItem());
-					tabData.accept(BlocksAndMoreModBlocks.GRASS_STAIRS.asItem());
 					tabData.accept(BlocksAndMoreModBlocks.BEACON_STAIRS.asItem());
 					tabData.accept(BlocksAndMoreModBlocks.IRON_STAIRS.asItem());
 					tabData.accept(BlocksAndMoreModItems.LIQUID_SUGAR_BUCKET);
@@ -64,7 +63,6 @@ public class BlocksAndMoreModTabs {
 					tabData.accept(BlocksAndMoreModBlocks.PINK_CONCRETE_SLAB.asItem());
 					tabData.accept(BlocksAndMoreModBlocks.GRAY_CONCRETE_SLAB.asItem());
 					tabData.accept(BlocksAndMoreModBlocks.LIGHT_GRAY_CONCRETE_SLAB.asItem());
-					tabData.accept(BlocksAndMoreModBlocks.GRASS_SLAB.asItem());
 					tabData.accept(BlocksAndMoreModBlocks.BEACON_SLAB.asItem());
 					tabData.accept(BlocksAndMoreModBlocks.SANDSTONE_SLAB.asItem());
 					tabData.accept(BlocksAndMoreModBlocks.RED_SANDSTONE_SLAB.asItem());

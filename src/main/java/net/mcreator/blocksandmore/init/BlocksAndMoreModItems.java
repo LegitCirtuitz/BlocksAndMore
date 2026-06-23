@@ -22,7 +22,6 @@ public class BlocksAndMoreModItems {
 	public static Item ORANGE_CONCRETE_STAIRS;
 	public static Item YELLOW_CONCRETE_STAIRS;
 	public static Item GREEN_CONCRETE_STAIRS;
-	public static Item GRASS_STAIRS;
 	public static Item BEACON_STAIRS;
 	public static Item IRON_STAIRS;
 	public static Item LIQUID_SUGAR_BUCKET;
@@ -63,7 +62,6 @@ public class BlocksAndMoreModItems {
 	public static Item PINK_CONCRETE_SLAB;
 	public static Item GRAY_CONCRETE_SLAB;
 	public static Item LIGHT_GRAY_CONCRETE_SLAB;
-	public static Item GRASS_SLAB;
 	public static Item BEACON_SLAB;
 	public static Item SANDSTONE_SLAB;
 	public static Item RED_SANDSTONE_SLAB;
@@ -75,7 +73,6 @@ public class BlocksAndMoreModItems {
 		ORANGE_CONCRETE_STAIRS = block(BlocksAndMoreModBlocks.ORANGE_CONCRETE_STAIRS, "orange_concrete_stairs");
 		YELLOW_CONCRETE_STAIRS = block(BlocksAndMoreModBlocks.YELLOW_CONCRETE_STAIRS, "yellow_concrete_stairs");
 		GREEN_CONCRETE_STAIRS = block(BlocksAndMoreModBlocks.GREEN_CONCRETE_STAIRS, "green_concrete_stairs");
-		GRASS_STAIRS = block(BlocksAndMoreModBlocks.GRASS_STAIRS, "grass_stairs");
 		BEACON_STAIRS = block(BlocksAndMoreModBlocks.BEACON_STAIRS, "beacon_stairs");
 		IRON_STAIRS = block(BlocksAndMoreModBlocks.IRON_STAIRS, "iron_stairs");
 		LIQUID_SUGAR_BUCKET = register("liquid_sugar_bucket", LiquidSugarItem::new);
@@ -116,7 +113,6 @@ public class BlocksAndMoreModItems {
 		PINK_CONCRETE_SLAB = block(BlocksAndMoreModBlocks.PINK_CONCRETE_SLAB, "pink_concrete_slab");
 		GRAY_CONCRETE_SLAB = block(BlocksAndMoreModBlocks.GRAY_CONCRETE_SLAB, "gray_concrete_slab");
 		LIGHT_GRAY_CONCRETE_SLAB = block(BlocksAndMoreModBlocks.LIGHT_GRAY_CONCRETE_SLAB, "light_gray_concrete_slab");
-		GRASS_SLAB = block(BlocksAndMoreModBlocks.GRASS_SLAB, "grass_slab");
 		BEACON_SLAB = block(BlocksAndMoreModBlocks.BEACON_SLAB, "beacon_slab");
 		SANDSTONE_SLAB = block(BlocksAndMoreModBlocks.SANDSTONE_SLAB, "sandstone_slab");
 		RED_SANDSTONE_SLAB = block(BlocksAndMoreModBlocks.RED_SANDSTONE_SLAB, "red_sandstone_slab");

@@ -165,26 +165,6 @@
       "path": "~/Blocks/Stairs/ConcreteStairs/GreenConcreteStairs"
     },
     {
-      "name": "GrassStairs",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "grass_stairs",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/blocks_and_more/items/grass_stairs.json",
-          "src/main/resources/assets/blocks_and_more/models/block/grass_stairs_inner.json",
-          "src/main/resources/assets/blocks_and_more/blockstates/grass_stairs.json",
-          "src/main/resources/assets/blocks_and_more/models/block/grass_stairs.json",
-          "src/main/java/net/mcreator/blocksandmore/block/GrassStairsBlock.java",
-          "src/main/resources/assets/blocks_and_more/models/block/grass_stairs_outer.json",
-          "src/main/resources/data/blocks_and_more/loot_table/blocks/grass_stairs.json",
-          "src/main/resources/assets/blocks_and_more/models/item/grass_stairs.json"
-        ]
-      },
-      "path": "~/Blocks/Stairs/VanillaBasedStairs/GrassStairs"
-    },
-    {
       "name": "BeaconStairs",
       "type": "block",
       "compiles": true,
@@ -217,20 +197,6 @@
         ]
       },
       "path": "~/Blocks/Stairs/VanillaBasedStairs/BeaconStairs"
-    },
-    {
-      "name": "GrassStairsRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "grass_stairs_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/blocks_and_more/advancement/recipes/grass_stairs_recipe.json",
-          "src/main/resources/data/blocks_and_more/recipe/grass_stairs_recipe.json"
-        ]
-      },
-      "path": "~/Blocks/Stairs/VanillaBasedStairs/GrassStairs"
     },
     {
       "name": "BlockOfMetalRecipe",
@@ -1649,40 +1615,6 @@
       "path": "~/Blocks/Slabs/Concrete Slabs/LightGrayConcreteSlab"
     },
     {
-      "name": "GrassSlab",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "grass_slab",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/blocks_and_more/models/block/grass_slab.json",
-          "src/main/java/net/mcreator/blocksandmore/block/GrassSlabBlock.java",
-          "src/main/resources/assets/blocks_and_more/items/grass_slab.json",
-          "src/main/resources/assets/blocks_and_more/models/item/grass_slab.json",
-          "src/main/resources/assets/blocks_and_more/models/block/grass_slab_top.json",
-          "src/main/resources/assets/blocks_and_more/models/block/grass_slab_full.json",
-          "src/main/resources/assets/blocks_and_more/blockstates/grass_slab.json",
-          "src/main/resources/data/blocks_and_more/loot_table/blocks/grass_slab.json"
-        ]
-      },
-      "path": "~/Blocks/Slabs/Misc Slabs/GrassSlab"
-    },
-    {
-      "name": "GrassSlabRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "grass_slab_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/blocks_and_more/recipe/grass_slab_recipe.json",
-          "src/main/resources/data/blocks_and_more/advancement/recipes/grass_slab_recipe.json"
-        ]
-      },
-      "path": "~/Blocks/Slabs/Misc Slabs/GrassSlab"
-    },
-    {
       "name": "BeaconSlab",
       "type": "block",
       "compiles": true,
@@ -1852,7 +1784,6 @@
       "~CUSTOM:LightBlueConcreteStairs",
       "~CUSTOM:IronStairs",
       "~CUSTOM:BeaconStairs",
-      "~CUSTOM:GrassStairs",
       "~CUSTOM:GreenConcreteStairs",
       "~CUSTOM:YellowConcreteStairs",
       "~CUSTOM:OrangeConcreteStairs",
@@ -1934,7 +1865,6 @@
       "~CUSTOM:RedSandstoneSlab",
       "~CUSTOM:SandstoneSlab",
       "~CUSTOM:BeaconSlab",
-      "~CUSTOM:GrassSlab",
       "~CUSTOM:LightGrayConcreteSlab",
       "~CUSTOM:GrayConcreteSlab",
       "~CUSTOM:PinkConcreteSlab",
@@ -1945,9 +1875,6 @@
       "~CUSTOM:YellowConcreteSlab",
       "~CUSTOM:RedConcreteSlab",
       "~CUSTOM:OrangeConcreteSlab"
-    ],
-    "BLOCKS:minecraft:mineable/shovel": [
-      "~CUSTOM:GrassSlab"
     ]
   },
   "tab_element_order": {},
@@ -1975,7 +1902,6 @@
       "item.blocks_and_more.red_concrete_stairs": "Red Concrete Stairs",
       "item.blocks_and_more.yellow_concrete_stairs": "Yellow Concrete Stairs",
       "item.blocks_and_more.green_concrete_stairs": "Green Concrete Stairs",
-      "item.blocks_and_more.grass_stairs": "Grass Stairs",
       "item.blocks_and_more.beacon_stairs": "Beacon Stairs",
       "item.blocks_and_more.iron_stairs": "Iron Stairs",
       "item.blocks_and_more.liquid_sugar_bucket": "Bucket of Liquid Sugar",
@@ -2003,7 +1929,6 @@
       "item.blocks_and_more.pink_concrete_slab": "Pink Concrete Slab",
       "item.blocks_and_more.gray_concrete_slab": "Gray Concrete Slab",
       "item.blocks_and_more.light_gray_concrete_slab": "Light Gray Concrete Slab",
-      "item.blocks_and_more.grass_slab": "Grass Slab",
       "item.blocks_and_more.beacon_slab": "Beacon Slab",
       "item.blocks_and_more.sandstone_slab": "Sandstone Slab",
       "item.blocks_and_more.red_sandstone_slab": "Red Sandstone Slab",
@@ -2122,10 +2047,6 @@
               {
                 "name": "VanillaBasedStairs",
                 "children": [
-                  {
-                    "name": "GrassStairs",
-                    "children": []
-                  },
                   {
                     "name": "BeaconStairs",
                     "children": []
@@ -2284,10 +2205,6 @@
               {
                 "name": "Misc Slabs",
                 "children": [
-                  {
-                    "name": "GrassSlab",
-                    "children": []
-                  },
                   {
                     "name": "SandstoneSlab",
                     "children": []

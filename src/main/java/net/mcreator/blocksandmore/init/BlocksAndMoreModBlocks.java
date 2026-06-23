@@ -21,7 +21,6 @@ public class BlocksAndMoreModBlocks {
 	public static Block ORANGE_CONCRETE_STAIRS;
 	public static Block YELLOW_CONCRETE_STAIRS;
 	public static Block GREEN_CONCRETE_STAIRS;
-	public static Block GRASS_STAIRS;
 	public static Block BEACON_STAIRS;
 	public static Block IRON_STAIRS;
 	public static Block LIQUID_SUGAR;
@@ -62,7 +61,6 @@ public class BlocksAndMoreModBlocks {
 	public static Block PINK_CONCRETE_SLAB;
 	public static Block GRAY_CONCRETE_SLAB;
 	public static Block LIGHT_GRAY_CONCRETE_SLAB;
-	public static Block GRASS_SLAB;
 	public static Block BEACON_SLAB;
 	public static Block SANDSTONE_SLAB;
 	public static Block RED_SANDSTONE_SLAB;
@@ -74,7 +72,6 @@ public class BlocksAndMoreModBlocks {
 		ORANGE_CONCRETE_STAIRS = register("orange_concrete_stairs", OrangeConcreteStairsBlock::new);
 		YELLOW_CONCRETE_STAIRS = register("yellow_concrete_stairs", YellowConcreteStairsBlock::new);
 		GREEN_CONCRETE_STAIRS = register("green_concrete_stairs", GreenConcreteStairsBlock::new);
-		GRASS_STAIRS = register("grass_stairs", GrassStairsBlock::new);
 		BEACON_STAIRS = register("beacon_stairs", BeaconStairsBlock::new);
 		IRON_STAIRS = register("iron_stairs", IronStairsBlock::new);
 		LIQUID_SUGAR = register("liquid_sugar", LiquidSugarBlock::new);
@@ -115,7 +112,6 @@ public class BlocksAndMoreModBlocks {
 		PINK_CONCRETE_SLAB = register("pink_concrete_slab", PinkConcreteSlabBlock::new);
 		GRAY_CONCRETE_SLAB = register("gray_concrete_slab", GrayConcreteSlabBlock::new);
 		LIGHT_GRAY_CONCRETE_SLAB = register("light_gray_concrete_slab", LightGrayConcreteSlabBlock::new);
-		GRASS_SLAB = register("grass_slab", GrassSlabBlock::new);
 		BEACON_SLAB = register("beacon_slab", BeaconSlabBlock::new);
 		SANDSTONE_SLAB = register("sandstone_slab", SandstoneSlabBlock::new);
 		RED_SANDSTONE_SLAB = register("red_sandstone_slab", RedSandstoneSlabBlock::new);
