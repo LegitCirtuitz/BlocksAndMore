@@ -67,6 +67,11 @@ public class BlocksAndMoreModTabs {
 					tabData.accept(BlocksAndMoreModBlocks.SANDSTONE_SLAB.asItem());
 					tabData.accept(BlocksAndMoreModBlocks.RED_SANDSTONE_SLAB.asItem());
 					tabData.accept(BlocksAndMoreModBlocks.CYAN_CONCRETE_SLAB.asItem());
+					tabData.accept(BlocksAndMoreModBlocks.PURPLE_CONCRETE_SLAB.asItem());
+					tabData.accept(BlocksAndMoreModBlocks.BLUE_CONCRETE_SLAB.asItem());
+					tabData.accept(BlocksAndMoreModBlocks.BLACK_CONCRETE_SLAB.asItem());
+					tabData.accept(BlocksAndMoreModBlocks.GREEN_CONCRETE_SLAB.asItem());
+					tabData.accept(BlocksAndMoreModBlocks.BROWN_CONCRETE_SLAB.asItem());
 				}).build());
 	}
 }

@@ -60,7 +60,7 @@
       "metadata": {
         "files": []
       },
-      "path": "~/Others"
+      "path": "~/Others/Tab"
     },
     {
       "name": "OrangeConcreteStairs",
@@ -277,7 +277,7 @@
           "src/main/resources/assets/blocks_and_more/items/liquid_sugar_bucket.json"
         ]
       },
-      "path": "~/LiquidSugar"
+      "path": "~/Others/Fluid/LiquidSugar"
     },
     {
       "name": "SugarSpeed",
@@ -296,7 +296,7 @@
           "src/main/java/net/mcreator/blocksandmore/procedures/SugarSpeedProcedure.java"
         ]
       },
-      "path": "~/LiquidSugar"
+      "path": "~/Others/Fluid/LiquidSugar"
     },
     {
       "name": "LightBlueConcreteStairs",
@@ -382,7 +382,7 @@
           "src/main/resources/data/blocks_and_more/recipe/liquid_sugar_bucket_recipe.json"
         ]
       },
-      "path": "~/LiquidSugar"
+      "path": "~/Others/Fluid/LiquidSugar"
     },
     {
       "name": "CyanConcreteStairsRecipe",
@@ -562,7 +562,7 @@
           "src/main/resources/data/blocks_and_more/recipe/command_block_default_recipe.json"
         ]
       },
-      "path": "~/Others"
+      "path": "~/Others/Recipe"
     },
     {
       "name": "ChainCommandBlockRecipe",
@@ -575,7 +575,7 @@
           "src/main/resources/data/blocks_and_more/recipe/chain_command_block_recipe.json"
         ]
       },
-      "path": "~/Others"
+      "path": "~/Others/Recipe"
     },
     {
       "name": "BarrierRecipe",
@@ -588,7 +588,7 @@
           "src/main/resources/data/blocks_and_more/recipe/barrier_recipe.json"
         ]
       },
-      "path": "~/Others"
+      "path": "~/Others/Recipe"
     },
     {
       "name": "MaceDupeRecipe",
@@ -602,7 +602,7 @@
           "src/main/resources/data/blocks_and_more/advancement/recipes/mace_dupe_recipe.json"
         ]
       },
-      "path": "~/Others"
+      "path": "~/Others/Recipe"
     },
     {
       "name": "EmeraldStairsRecipe",
@@ -1749,6 +1749,176 @@
         ]
       },
       "path": "~/Blocks/Slabs/Concrete Slabs/CyanConcreteSlab"
+    },
+    {
+      "name": "PurpleConcreteSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_concrete_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/blocks_and_more/models/block/purple_concrete_slab_full.json",
+          "src/main/resources/assets/blocks_and_more/models/block/purple_concrete_slab_top.json",
+          "src/main/resources/assets/blocks_and_more/items/purple_concrete_slab.json",
+          "src/main/resources/data/blocks_and_more/loot_table/blocks/purple_concrete_slab.json",
+          "src/main/resources/assets/blocks_and_more/blockstates/purple_concrete_slab.json",
+          "src/main/java/net/mcreator/blocksandmore/block/PurpleConcreteSlabBlock.java",
+          "src/main/resources/assets/blocks_and_more/models/item/purple_concrete_slab.json",
+          "src/main/resources/assets/blocks_and_more/models/block/purple_concrete_slab.json"
+        ]
+      },
+      "path": "~/Blocks/Slabs/Concrete Slabs/PurpleConcreteSlab"
+    },
+    {
+      "name": "PurpleConcreteSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_concrete_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/blocks_and_more/recipe/purple_concrete_slab_recipe.json",
+          "src/main/resources/data/blocks_and_more/advancement/recipes/purple_concrete_slab_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Slabs/Concrete Slabs/PurpleConcreteSlab"
+    },
+    {
+      "name": "BlueConcreteSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_concrete_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/blocksandmore/block/BlueConcreteSlabBlock.java",
+          "src/main/resources/data/blocks_and_more/loot_table/blocks/blue_concrete_slab.json",
+          "src/main/resources/assets/blocks_and_more/models/item/blue_concrete_slab.json",
+          "src/main/resources/assets/blocks_and_more/models/block/blue_concrete_slab_full.json",
+          "src/main/resources/assets/blocks_and_more/items/blue_concrete_slab.json",
+          "src/main/resources/assets/blocks_and_more/models/block/blue_concrete_slab_top.json",
+          "src/main/resources/assets/blocks_and_more/blockstates/blue_concrete_slab.json",
+          "src/main/resources/assets/blocks_and_more/models/block/blue_concrete_slab.json"
+        ]
+      },
+      "path": "~/Blocks/Slabs/Concrete Slabs/BlueConcreteSlab"
+    },
+    {
+      "name": "BlueConcreteSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_concrete_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/blocks_and_more/advancement/recipes/blue_concrete_slab_recipe.json",
+          "src/main/resources/data/blocks_and_more/recipe/blue_concrete_slab_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Slabs/Concrete Slabs/BlueConcreteSlab"
+    },
+    {
+      "name": "BlackConcreteSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_concrete_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/blocks_and_more/models/block/black_concrete_slab_top.json",
+          "src/main/resources/assets/blocks_and_more/items/black_concrete_slab.json",
+          "src/main/resources/assets/blocks_and_more/blockstates/black_concrete_slab.json",
+          "src/main/resources/assets/blocks_and_more/models/block/black_concrete_slab_full.json",
+          "src/main/java/net/mcreator/blocksandmore/block/BlackConcreteSlabBlock.java",
+          "src/main/resources/assets/blocks_and_more/models/item/black_concrete_slab.json",
+          "src/main/resources/assets/blocks_and_more/models/block/black_concrete_slab.json",
+          "src/main/resources/data/blocks_and_more/loot_table/blocks/black_concrete_slab.json"
+        ]
+      },
+      "path": "~/Blocks/Slabs/Concrete Slabs/BlackConcreteSlab"
+    },
+    {
+      "name": "BlackConcreteSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_concrete_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/blocks_and_more/recipe/black_concrete_slab_recipe.json",
+          "src/main/resources/data/blocks_and_more/advancement/recipes/black_concrete_slab_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Slabs/Concrete Slabs/BlackConcreteSlab"
+    },
+    {
+      "name": "GreenConcreteSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_concrete_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/blocks_and_more/models/item/green_concrete_slab.json",
+          "src/main/resources/assets/blocks_and_more/models/block/green_concrete_slab.json",
+          "src/main/resources/assets/blocks_and_more/items/green_concrete_slab.json",
+          "src/main/resources/assets/blocks_and_more/models/block/green_concrete_slab_full.json",
+          "src/main/java/net/mcreator/blocksandmore/block/GreenConcreteSlabBlock.java",
+          "src/main/resources/assets/blocks_and_more/blockstates/green_concrete_slab.json",
+          "src/main/resources/data/blocks_and_more/loot_table/blocks/green_concrete_slab.json",
+          "src/main/resources/assets/blocks_and_more/models/block/green_concrete_slab_top.json"
+        ]
+      },
+      "path": "~/Blocks/Slabs/Concrete Slabs/GreenConcreteSlab"
+    },
+    {
+      "name": "GreenConcreteSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_concrete_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/blocks_and_more/advancement/recipes/green_concrete_slab_recipe.json",
+          "src/main/resources/data/blocks_and_more/recipe/green_concrete_slab_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Slabs/Concrete Slabs/GreenConcreteSlab"
+    },
+    {
+      "name": "BrownConcreteSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_concrete_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/blocks_and_more/models/block/brown_concrete_slab_full.json",
+          "src/main/java/net/mcreator/blocksandmore/block/BrownConcreteSlabBlock.java",
+          "src/main/resources/data/blocks_and_more/loot_table/blocks/brown_concrete_slab.json",
+          "src/main/resources/assets/blocks_and_more/blockstates/brown_concrete_slab.json",
+          "src/main/resources/assets/blocks_and_more/models/block/brown_concrete_slab.json",
+          "src/main/resources/assets/blocks_and_more/items/brown_concrete_slab.json",
+          "src/main/resources/assets/blocks_and_more/models/item/brown_concrete_slab.json",
+          "src/main/resources/assets/blocks_and_more/models/block/brown_concrete_slab_top.json"
+        ]
+      },
+      "path": "~/Blocks/Slabs/Concrete Slabs/BrownConcreteSlab"
+    },
+    {
+      "name": "BrownConceteSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_concete_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/blocks_and_more/recipe/brown_concete_slab_recipe.json",
+          "src/main/resources/data/blocks_and_more/advancement/recipes/brown_concete_slab_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Slabs/Concrete Slabs/BrownConcreteSlab"
     }
   ],
   "variable_elements": [],
@@ -1790,6 +1960,11 @@
       "~CUSTOM:RedConcreteStairs"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:BrownConcreteSlab",
+      "~CUSTOM:GreenConcreteSlab",
+      "~CUSTOM:BlackConcreteSlab",
+      "~CUSTOM:BlueConcreteSlab",
+      "~CUSTOM:PurpleConcreteSlab",
       "~CUSTOM:CyanConcreteSlab",
       "~CUSTOM:RedSandstoneSlab",
       "~CUSTOM:SandstoneSlab",
@@ -1827,6 +2002,11 @@
       "~CUSTOM:LiquidSugar"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:BrownConcreteSlab",
+      "~CUSTOM:GreenConcreteSlab",
+      "~CUSTOM:BlackConcreteSlab",
+      "~CUSTOM:BlueConcreteSlab",
+      "~CUSTOM:PurpleConcreteSlab",
       "~CUSTOM:CyanConcreteSlab",
       "~CUSTOM:BeaconSlab",
       "~CUSTOM:LightGrayConcreteSlab",
@@ -1861,6 +2041,11 @@
       "~CUSTOM:OakLogStairs"
     ],
     "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:BrownConcreteSlab",
+      "~CUSTOM:GreenConcreteSlab",
+      "~CUSTOM:BlackConcreteSlab",
+      "~CUSTOM:BlueConcreteSlab",
+      "~CUSTOM:PurpleConcreteSlab",
       "~CUSTOM:CyanConcreteSlab",
       "~CUSTOM:RedSandstoneSlab",
       "~CUSTOM:SandstoneSlab",
@@ -1932,7 +2117,12 @@
       "item.blocks_and_more.beacon_slab": "Beacon Slab",
       "item.blocks_and_more.sandstone_slab": "Sandstone Slab",
       "item.blocks_and_more.red_sandstone_slab": "Red Sandstone Slab",
-      "item.blocks_and_more.cyan_concrete_slab": "Cyan Concrete Slab"
+      "item.blocks_and_more.cyan_concrete_slab": "Cyan Concrete Slab",
+      "item.blocks_and_more.purple_concrete_slab": "Purple Concrete Slab",
+      "item.blocks_and_more.blue_concrete_slab": "Blue Concrete Slab",
+      "item.blocks_and_more.black_concrete_slab": "Black Concrete Slab",
+      "item.blocks_and_more.green_concrete_slab": "Green Concrete Slab",
+      "item.blocks_and_more.brown_concrete_slab": "Brown Concrete Slab"
     }
   },
   "metadata": {
@@ -1969,12 +2159,26 @@
     "name": "~",
     "children": [
       {
-        "name": "LiquidSugar",
-        "children": []
-      },
-      {
         "name": "Others",
-        "children": []
+        "children": [
+          {
+            "name": "Fluid",
+            "children": [
+              {
+                "name": "LiquidSugar",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Tab",
+            "children": []
+          },
+          {
+            "name": "Recipe",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Blocks",
@@ -2198,6 +2402,26 @@
                   },
                   {
                     "name": "CyanConcreteSlab",
+                    "children": []
+                  },
+                  {
+                    "name": "PurpleConcreteSlab",
+                    "children": []
+                  },
+                  {
+                    "name": "BlueConcreteSlab",
+                    "children": []
+                  },
+                  {
+                    "name": "BlackConcreteSlab",
+                    "children": []
+                  },
+                  {
+                    "name": "GreenConcreteSlab",
+                    "children": []
+                  },
+                  {
+                    "name": "BrownConcreteSlab",
                     "children": []
                   }
                 ]

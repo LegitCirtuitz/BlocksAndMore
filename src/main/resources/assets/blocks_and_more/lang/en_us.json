@@ -51,5 +51,10 @@
   "item.blocks_and_more.beacon_slab": "Beacon Slab",
   "item.blocks_and_more.sandstone_slab": "Sandstone Slab",
   "item.blocks_and_more.red_sandstone_slab": "Red Sandstone Slab",
-  "item.blocks_and_more.cyan_concrete_slab": "Cyan Concrete Slab"
+  "item.blocks_and_more.cyan_concrete_slab": "Cyan Concrete Slab",
+  "item.blocks_and_more.purple_concrete_slab": "Purple Concrete Slab",
+  "item.blocks_and_more.blue_concrete_slab": "Blue Concrete Slab",
+  "item.blocks_and_more.black_concrete_slab": "Black Concrete Slab",
+  "item.blocks_and_more.green_concrete_slab": "Green Concrete Slab",
+  "item.blocks_and_more.brown_concrete_slab": "Brown Concrete Slab"
 }
