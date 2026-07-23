@@ -5,6 +5,5 @@
     "bottom": "minecraft:block/crimson_stem_top",
     "top": "minecraft:block/crimson_stem_top",
     "side": "minecraft:block/crimson_stem"
-  },
-  "render_type": "solid"
+  }
 }

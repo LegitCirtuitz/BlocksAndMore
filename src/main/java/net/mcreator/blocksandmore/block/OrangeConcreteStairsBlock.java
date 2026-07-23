@@ -6,7 +6,7 @@ import net.minecraft.world.level.block.Blocks;
 
 public class OrangeConcreteStairsBlock extends StairBlock {
 	public OrangeConcreteStairsBlock(BlockBehaviour.Properties properties) {
-		super(Blocks.AIR.defaultBlockState(), properties.strength(3f, 10f));
+		super(Blocks.AIR.defaultBlockState(), properties.strength(3f, 10f).requiresCorrectToolForDrops());
 	}
 
 	@Override

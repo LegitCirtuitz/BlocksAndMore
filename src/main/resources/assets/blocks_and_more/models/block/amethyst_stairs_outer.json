@@ -5,6 +5,5 @@
     "bottom": "minecraft:block/amethyst_block",
     "top": "minecraft:block/amethyst_block",
     "side": "minecraft:block/amethyst_block"
-  },
-  "render_type": "solid"
+  }
 }

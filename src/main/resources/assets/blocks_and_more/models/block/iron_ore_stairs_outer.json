@@ -5,6 +5,5 @@
     "bottom": "minecraft:block/iron_ore",
     "top": "minecraft:block/iron_ore",
     "side": "minecraft:block/iron_ore"
-  },
-  "render_type": "solid"
+  }
 }

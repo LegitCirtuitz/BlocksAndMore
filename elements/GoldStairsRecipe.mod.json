@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "Blocks.GOLD_BLOCK"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Blocks.GOLD_BLOCK"
-      },
-      {
-        "value": "Items.GOLD_INGOT"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Blocks.GOLD_BLOCK"
-      },
-      {
-        "value": "Items.GOLD_INGOT"
-      },
-      {
-        "value": "Items.GOLD_NUGGET"
-      }
+      "Blocks.GOLD_BLOCK",
+      "",
+      "",
+      "Blocks.GOLD_BLOCK",
+      "Items.GOLD_INGOT",
+      "",
+      "Blocks.GOLD_BLOCK",
+      "Items.GOLD_INGOT",
+      "Items.GOLD_NUGGET"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:GoldStairs"
-    },
+    "recipeReturnStack": "CUSTOM:GoldStairs",
     "name": "gold_stairs_recipe",
     "namespace": "mod"
   }

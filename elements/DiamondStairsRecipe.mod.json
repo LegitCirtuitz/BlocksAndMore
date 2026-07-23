@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "Items.DIAMOND"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.DIAMOND"
-      },
-      {
-        "value": "Blocks.DIAMOND_BLOCK"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.DIAMOND"
-      },
-      {
-        "value": "Blocks.DIAMOND_BLOCK"
-      },
-      {
-        "value": "Blocks.DIAMOND_BLOCK"
-      }
+      "Items.DIAMOND",
+      "",
+      "",
+      "Items.DIAMOND",
+      "Blocks.DIAMOND_BLOCK",
+      "",
+      "Items.DIAMOND",
+      "Blocks.DIAMOND_BLOCK",
+      "Blocks.DIAMOND_BLOCK"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:DiamondStair"
-    },
+    "recipeReturnStack": "CUSTOM:DiamondStair",
     "name": "diamond_stairs_recipe",
     "namespace": "mod"
   }

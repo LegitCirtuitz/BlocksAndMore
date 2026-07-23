@@ -1,0 +1,8 @@
+{
+  "parent": "blocks_and_more:custom/deepslatebedrock",
+  "textures": {
+    "all": "blocks_and_more:block/deepsltebedrock",
+    "particle": "minecraft:block/bedrock",
+    "0": "blocks_and_more:block/deepsltebedrock"
+  }
+}

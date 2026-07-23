@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "Items.EGG"
-      },
-      {
-        "value": "Blocks.NETHERITE_BLOCK"
-      },
-      {
-        "value": "Items.EGG"
-      },
-      {
-        "value": "Items.FISHING_ROD"
-      },
-      {
-        "value": "Items.MACE"
-      },
-      {
-        "value": "Items.DRAGON_BREATH"
-      },
-      {
-        "value": "Items.EGG"
-      },
-      {
-        "value": "Blocks.NETHERITE_BLOCK"
-      },
-      {
-        "value": "Items.EGG"
-      }
+      "Items.EGG",
+      "Blocks.NETHERITE_BLOCK",
+      "Items.EGG",
+      "Items.FISHING_ROD",
+      "Items.MACE",
+      "Items.DRAGON_BREATH",
+      "Items.EGG",
+      "Blocks.NETHERITE_BLOCK",
+      "Items.EGG"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:WemmbuStair"
-    },
+    "recipeReturnStack": "CUSTOM:WemmbuStair",
     "name": "wemmbu_stair_recipe",
     "namespace": "mod"
   }

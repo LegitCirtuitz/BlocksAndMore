@@ -1,0 +1,39 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:AmethystStairs",
+      "CUSTOM:AmethystBlade",
+      "Blocks.AMETHYST_BLOCK",
+      "Blocks.BUDDING_AMETHYST",
+      "Blocks.AMETHYST_CLUSTER",
+      "Blocks.LARGE_AMETHYST_BUD",
+      "Blocks.MEDIUM_AMETHYST_BUD",
+      "Blocks.SMALL_AMETHYST_BUD",
+      "Items.AMETHYST_SHARD"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "",
+      "",
+      "",
+      "",
+      "Blocks.AMETHYST_BLOCK",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "recipeReturnStack": "Items.AMETHYST_SHARD",
+    "name": "amethyst_shard_recipe",
+    "namespace": "mod"
+  }
+}

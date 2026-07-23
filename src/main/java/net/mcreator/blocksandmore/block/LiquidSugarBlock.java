@@ -16,12 +16,12 @@ import net.mcreator.blocksandmore.init.BlocksAndMoreModFluids;
 
 public class LiquidSugarBlock extends LiquidBlock {
 	public LiquidSugarBlock(BlockBehaviour.Properties properties) {
-		super(BlocksAndMoreModFluids.LIQUID_SUGAR, properties.mapColor(MapColor.WATER).strength(100f).noCollission().noLootTable().liquid().pushReaction(PushReaction.DESTROY).sound(SoundType.EMPTY).replaceable());
+		super(BlocksAndMoreModFluids.LIQUID_SUGAR, properties.mapColor(MapColor.WATER).strength(100f).noCollision().noLootTable().liquid().pushReaction(PushReaction.DESTROY).sound(SoundType.EMPTY).replaceable());
 	}
 
 	@Override
-	public void entityInside(BlockState blockstate, Level world, BlockPos pos, Entity entity, InsideBlockEffectApplier insideBlockEffectApplier) {
-		super.entityInside(blockstate, world, pos, entity, insideBlockEffectApplier);
+	public void entityInside(BlockState blockstate, Level world, BlockPos pos, Entity entity, InsideBlockEffectApplier insideBlockEffectApplier, boolean isPrecise) {
+		super.entityInside(blockstate, world, pos, entity, insideBlockEffectApplier, isPrecise);
 		SugarSpeedProcedure.execute(entity);
 	}
 }

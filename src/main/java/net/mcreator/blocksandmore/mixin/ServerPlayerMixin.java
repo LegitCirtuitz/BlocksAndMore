@@ -1,6 +1,6 @@
 package net.mcreator.blocksandmore.mixin;
 
-import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
+import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.Mixin;
@@ -11,12 +11,12 @@ import net.minecraft.server.level.ServerPlayer;
 
 @Mixin(ServerPlayer.class)
 public abstract class ServerPlayerMixin {
-	@Inject(method = "Lnet/minecraft/server/level/ServerPlayer;drop(Z)Z", at = @At("HEAD"), cancellable = true)
-	public void drop(boolean dropStack, CallbackInfoReturnable<Boolean> cir) {
+	@Inject(method = "drop(Z)V", at = @At("HEAD"))
+	public void drop(boolean all, CallbackInfo ci) {
 		ServerPlayer self = (ServerPlayer) (Object) this;
 		Inventory inventory = self.getInventory();
-		ItemStack itemstack = inventory.removeFromSelected(dropStack);
+		ItemStack itemstack = inventory.removeFromSelected(all);
 		self.containerMenu.findSlot(inventory, inventory.getSelectedSlot()).ifPresent(p_401732_ -> self.containerMenu.setRemoteSlot(p_401732_, inventory.getSelectedItem()));
-		cir.setReturnValue(self.drop(itemstack, false, true) != null);
+		self.drop(itemstack, false, true);
 	}
 }

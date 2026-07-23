@@ -1,10 +1,9 @@
 {
   "parent": "block/outer_stairs",
   "textures": {
-    "particle": "blocks_and_more:block/grconcretestairs",
-    "bottom": "blocks_and_more:block/grconcretestairs",
-    "top": "blocks_and_more:block/grconcretestairs",
-    "side": "blocks_and_more:block/grconcretestairs"
-  },
-  "render_type": "solid"
+    "particle": "minecraft:block/green_concrete",
+    "bottom": "minecraft:block/green_concrete",
+    "top": "minecraft:block/green_concrete",
+    "side": "minecraft:block/green_concrete"
+  }
 }

@@ -5,6 +5,5 @@
     "bottom": "minecraft:block/redstone_ore",
     "top": "minecraft:block/redstone_ore",
     "side": "minecraft:block/redstone_ore"
-  },
-  "render_type": "solid"
+  }
 }

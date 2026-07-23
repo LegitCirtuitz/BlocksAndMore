@@ -4,14 +4,16 @@
 package net.mcreator.blocksandmore.init;
 
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.Registries;
 
 import net.mcreator.blocksandmore.item.LiquidSugarItem;
+import net.mcreator.blocksandmore.item.AmethystBladeItem;
 import net.mcreator.blocksandmore.BlocksAndMoreMod;
 
 import java.util.function.Function;
@@ -71,6 +73,10 @@ public class BlocksAndMoreModItems {
 	public static Item BLACK_CONCRETE_SLAB;
 	public static Item GREEN_CONCRETE_SLAB;
 	public static Item BROWN_CONCRETE_SLAB;
+	public static Item AMETHYST_BLADE;
+	public static Item WHITE_CONCRETE_STAIRS;
+	public static Item LIGHT_GRAY_CONCRETE_STAIRS;
+	public static Item DEEPSLATE_BEDROCK;
 
 	public static void load() {
 		RED_CONCRETE_STAIRS = block(BlocksAndMoreModBlocks.RED_CONCRETE_STAIRS, "red_concrete_stairs");
@@ -127,12 +133,16 @@ public class BlocksAndMoreModItems {
 		BLACK_CONCRETE_SLAB = block(BlocksAndMoreModBlocks.BLACK_CONCRETE_SLAB, "black_concrete_slab");
 		GREEN_CONCRETE_SLAB = block(BlocksAndMoreModBlocks.GREEN_CONCRETE_SLAB, "green_concrete_slab");
 		BROWN_CONCRETE_SLAB = block(BlocksAndMoreModBlocks.BROWN_CONCRETE_SLAB, "brown_concrete_slab");
+		AMETHYST_BLADE = register("amethyst_blade", AmethystBladeItem::new);
+		WHITE_CONCRETE_STAIRS = block(BlocksAndMoreModBlocks.WHITE_CONCRETE_STAIRS, "white_concrete_stairs");
+		LIGHT_GRAY_CONCRETE_STAIRS = block(BlocksAndMoreModBlocks.LIGHT_GRAY_CONCRETE_STAIRS, "light_gray_concrete_stairs");
+		DEEPSLATE_BEDROCK = block(BlocksAndMoreModBlocks.DEEPSLATE_BEDROCK, "deepslate_bedrock", new Item.Properties().rarity(Rarity.EPIC));
 	}
 
 	// Start of user code block custom items
 	// End of user code block custom items
 	private static <I extends Item> I register(String name, Function<Item.Properties, ? extends I> supplier) {
-		return (I) Items.registerItem(ResourceKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath(BlocksAndMoreMod.MODID, name)), (Function<Item.Properties, Item>) supplier);
+		return (I) Items.registerItem(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(BlocksAndMoreMod.MODID, name)), (Function<Item.Properties, Item>) supplier);
 	}
 
 	private static Item block(Block block, String name) {
@@ -140,6 +150,6 @@ public class BlocksAndMoreModItems {
 	}
 
 	private static Item block(Block block, String name, Item.Properties properties) {
-		return Items.registerItem(ResourceKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath(BlocksAndMoreMod.MODID, name)), prop -> new BlockItem(block, prop), properties);
+		return Items.registerItem(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(BlocksAndMoreMod.MODID, name)), prop -> new BlockItem(block, prop), properties);
 	}
 }

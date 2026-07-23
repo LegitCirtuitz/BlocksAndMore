@@ -11,6 +11,7 @@ import net.minecraft.server.TickTask;
 import net.mcreator.blocksandmore.init.BlocksAndMoreModTabs;
 import net.mcreator.blocksandmore.init.BlocksAndMoreModItems;
 import net.mcreator.blocksandmore.init.BlocksAndMoreModFluids;
+import net.mcreator.blocksandmore.init.BlocksAndMoreModFeatures;
 import net.mcreator.blocksandmore.init.BlocksAndMoreModBlocks;
 
 import net.fabricmc.loader.api.FabricLoader;
@@ -40,6 +41,7 @@ public class BlocksAndMoreMod implements ModInitializer {
 		// End of user code block mod constructor
 		LOGGER.info("Initializing BlocksAndMoreMod");
 		BlocksAndMoreModTabs.load();
+		BlocksAndMoreModFeatures.load();
 		BlocksAndMoreModFluids.load();
 		BlocksAndMoreModBlocks.load();
 		BlocksAndMoreModItems.load();
@@ -60,12 +62,10 @@ public class BlocksAndMoreMod implements ModInitializer {
 	private void tick() {
 		ServerTickEvents.END_SERVER_TICK.register((server) -> {
 			int currentTick = server.getTickCount();
-
 			IntObjectPair<Runnable> work;
 			while ((work = workToBeScheduled.poll()) != null) {
 				workQueue.add(new TickTask(currentTick + work.leftInt(), work.right()));
 			}
-
 			while (!workQueue.isEmpty() && currentTick >= workQueue.peek().getTick()) {
 				workQueue.poll().run();
 			}

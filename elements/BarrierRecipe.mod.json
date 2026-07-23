@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "Blocks.COMMAND_BLOCK"
-      },
-      {
-        "value": "Items.GOLDEN_APPLE#1"
-      },
-      {
-        "value": "Items.FISHING_ROD"
-      },
-      {
-        "value": "Items.MACE"
-      },
-      {
-        "value": "CUSTOM:LiquidSugar.bucket"
-      },
-      {
-        "value": "Items.MACE"
-      },
-      {
-        "value": "Blocks.CHAIN_COMMAND_BLOCK"
-      },
-      {
-        "value": "Items.GOLDEN_APPLE#1"
-      },
-      {
-        "value": "Items.FISHING_ROD"
-      }
+      "Blocks.COMMAND_BLOCK",
+      "Items.GOLDEN_APPLE#1",
+      "Items.FISHING_ROD",
+      "Items.MACE",
+      "CUSTOM:LiquidSugar.bucket",
+      "Items.MACE",
+      "Blocks.CHAIN_COMMAND_BLOCK",
+      "Items.GOLDEN_APPLE#1",
+      "Items.FISHING_ROD"
     ],
-    "recipeReturnStack": {
-      "value": "Blocks.BARRIER"
-    },
+    "recipeReturnStack": "Blocks.BARRIER",
     "name": "barrier_recipe",
     "namespace": "mod"
   }

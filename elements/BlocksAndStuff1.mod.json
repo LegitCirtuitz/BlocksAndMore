@@ -1,11 +1,9 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "tab",
   "definition": {
     "name": "Blocks And More ",
-    "icon": {
-      "value": "CUSTOM:GoldStairs"
-    },
+    "icon": "CUSTOM:GoldStairs",
     "showSearch": false
   }
 }

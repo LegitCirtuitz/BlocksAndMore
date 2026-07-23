@@ -5,6 +5,5 @@
     "bottom": "minecraft:block/magenta_concrete",
     "top": "minecraft:block/magenta_concrete",
     "side": "minecraft:block/magenta_concrete"
-  },
-  "render_type": "solid"
+  }
 }

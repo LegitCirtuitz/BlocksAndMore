@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "Blocks.DIAMOND_ORE"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Blocks.DIAMOND_ORE"
-      },
-      {
-        "value": "Items.DIAMOND"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Blocks.DIAMOND_ORE"
-      },
-      {
-        "value": "Items.DIAMOND"
-      },
-      {
-        "value": "Blocks.DIAMOND_ORE"
-      }
+      "Blocks.DIAMOND_ORE",
+      "",
+      "",
+      "Blocks.DIAMOND_ORE",
+      "Items.DIAMOND",
+      "",
+      "Blocks.DIAMOND_ORE",
+      "Items.DIAMOND",
+      "Blocks.DIAMOND_ORE"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:DiamondOreStairs"
-    },
+    "recipeReturnStack": "CUSTOM:DiamondOreStairs",
     "name": "diamond_ore_stairs_recipe",
     "namespace": "mod"
   }

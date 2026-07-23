@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "Blocks.EMERALD_ORE"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Blocks.EMERALD_ORE"
-      },
-      {
-        "value": "Items.EMERALD"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Blocks.EMERALD_ORE"
-      },
-      {
-        "value": "Items.EMERALD"
-      },
-      {
-        "value": "Items.EMERALD"
-      }
+      "Blocks.EMERALD_ORE",
+      "",
+      "",
+      "Blocks.EMERALD_ORE",
+      "Items.EMERALD",
+      "",
+      "Blocks.EMERALD_ORE",
+      "Items.EMERALD",
+      "Items.EMERALD"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:EmeraldOreStairs"
-    },
+    "recipeReturnStack": "CUSTOM:EmeraldOreStairs",
     "name": "emerald_ore_recipe",
     "namespace": "mod"
   }

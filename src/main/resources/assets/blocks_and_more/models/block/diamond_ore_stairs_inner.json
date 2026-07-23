@@ -5,6 +5,5 @@
     "bottom": "minecraft:block/diamond_ore",
     "top": "minecraft:block/diamond_ore",
     "side": "minecraft:block/diamond_ore"
-  },
-  "render_type": "solid"
+  }
 }

@@ -20,14 +20,14 @@
       "net.mcreator.blocksandmore.BlocksAndMoreModClient"
     ]
   },
-  "accessWidener": "META-INF/blocks_and_more.classtweaker",
   "mixins": [
     "blocks_and_more.mixins.json"
   ],
+  "accessWidener": "META-INF/blocks_and_more.classtweaker",
   "depends": {
-    "fabricloader": ">=0.18.4",
-    "minecraft": "~1.21.8",
-    "java": ">=21",
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.1.2",
+    "java": ">=25",
     "fabric-api": "*"
   }
 }

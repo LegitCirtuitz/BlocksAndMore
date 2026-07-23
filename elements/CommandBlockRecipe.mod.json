@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "Items.MACE"
-      },
-      {
-        "value": "Blocks.REDSTONE_BLOCK"
-      },
-      {
-        "value": "Items.MACE"
-      },
-      {
-        "value": "Blocks.REDSTONE_BLOCK"
-      },
-      {
-        "value": "Blocks.DRAGON_EGG"
-      },
-      {
-        "value": "Blocks.REDSTONE_BLOCK"
-      },
-      {
-        "value": "Items.MACE"
-      },
-      {
-        "value": "Blocks.REDSTONE_BLOCK"
-      },
-      {
-        "value": "Items.MACE"
-      }
+      "Items.MACE",
+      "Blocks.REDSTONE_BLOCK",
+      "Items.MACE",
+      "Blocks.REDSTONE_BLOCK",
+      "Blocks.DRAGON_EGG",
+      "Blocks.REDSTONE_BLOCK",
+      "Items.MACE",
+      "Blocks.REDSTONE_BLOCK",
+      "Items.MACE"
     ],
-    "recipeReturnStack": {
-      "value": "Blocks.COMMAND_BLOCK"
-    },
+    "recipeReturnStack": "Blocks.COMMAND_BLOCK",
     "name": "command_block_default_recipe",
     "namespace": "mod"
   }

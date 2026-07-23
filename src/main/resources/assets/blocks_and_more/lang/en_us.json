@@ -56,5 +56,9 @@
   "item.blocks_and_more.blue_concrete_slab": "Blue Concrete Slab",
   "item.blocks_and_more.black_concrete_slab": "Black Concrete Slab",
   "item.blocks_and_more.green_concrete_slab": "Green Concrete Slab",
-  "item.blocks_and_more.brown_concrete_slab": "Brown Concrete Slab"
+  "item.blocks_and_more.brown_concrete_slab": "Brown Concrete Slab",
+  "item.blocks_and_more.amethyst_blade": "Amethyst Blade",
+  "item.blocks_and_more.white_concrete_stairs": "White Concrete Stairs",
+  "item.blocks_and_more.light_gray_concrete_stairs": "Light Gray Concrete Stairs",
+  "item.blocks_and_more.deepslate_bedrock": "Deepslate Bedrock"
 }

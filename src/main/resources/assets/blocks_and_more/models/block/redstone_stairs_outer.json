@@ -5,6 +5,5 @@
     "bottom": "minecraft:block/redstone_block",
     "top": "minecraft:block/redstone_block",
     "side": "minecraft:block/redstone_block"
-  },
-  "render_type": "solid"
+  }
 }

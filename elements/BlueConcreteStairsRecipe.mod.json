@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "Blocks.CONCRETE#11"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Blocks.CONCRETE#11"
-      },
-      {
-        "value": "Blocks.CONCRETE#11"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Blocks.CONCRETE#11"
-      },
-      {
-        "value": "Blocks.CONCRETE#11"
-      },
-      {
-        "value": "Blocks.CONCRETE#11"
-      }
+      "Blocks.CONCRETE#11",
+      "",
+      "",
+      "Blocks.CONCRETE#11",
+      "Blocks.CONCRETE#11",
+      "",
+      "Blocks.CONCRETE#11",
+      "Blocks.CONCRETE#11",
+      "Blocks.CONCRETE#11"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:BlueConcreteStairs"
-    },
+    "recipeReturnStack": "CUSTOM:BlueConcreteStairs",
     "name": "blue_concrete_stairs_recipe",
     "namespace": "mod"
   }

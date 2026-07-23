@@ -1,10 +1,9 @@
 {
   "parent": "block/inner_stairs",
   "textures": {
-    "particle": "blocks_and_more:block/orconcretestairs",
-    "bottom": "blocks_and_more:block/orconcretestairs",
-    "top": "blocks_and_more:block/orconcretestairs",
-    "side": "blocks_and_more:block/orconcretestairs"
-  },
-  "render_type": "solid"
+    "particle": "minecraft:block/orange_concrete",
+    "bottom": "minecraft:block/orange_concrete",
+    "top": "minecraft:block/orange_concrete",
+    "side": "minecraft:block/orange_concrete"
+  }
 }

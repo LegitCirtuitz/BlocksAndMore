@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 10,
+    "group": "",
+    "unlockingItems": [
+      "Blocks.BEDROCK"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "Blocks.DEEPSLATE",
+      "Blocks.COMMAND_BLOCK",
+      "Blocks.COBBLED_DEEPSLATE",
+      "Blocks.COMMAND_BLOCK",
+      "Blocks.BEDROCK",
+      "Blocks.COMMAND_BLOCK",
+      "Blocks.COBBLED_DEEPSLATE",
+      "Blocks.COMMAND_BLOCK",
+      "Blocks.DEEPSLATE"
+    ],
+    "recipeReturnStack": "CUSTOM:DeepslateBedrock",
+    "name": "deepslate_bedrock_recipe",
+    "namespace": "mod"
+  }
+}

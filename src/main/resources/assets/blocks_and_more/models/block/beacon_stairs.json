@@ -5,6 +5,5 @@
     "bottom": "minecraft:block/beacon",
     "top": "minecraft:block/beacon",
     "side": "minecraft:block/beacon"
-  },
-  "render_type": "solid"
+  }
 }

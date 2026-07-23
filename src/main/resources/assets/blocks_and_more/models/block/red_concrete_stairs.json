@@ -1,10 +1,9 @@
 {
   "parent": "block/stairs",
   "textures": {
-    "particle": "blocks_and_more:block/rconcretestair",
-    "bottom": "blocks_and_more:block/rconcretestair",
-    "top": "blocks_and_more:block/rconcretestair",
-    "side": "blocks_and_more:block/rconcretestair"
-  },
-  "render_type": "solid"
+    "particle": "minecraft:block/red_concrete",
+    "bottom": "minecraft:block/red_concrete",
+    "top": "minecraft:block/red_concrete",
+    "side": "minecraft:block/red_concrete"
+  }
 }

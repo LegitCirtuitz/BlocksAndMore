@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "fluid",
   "definition": {
     "name": "Liquid Sugar",
@@ -20,9 +20,7 @@
     "levelDecrease": 1,
     "slopeFindDistance": 4,
     "spawnParticles": false,
-    "dripParticle": {
-      "value": "ASH"
-    },
+    "dripParticle": "ASH",
     "flowStrength": 1.0,
     "luminosity": 0,
     "density": 1000,
@@ -32,13 +30,9 @@
     "generateBucket": true,
     "textureBucket": "minecraft:milk_bucket",
     "creativeTabs": [
-      {
-        "value": "CUSTOM:BlocksAndStuff1"
-      }
+      "CUSTOM:BlocksAndStuff1"
     ],
-    "emptySound": {
-      "value": ""
-    },
+    "emptySound": "",
     "rarity": "COMMON",
     "specialInformation": {
       "fixedValue": []
@@ -52,8 +46,6 @@
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "colorOnMap": "DEFAULT",
-    "onEntityCollides": {
-      "name": "SugarSpeed"
-    }
+    "onEntityCollides": "SugarSpeed"
   }
 }

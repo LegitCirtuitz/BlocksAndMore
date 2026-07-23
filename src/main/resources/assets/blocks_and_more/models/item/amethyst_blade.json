@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "blocks_and_more:item/amethyst_shard"
+  }
+}

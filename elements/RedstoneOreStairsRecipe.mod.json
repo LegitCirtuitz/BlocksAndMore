@@ -1,185 +1,69 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 8,
     "group": "",
     "unlockingItems": [
-      {
-        "value": "Blocks.NORMAL_STONE_STAIRS"
-      },
-      {
-        "value": "Blocks.GRANITE_STAIRS"
-      },
-      {
-        "value": "Blocks.POLISHED_GRANITE_STAIRS"
-      },
-      {
-        "value": "Blocks.DIORITE_STAIRS"
-      },
-      {
-        "value": "Blocks.POLISHED_DIORITE_STAIRS"
-      },
-      {
-        "value": "Blocks.ANDESITE_STAIRS"
-      },
-      {
-        "value": "Blocks.POLISHED_ANDESITE_STAIRS"
-      },
-      {
-        "value": "Blocks.COBBLED_DEEPSLATE_STAIRS"
-      },
-      {
-        "value": "Blocks.POLISHED_DEEPSLATE_STAIRS"
-      },
-      {
-        "value": "Blocks.DEEPSLATE_TILE_STAIRS"
-      },
-      {
-        "value": "Blocks.DEEPSLATE_BRICK_STAIRS"
-      },
-      {
-        "value": "Blocks.TUFF_STAIRS"
-      },
-      {
-        "value": "Blocks.POLISHED_TUFF_STAIRS"
-      },
-      {
-        "value": "Blocks.TUFF_BRICK_STAIRS"
-      },
-      {
-        "value": "Blocks.MUD_BRICK_STAIRS"
-      },
-      {
-        "value": "Blocks.MOSSY_COBBLESTONE_STAIRS"
-      },
-      {
-        "value": "Blocks.BLACKSTONE_STAIRS"
-      },
-      {
-        "value": "Blocks.POLISHED_BLACKSTONE_BRICK_STAIRS"
-      },
-      {
-        "value": "Blocks.POLISHED_BLACKSTONE_STAIRS"
-      },
-      {
-        "value": "Blocks.CUT_COPPER_STAIRS"
-      },
-      {
-        "value": "Blocks.EXPOSED_CUT_COPPER_STAIRS"
-      },
-      {
-        "value": "Blocks.WEATHERED_CUT_COPPER_STAIRS"
-      },
-      {
-        "value": "Blocks.OXIDIZED_CUT_COPPER_STAIRS"
-      },
-      {
-        "value": "Blocks.WAXED_CUT_COPPER_STAIRS"
-      },
-      {
-        "value": "Blocks.WAXED_EXPOSED_CUT_COPPER_STAIRS"
-      },
-      {
-        "value": "Blocks.WAXED_WEATHERED_CUT_COPPER_STAIRS"
-      },
-      {
-        "value": "Blocks.WAXED_OXIDIZED_CUT_COPPER_STAIRS"
-      },
-      {
-        "value": "Blocks.SMOOTH_QUARTZ_STAIRS"
-      },
-      {
-        "value": "Blocks.SANDSTONE_STAIRS"
-      },
-      {
-        "value": "Blocks.SMOOTH_SANDSTONE_STAIRS"
-      },
-      {
-        "value": "Blocks.RED_SANDSTONE_STAIRS"
-      },
-      {
-        "value": "Blocks.SMOOTH_RED_SANDSTONE_STAIRS"
-      },
-      {
-        "value": "Blocks.OAK_STAIRS"
-      },
-      {
-        "value": "Blocks.SPRUCE_STAIRS"
-      },
-      {
-        "value": "Blocks.BIRCH_STAIRS"
-      },
-      {
-        "value": "Blocks.JUNGLE_STAIRS"
-      },
-      {
-        "value": "Blocks.ACACIA_STAIRS"
-      },
-      {
-        "value": "Blocks.DARK_OAK_STAIRS"
-      },
-      {
-        "value": "Blocks.PALE_OAK_STAIRS"
-      },
-      {
-        "value": "Blocks.CRIMSON_STAIRS"
-      },
-      {
-        "value": "Blocks.WARPED_STAIRS"
-      },
-      {
-        "value": "Blocks.MANGROVE_STAIRS"
-      },
-      {
-        "value": "Blocks.CHERRY_STAIRS"
-      },
-      {
-        "value": "Blocks.BAMBOO_STAIRS"
-      },
-      {
-        "value": "Blocks.BAMBOO_MOSAIC_STAIRS"
-      },
-      {
-        "value": "Blocks.STONE_STAIRS"
-      },
-      {
-        "value": "Blocks.BRICK_STAIRS"
-      },
-      {
-        "value": "Blocks.STONE_BRICK_STAIRS"
-      },
-      {
-        "value": "Blocks.NETHER_BRICK_STAIRS"
-      },
-      {
-        "value": "Blocks.QUARTZ_STAIRS"
-      },
-      {
-        "value": "Blocks.PURPUR_STAIRS"
-      },
-      {
-        "value": "Blocks.RED_NETHER_BRICK_STAIRS"
-      },
-      {
-        "value": "Blocks.MOSSY_STONE_BRICK_STAIRS"
-      },
-      {
-        "value": "Blocks.RESIN_BRICK_STAIRS"
-      },
-      {
-        "value": "Blocks.END_STONE_BRICK_STAIRS"
-      },
-      {
-        "value": "Blocks.PRISMARINE_STAIRS"
-      },
-      {
-        "value": "Blocks.PRISMARINE_BRICK_STAIRS"
-      },
-      {
-        "value": "Blocks.DARK_PRISMARINE_STAIRS"
-      }
+      "Blocks.NORMAL_STONE_STAIRS",
+      "Blocks.GRANITE_STAIRS",
+      "Blocks.POLISHED_GRANITE_STAIRS",
+      "Blocks.DIORITE_STAIRS",
+      "Blocks.POLISHED_DIORITE_STAIRS",
+      "Blocks.ANDESITE_STAIRS",
+      "Blocks.POLISHED_ANDESITE_STAIRS",
+      "Blocks.COBBLED_DEEPSLATE_STAIRS",
+      "Blocks.POLISHED_DEEPSLATE_STAIRS",
+      "Blocks.DEEPSLATE_TILE_STAIRS",
+      "Blocks.DEEPSLATE_BRICK_STAIRS",
+      "Blocks.TUFF_STAIRS",
+      "Blocks.POLISHED_TUFF_STAIRS",
+      "Blocks.TUFF_BRICK_STAIRS",
+      "Blocks.MUD_BRICK_STAIRS",
+      "Blocks.MOSSY_COBBLESTONE_STAIRS",
+      "Blocks.BLACKSTONE_STAIRS",
+      "Blocks.POLISHED_BLACKSTONE_BRICK_STAIRS",
+      "Blocks.POLISHED_BLACKSTONE_STAIRS",
+      "Blocks.CUT_COPPER_STAIRS",
+      "Blocks.EXPOSED_CUT_COPPER_STAIRS",
+      "Blocks.WEATHERED_CUT_COPPER_STAIRS",
+      "Blocks.OXIDIZED_CUT_COPPER_STAIRS",
+      "Blocks.WAXED_CUT_COPPER_STAIRS",
+      "Blocks.WAXED_EXPOSED_CUT_COPPER_STAIRS",
+      "Blocks.WAXED_WEATHERED_CUT_COPPER_STAIRS",
+      "Blocks.WAXED_OXIDIZED_CUT_COPPER_STAIRS",
+      "Blocks.SMOOTH_QUARTZ_STAIRS",
+      "Blocks.SANDSTONE_STAIRS",
+      "Blocks.SMOOTH_SANDSTONE_STAIRS",
+      "Blocks.RED_SANDSTONE_STAIRS",
+      "Blocks.SMOOTH_RED_SANDSTONE_STAIRS",
+      "Blocks.OAK_STAIRS",
+      "Blocks.SPRUCE_STAIRS",
+      "Blocks.BIRCH_STAIRS",
+      "Blocks.JUNGLE_STAIRS",
+      "Blocks.ACACIA_STAIRS",
+      "Blocks.DARK_OAK_STAIRS",
+      "Blocks.PALE_OAK_STAIRS",
+      "Blocks.CRIMSON_STAIRS",
+      "Blocks.WARPED_STAIRS",
+      "Blocks.MANGROVE_STAIRS",
+      "Blocks.CHERRY_STAIRS",
+      "Blocks.BAMBOO_STAIRS",
+      "Blocks.BAMBOO_MOSAIC_STAIRS",
+      "Blocks.STONE_STAIRS",
+      "Blocks.BRICK_STAIRS",
+      "Blocks.STONE_BRICK_STAIRS",
+      "Blocks.NETHER_BRICK_STAIRS",
+      "Blocks.QUARTZ_STAIRS",
+      "Blocks.PURPUR_STAIRS",
+      "Blocks.RED_NETHER_BRICK_STAIRS",
+      "Blocks.MOSSY_STONE_BRICK_STAIRS",
+      "Blocks.RESIN_BRICK_STAIRS",
+      "Blocks.END_STONE_BRICK_STAIRS",
+      "Blocks.PRISMARINE_STAIRS",
+      "Blocks.PRISMARINE_BRICK_STAIRS",
+      "Blocks.DARK_PRISMARINE_STAIRS"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -187,37 +71,17 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "Blocks.REDSTONE_ORE"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Blocks.REDSTONE_ORE"
-      },
-      {
-        "value": "Items.REDSTONE"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Blocks.REDSTONE_ORE"
-      },
-      {
-        "value": "Items.REDSTONE"
-      },
-      {
-        "value": "Items.REDSTONE"
-      }
+      "Blocks.REDSTONE_ORE",
+      "",
+      "",
+      "Blocks.REDSTONE_ORE",
+      "Items.REDSTONE",
+      "",
+      "Blocks.REDSTONE_ORE",
+      "Items.REDSTONE",
+      "Items.REDSTONE"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:RedstoneOreStairs"
-    },
+    "recipeReturnStack": "CUSTOM:RedstoneOreStairs",
     "name": "redstone_ore_stairs_recipe",
     "namespace": "mod"
   }

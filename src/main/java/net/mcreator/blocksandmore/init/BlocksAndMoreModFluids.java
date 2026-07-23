@@ -5,7 +5,7 @@ package net.mcreator.blocksandmore.init;
 
 import net.minecraft.world.level.material.Fluid;
 import net.minecraft.world.level.material.FlowingFluid;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.Registry;
 
@@ -24,6 +24,7 @@ public class BlocksAndMoreModFluids {
 	public static void load() {
 		LIQUID_SUGAR = register("liquid_sugar", LiquidSugarFluid.Source::new);
 		FLOWING_LIQUID_SUGAR = register("flowing_liquid_sugar", LiquidSugarFluid.Flowing::new);
+		LiquidSugarFluid.load();
 	}
 
 	@Environment(EnvType.CLIENT)
@@ -32,6 +33,6 @@ public class BlocksAndMoreModFluids {
 	}
 
 	private static <F extends Fluid> F register(String registryname, Supplier<F> element) {
-		return (F) Registry.register(BuiltInRegistries.FLUID, ResourceLocation.fromNamespaceAndPath(BlocksAndMoreMod.MODID, registryname), element.get());
+		return (F) Registry.register(BuiltInRegistries.FLUID, Identifier.fromNamespaceAndPath(BlocksAndMoreMod.MODID, registryname), element.get());
 	}
 }

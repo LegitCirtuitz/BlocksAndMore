@@ -1,14 +1,12 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 5,
     "group": "",
     "unlockingItems": [
-      {
-        "value": "Blocks.NETHERITE_BLOCK"
-      }
+      "Blocks.NETHERITE_BLOCK"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -16,37 +14,17 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "Blocks.BEACON"
-      },
-      {
-        "value": "Blocks.NETHERITE_BLOCK"
-      },
-      {
-        "value": "Blocks.BEACON"
-      },
-      {
-        "value": "Blocks.NETHERITE_BLOCK"
-      },
-      {
-        "value": "Blocks.BEACON"
-      },
-      {
-        "value": "Blocks.NETHERITE_BLOCK"
-      },
-      {
-        "value": "Blocks.BEACON"
-      },
-      {
-        "value": "Blocks.NETHERITE_BLOCK"
-      },
-      {
-        "value": "Blocks.BEACON"
-      }
+      "Blocks.BEACON",
+      "Blocks.NETHERITE_BLOCK",
+      "Blocks.BEACON",
+      "Blocks.NETHERITE_BLOCK",
+      "Blocks.BEACON",
+      "Blocks.NETHERITE_BLOCK",
+      "Blocks.BEACON",
+      "Blocks.NETHERITE_BLOCK",
+      "Blocks.BEACON"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:BeaconStairs"
-    },
+    "recipeReturnStack": "CUSTOM:BeaconStairs",
     "name": "beacon_stairs_recipe",
     "namespace": "mod"
   }

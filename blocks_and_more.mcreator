@@ -1919,147 +1919,324 @@
         ]
       },
       "path": "~/Blocks/Slabs/Concrete Slabs/BrownConcreteSlab"
+    },
+    {
+      "name": "AmethystBlade",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_blade",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/blocks_and_more/models/item/amethyst_blade.json",
+          "src/main/resources/assets/blocks_and_more/items/amethyst_blade.json",
+          "src/main/java/net/mcreator/blocksandmore/item/AmethystBladeItem.java"
+        ]
+      },
+      "path": "~/Items/AmethystBlade"
+    },
+    {
+      "name": "AmethystShardRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_shard_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/blocks_and_more/advancement/recipes/amethyst_shard_recipe.json",
+          "src/main/resources/data/blocks_and_more/recipe/amethyst_shard_recipe.json"
+        ]
+      },
+      "path": "~/Items/AmethystBlade"
+    },
+    {
+      "name": "AmethystBladeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_blade_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/blocks_and_more/recipe/amethyst_blade_recipe.json",
+          "src/main/resources/data/blocks_and_more/advancement/recipes/amethyst_blade_recipe.json"
+        ]
+      },
+      "path": "~/Items/AmethystBlade"
+    },
+    {
+      "name": "WhiteConcreteStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_concrete_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/blocks_and_more/items/white_concrete_stairs.json",
+          "src/main/resources/assets/blocks_and_more/models/item/white_concrete_stairs.json",
+          "src/main/java/net/mcreator/blocksandmore/block/WhiteConcreteStairsBlock.java",
+          "src/main/resources/data/blocks_and_more/loot_table/blocks/white_concrete_stairs.json",
+          "src/main/resources/assets/blocks_and_more/models/block/white_concrete_stairs.json",
+          "src/main/resources/assets/blocks_and_more/models/block/white_concrete_stairs_inner.json",
+          "src/main/resources/assets/blocks_and_more/blockstates/white_concrete_stairs.json",
+          "src/main/resources/assets/blocks_and_more/models/block/white_concrete_stairs_outer.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/ConcreteStairs/WhiteConcreteStairs"
+    },
+    {
+      "name": "WhiteConcreteStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_concrete_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/blocks_and_more/advancement/recipes/white_concrete_stairs_recipe.json",
+          "src/main/resources/data/blocks_and_more/recipe/white_concrete_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/ConcreteStairs/WhiteConcreteStairs"
+    },
+    {
+      "name": "LightGrayConcreteStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_concrete_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/blocks_and_more/blockstates/light_gray_concrete_stairs.json",
+          "src/main/resources/assets/blocks_and_more/items/light_gray_concrete_stairs.json",
+          "src/main/java/net/mcreator/blocksandmore/block/LightGrayConcreteStairsBlock.java",
+          "src/main/resources/data/blocks_and_more/loot_table/blocks/light_gray_concrete_stairs.json",
+          "src/main/resources/assets/blocks_and_more/models/block/light_gray_concrete_stairs_outer.json",
+          "src/main/resources/assets/blocks_and_more/models/block/light_gray_concrete_stairs.json",
+          "src/main/resources/assets/blocks_and_more/models/block/light_gray_concrete_stairs_inner.json",
+          "src/main/resources/assets/blocks_and_more/models/item/light_gray_concrete_stairs.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/ConcreteStairs/LightGrayConcreteStairs"
+    },
+    {
+      "name": "LightGrayConcreteStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_concrete_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/blocks_and_more/recipe/light_gray_concrete_stairs_recipe.json",
+          "src/main/resources/data/blocks_and_more/advancement/recipes/light_gray_concrete_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/ConcreteStairs/LightGrayConcreteStairs"
+    },
+    {
+      "name": "DeepslateBedrock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_bedrock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/blocksandmore/block/DeepslateBedrockBlock.java",
+          "src/main/resources/data/blocks_and_more/worldgen/configured_feature/deepslate_bedrock.json",
+          "src/main/resources/data/blocks_and_more/loot_table/blocks/deepslate_bedrock.json",
+          "src/main/resources/assets/blocks_and_more/models/block/deepslate_bedrock.json",
+          "src/main/resources/assets/blocks_and_more/models/item/deepslate_bedrock.json",
+          "src/main/resources/assets/blocks_and_more/blockstates/deepslate_bedrock.json",
+          "src/main/resources/data/blocks_and_more/worldgen/placed_feature/deepslate_bedrock.json",
+          "src/main/resources/assets/blocks_and_more/items/deepslate_bedrock.json"
+        ]
+      },
+      "path": "~/Blocks/BasicBlocks/DeepslateBedrock"
+    },
+    {
+      "name": "DeepslateBedrockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_bedrock_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/blocks_and_more/advancement/recipes/deepslate_bedrock_recipe.json",
+          "src/main/resources/data/blocks_and_more/recipe/deepslate_bedrock_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/BasicBlocks/DeepslateBedrock"
+    },
+    {
+      "name": "DeepslateBedrockSmelt",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_bedrock_smelt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/blocks_and_more/advancement/recipes/deepslate_bedrock_smelt.json",
+          "src/main/resources/data/blocks_and_more/recipe/deepslate_bedrock_smelt.json"
+        ]
+      },
+      "path": "~/Blocks/BasicBlocks/DeepslateBedrock"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
+    "ITEMS:blocks_and_more:amethyst_blade_repair_items": [
+      "~AmethystBlade@Items.AMETHYST_SHARD"
+    ],
     "BLOCKS:minecraft:stairs": [
-      "~CUSTOM:WarpedStemStairs",
-      "~CUSTOM:CrimsonStemStairs",
-      "~CUSTOM:PaleOakLogStairs",
-      "~CUSTOM:CherryLogStairs",
-      "~CUSTOM:MangroveLogStairs",
-      "~CUSTOM:JungleLogStairs",
-      "~CUSTOM:BirchLogStairs",
-      "~CUSTOM:AcaciaLogStairs",
-      "~CUSTOM:SpruceLogStairs",
-      "~CUSTOM:RedstoneOreStairs",
-      "~CUSTOM:RedstoneStairs",
-      "~CUSTOM:IronOreStairs",
-      "~CUSTOM:DarkOakLogStairs",
-      "~CUSTOM:DiamondOreStairs",
-      "~CUSTOM:AmethystStairs",
-      "~CUSTOM:OakLogStairs",
-      "~CUSTOM:DeepslateDiamondStairs",
-      "~CUSTOM:DeepslateEmeraldOreStairs",
-      "~CUSTOM:EmeraldOreStairs",
-      "~CUSTOM:WemmbuStair",
-      "~CUSTOM:DiamondStair",
-      "~CUSTOM:EmeraldStair",
-      "~CUSTOM:CoalStairs",
-      "~CUSTOM:GoldStairs",
-      "~CUSTOM:BlueConcreteStairs",
-      "~CUSTOM:CyanConcreteStairs",
-      "~CUSTOM:LightBlueConcreteStairs",
-      "~CUSTOM:IronStairs",
-      "~CUSTOM:BeaconStairs",
-      "~CUSTOM:GreenConcreteStairs",
-      "~CUSTOM:YellowConcreteStairs",
-      "~CUSTOM:OrangeConcreteStairs",
-      "~CUSTOM:RedConcreteStairs"
+      "~LightGrayConcreteStairs@CUSTOM:LightGrayConcreteStairs",
+      "~WhiteConcreteStairs@CUSTOM:WhiteConcreteStairs",
+      "~WarpedStemStairs@CUSTOM:WarpedStemStairs",
+      "~CrimsonStemStairs@CUSTOM:CrimsonStemStairs",
+      "~PaleOakLogStairs@CUSTOM:PaleOakLogStairs",
+      "~CherryLogStairs@CUSTOM:CherryLogStairs",
+      "~MangroveLogStairs@CUSTOM:MangroveLogStairs",
+      "~JungleLogStairs@CUSTOM:JungleLogStairs",
+      "~BirchLogStairs@CUSTOM:BirchLogStairs",
+      "~AcaciaLogStairs@CUSTOM:AcaciaLogStairs",
+      "~SpruceLogStairs@CUSTOM:SpruceLogStairs",
+      "~RedstoneOreStairs@CUSTOM:RedstoneOreStairs",
+      "~RedstoneStairs@CUSTOM:RedstoneStairs",
+      "~IronOreStairs@CUSTOM:IronOreStairs",
+      "~DarkOakLogStairs@CUSTOM:DarkOakLogStairs",
+      "~DiamondOreStairs@CUSTOM:DiamondOreStairs",
+      "~AmethystStairs@CUSTOM:AmethystStairs",
+      "~OakLogStairs@CUSTOM:OakLogStairs",
+      "~DeepslateDiamondStairs@CUSTOM:DeepslateDiamondStairs",
+      "~DeepslateEmeraldOreStairs@CUSTOM:DeepslateEmeraldOreStairs",
+      "~EmeraldOreStairs@CUSTOM:EmeraldOreStairs",
+      "~WemmbuStair@CUSTOM:WemmbuStair",
+      "~DiamondStair@CUSTOM:DiamondStair",
+      "~EmeraldStair@CUSTOM:EmeraldStair",
+      "~CoalStairs@CUSTOM:CoalStairs",
+      "~GoldStairs@CUSTOM:GoldStairs",
+      "~BlueConcreteStairs@CUSTOM:BlueConcreteStairs",
+      "~CyanConcreteStairs@CUSTOM:CyanConcreteStairs",
+      "~LightBlueConcreteStairs@CUSTOM:LightBlueConcreteStairs",
+      "~IronStairs@CUSTOM:IronStairs",
+      "~BeaconStairs@CUSTOM:BeaconStairs",
+      "~GreenConcreteStairs@CUSTOM:GreenConcreteStairs",
+      "~YellowConcreteStairs@CUSTOM:YellowConcreteStairs",
+      "~OrangeConcreteStairs@CUSTOM:OrangeConcreteStairs",
+      "~RedConcreteStairs@CUSTOM:RedConcreteStairs"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
-      "~CUSTOM:BrownConcreteSlab",
-      "~CUSTOM:GreenConcreteSlab",
-      "~CUSTOM:BlackConcreteSlab",
-      "~CUSTOM:BlueConcreteSlab",
-      "~CUSTOM:PurpleConcreteSlab",
-      "~CUSTOM:CyanConcreteSlab",
-      "~CUSTOM:RedSandstoneSlab",
-      "~CUSTOM:SandstoneSlab",
-      "~CUSTOM:BeaconSlab",
-      "~CUSTOM:LightGrayConcreteSlab",
-      "~CUSTOM:GrayConcreteSlab",
-      "~CUSTOM:PinkConcreteSlab",
-      "~CUSTOM:LimeConcreteSlab",
-      "~CUSTOM:LightBlueConcreteSlab",
-      "~CUSTOM:MagentaConcreteSlab",
-      "~CUSTOM:WhiteConcreteSlab",
-      "~CUSTOM:YellowConcreteSlab",
-      "~CUSTOM:RedConcreteSlab",
-      "~CUSTOM:OrangeConcreteSlab",
-      "~CUSTOM:RedstoneOreStairs",
-      "~CUSTOM:IronOreStairs",
-      "~CUSTOM:DeepslateDiamondStairs",
-      "~CUSTOM:WemmbuStair",
-      "~CUSTOM:EmeraldStair",
-      "~CUSTOM:CoalStairs",
-      "~CUSTOM:GoldStairs",
-      "~CUSTOM:BlueConcreteStairs",
-      "~CUSTOM:CyanConcreteStairs",
-      "~CUSTOM:LightBlueConcreteStairs",
-      "~CUSTOM:IronStairs",
-      "~CUSTOM:BlockOfMetal"
-    ],
-    "BLOCKS:minecraft:needs_iron_tool": [
-      "~CUSTOM:DeepslateDiamondStairs",
-      "~CUSTOM:EmeraldStair",
-      "~CUSTOM:GoldStairs",
-      "~CUSTOM:IronStairs"
-    ],
-    "BLOCKS:minecraft:replaceable": [
-      "~CUSTOM:LiquidSugar"
+      "~DeepslateBedrock@CUSTOM:DeepslateBedrock",
+      "~LightGrayConcreteStairs@CUSTOM:LightGrayConcreteStairs",
+      "~WhiteConcreteStairs@CUSTOM:WhiteConcreteStairs",
+      "~BrownConcreteSlab@CUSTOM:BrownConcreteSlab",
+      "~GreenConcreteSlab@CUSTOM:GreenConcreteSlab",
+      "~BlackConcreteSlab@CUSTOM:BlackConcreteSlab",
+      "~BlueConcreteSlab@CUSTOM:BlueConcreteSlab",
+      "~PurpleConcreteSlab@CUSTOM:PurpleConcreteSlab",
+      "~CyanConcreteSlab@CUSTOM:CyanConcreteSlab",
+      "~RedSandstoneSlab@CUSTOM:RedSandstoneSlab",
+      "~SandstoneSlab@CUSTOM:SandstoneSlab",
+      "~BeaconSlab@CUSTOM:BeaconSlab",
+      "~LightGrayConcreteSlab@CUSTOM:LightGrayConcreteSlab",
+      "~GrayConcreteSlab@CUSTOM:GrayConcreteSlab",
+      "~PinkConcreteSlab@CUSTOM:PinkConcreteSlab",
+      "~LimeConcreteSlab@CUSTOM:LimeConcreteSlab",
+      "~LightBlueConcreteSlab@CUSTOM:LightBlueConcreteSlab",
+      "~MagentaConcreteSlab@CUSTOM:MagentaConcreteSlab",
+      "~WhiteConcreteSlab@CUSTOM:WhiteConcreteSlab",
+      "~YellowConcreteSlab@CUSTOM:YellowConcreteSlab",
+      "~RedConcreteSlab@CUSTOM:RedConcreteSlab",
+      "~OrangeConcreteSlab@CUSTOM:OrangeConcreteSlab",
+      "~RedstoneOreStairs@CUSTOM:RedstoneOreStairs",
+      "~IronOreStairs@CUSTOM:IronOreStairs",
+      "~DeepslateDiamondStairs@CUSTOM:DeepslateDiamondStairs",
+      "~WemmbuStair@CUSTOM:WemmbuStair",
+      "~EmeraldStair@CUSTOM:EmeraldStair",
+      "~CoalStairs@CUSTOM:CoalStairs",
+      "~GoldStairs@CUSTOM:GoldStairs",
+      "~BlueConcreteStairs@CUSTOM:BlueConcreteStairs",
+      "~CyanConcreteStairs@CUSTOM:CyanConcreteStairs",
+      "~LightBlueConcreteStairs@CUSTOM:LightBlueConcreteStairs",
+      "~IronStairs@CUSTOM:IronStairs",
+      "~OrangeConcreteStairs@CUSTOM:OrangeConcreteStairs",
+      "~BlockOfMetal@CUSTOM:BlockOfMetal"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
-      "~CUSTOM:BrownConcreteSlab",
-      "~CUSTOM:GreenConcreteSlab",
-      "~CUSTOM:BlackConcreteSlab",
-      "~CUSTOM:BlueConcreteSlab",
-      "~CUSTOM:PurpleConcreteSlab",
-      "~CUSTOM:CyanConcreteSlab",
-      "~CUSTOM:BeaconSlab",
-      "~CUSTOM:LightGrayConcreteSlab",
-      "~CUSTOM:GrayConcreteSlab",
-      "~CUSTOM:PinkConcreteSlab",
-      "~CUSTOM:LimeConcreteSlab",
-      "~CUSTOM:LightBlueConcreteSlab",
-      "~CUSTOM:MagentaConcreteSlab",
-      "~CUSTOM:WhiteConcreteSlab",
-      "~CUSTOM:YellowConcreteSlab",
-      "~CUSTOM:RedConcreteSlab",
-      "~CUSTOM:OrangeConcreteSlab",
-      "~CUSTOM:RedstoneOreStairs",
-      "~CUSTOM:IronOreStairs",
-      "~CUSTOM:WemmbuStair",
-      "~CUSTOM:CoalStairs",
-      "~CUSTOM:BlueConcreteStairs",
-      "~CUSTOM:CyanConcreteStairs",
-      "~CUSTOM:LightBlueConcreteStairs"
+      "~LightGrayConcreteStairs@CUSTOM:LightGrayConcreteStairs",
+      "~WhiteConcreteStairs@CUSTOM:WhiteConcreteStairs",
+      "~BrownConcreteSlab@CUSTOM:BrownConcreteSlab",
+      "~GreenConcreteSlab@CUSTOM:GreenConcreteSlab",
+      "~BlackConcreteSlab@CUSTOM:BlackConcreteSlab",
+      "~BlueConcreteSlab@CUSTOM:BlueConcreteSlab",
+      "~PurpleConcreteSlab@CUSTOM:PurpleConcreteSlab",
+      "~CyanConcreteSlab@CUSTOM:CyanConcreteSlab",
+      "~BeaconSlab@CUSTOM:BeaconSlab",
+      "~LightGrayConcreteSlab@CUSTOM:LightGrayConcreteSlab",
+      "~GrayConcreteSlab@CUSTOM:GrayConcreteSlab",
+      "~PinkConcreteSlab@CUSTOM:PinkConcreteSlab",
+      "~LimeConcreteSlab@CUSTOM:LimeConcreteSlab",
+      "~LightBlueConcreteSlab@CUSTOM:LightBlueConcreteSlab",
+      "~MagentaConcreteSlab@CUSTOM:MagentaConcreteSlab",
+      "~WhiteConcreteSlab@CUSTOM:WhiteConcreteSlab",
+      "~YellowConcreteSlab@CUSTOM:YellowConcreteSlab",
+      "~RedConcreteSlab@CUSTOM:RedConcreteSlab",
+      "~OrangeConcreteSlab@CUSTOM:OrangeConcreteSlab",
+      "~RedstoneOreStairs@CUSTOM:RedstoneOreStairs",
+      "~IronOreStairs@CUSTOM:IronOreStairs",
+      "~WemmbuStair@CUSTOM:WemmbuStair",
+      "~CoalStairs@CUSTOM:CoalStairs",
+      "~BlueConcreteStairs@CUSTOM:BlueConcreteStairs",
+      "~CyanConcreteStairs@CUSTOM:CyanConcreteStairs",
+      "~LightBlueConcreteStairs@CUSTOM:LightBlueConcreteStairs",
+      "~OrangeConcreteStairs@CUSTOM:OrangeConcreteStairs"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~DeepslateDiamondStairs@CUSTOM:DeepslateDiamondStairs",
+      "~EmeraldStair@CUSTOM:EmeraldStair",
+      "~GoldStairs@CUSTOM:GoldStairs",
+      "~IronStairs@CUSTOM:IronStairs"
+    ],
+    "BLOCKS:minecraft:replaceable": [
+      "~LiquidSugar@CUSTOM:LiquidSugar"
     ],
     "BLOCKS:minecraft:mineable/axe": [
-      "~CUSTOM:WarpedStemStairs",
-      "~CUSTOM:CrimsonStemStairs",
-      "~CUSTOM:PaleOakLogStairs",
-      "~CUSTOM:CherryLogStairs",
-      "~CUSTOM:MangroveLogStairs",
-      "~CUSTOM:JungleLogStairs",
-      "~CUSTOM:BirchLogStairs",
-      "~CUSTOM:AcaciaLogStairs",
-      "~CUSTOM:SpruceLogStairs",
-      "~CUSTOM:DarkOakLogStairs",
-      "~CUSTOM:OakLogStairs"
+      "~WarpedStemStairs@CUSTOM:WarpedStemStairs",
+      "~CrimsonStemStairs@CUSTOM:CrimsonStemStairs",
+      "~PaleOakLogStairs@CUSTOM:PaleOakLogStairs",
+      "~CherryLogStairs@CUSTOM:CherryLogStairs",
+      "~MangroveLogStairs@CUSTOM:MangroveLogStairs",
+      "~JungleLogStairs@CUSTOM:JungleLogStairs",
+      "~BirchLogStairs@CUSTOM:BirchLogStairs",
+      "~AcaciaLogStairs@CUSTOM:AcaciaLogStairs",
+      "~SpruceLogStairs@CUSTOM:SpruceLogStairs",
+      "~DarkOakLogStairs@CUSTOM:DarkOakLogStairs",
+      "~OakLogStairs@CUSTOM:OakLogStairs"
     ],
     "BLOCKS:minecraft:slabs": [
-      "~CUSTOM:BrownConcreteSlab",
-      "~CUSTOM:GreenConcreteSlab",
-      "~CUSTOM:BlackConcreteSlab",
-      "~CUSTOM:BlueConcreteSlab",
-      "~CUSTOM:PurpleConcreteSlab",
-      "~CUSTOM:CyanConcreteSlab",
-      "~CUSTOM:RedSandstoneSlab",
-      "~CUSTOM:SandstoneSlab",
-      "~CUSTOM:BeaconSlab",
-      "~CUSTOM:LightGrayConcreteSlab",
-      "~CUSTOM:GrayConcreteSlab",
-      "~CUSTOM:PinkConcreteSlab",
-      "~CUSTOM:LimeConcreteSlab",
-      "~CUSTOM:LightBlueConcreteSlab",
-      "~CUSTOM:MagentaConcreteSlab",
-      "~CUSTOM:WhiteConcreteSlab",
-      "~CUSTOM:YellowConcreteSlab",
-      "~CUSTOM:RedConcreteSlab",
-      "~CUSTOM:OrangeConcreteSlab"
+      "~BrownConcreteSlab@CUSTOM:BrownConcreteSlab",
+      "~GreenConcreteSlab@CUSTOM:GreenConcreteSlab",
+      "~BlackConcreteSlab@CUSTOM:BlackConcreteSlab",
+      "~BlueConcreteSlab@CUSTOM:BlueConcreteSlab",
+      "~PurpleConcreteSlab@CUSTOM:PurpleConcreteSlab",
+      "~CyanConcreteSlab@CUSTOM:CyanConcreteSlab",
+      "~RedSandstoneSlab@CUSTOM:RedSandstoneSlab",
+      "~SandstoneSlab@CUSTOM:SandstoneSlab",
+      "~BeaconSlab@CUSTOM:BeaconSlab",
+      "~LightGrayConcreteSlab@CUSTOM:LightGrayConcreteSlab",
+      "~GrayConcreteSlab@CUSTOM:GrayConcreteSlab",
+      "~PinkConcreteSlab@CUSTOM:PinkConcreteSlab",
+      "~LimeConcreteSlab@CUSTOM:LimeConcreteSlab",
+      "~LightBlueConcreteSlab@CUSTOM:LightBlueConcreteSlab",
+      "~MagentaConcreteSlab@CUSTOM:MagentaConcreteSlab",
+      "~WhiteConcreteSlab@CUSTOM:WhiteConcreteSlab",
+      "~YellowConcreteSlab@CUSTOM:YellowConcreteSlab",
+      "~RedConcreteSlab@CUSTOM:RedConcreteSlab",
+      "~OrangeConcreteSlab@CUSTOM:OrangeConcreteSlab"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~AmethystBlade@CUSTOM:AmethystBlade"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~DeepslateBedrock@CUSTOM:DeepslateBedrock"
     ]
   },
   "tab_element_order": {},
@@ -2122,18 +2299,22 @@
       "item.blocks_and_more.blue_concrete_slab": "Blue Concrete Slab",
       "item.blocks_and_more.black_concrete_slab": "Black Concrete Slab",
       "item.blocks_and_more.green_concrete_slab": "Green Concrete Slab",
-      "item.blocks_and_more.brown_concrete_slab": "Brown Concrete Slab"
+      "item.blocks_and_more.brown_concrete_slab": "Brown Concrete Slab",
+      "item.blocks_and_more.amethyst_blade": "Amethyst Blade",
+      "item.blocks_and_more.white_concrete_stairs": "White Concrete Stairs",
+      "item.blocks_and_more.light_gray_concrete_stairs": "Light Gray Concrete Stairs",
+      "item.blocks_and_more.deepslate_bedrock": "Deepslate Bedrock"
     }
   },
   "metadata": {
     "files": [
       "src/main/java/net/mcreator/blocksandmore/init/BlocksAndMoreModFluids.java",
       "src/main/resources/data/minecraft/tags/fluid/water.json",
-      "src/main/java/net/mcreator/blocksandmore/init/BlocksAndMoreModBlocksRenderers.java",
       "src/main/java/net/mcreator/blocksandmore/init/BlocksAndMoreModBlocks.java",
       "src/main/java/net/mcreator/blocksandmore/mixin/RepairItemRecipeMixin.java",
       "src/main/java/net/mcreator/blocksandmore/mixin/ServerPlayerMixin.java",
       "src/main/java/net/mcreator/blocksandmore/init/BlocksAndMoreModItems.java",
+      "src/main/java/net/mcreator/blocksandmore/init/BlocksAndMoreModFeatures.java",
       "src/main/java/net/mcreator/blocksandmore/mixin/ItemStackMixin.java",
       "src/main/java/net/mcreator/blocksandmore/event/LivingEntityEvents.java",
       "src/main/java/net/mcreator/blocksandmore/BlocksAndMoreMod.java",
@@ -2215,6 +2396,14 @@
                   },
                   {
                     "name": "BlueConcreteStairs",
+                    "children": []
+                  },
+                  {
+                    "name": "WhiteConcreteStairs",
+                    "children": []
+                  },
+                  {
+                    "name": "LightGrayConcreteStairs",
                     "children": []
                   }
                 ]
@@ -2351,6 +2540,10 @@
               {
                 "name": "BlockOfMetal",
                 "children": []
+              },
+              {
+                "name": "DeepslateBedrock",
+                "children": []
               }
             ]
           },
@@ -2446,6 +2639,15 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Items",
+        "children": [
+          {
+            "name": "AmethystBlade",
+            "children": []
+          }
+        ]
       }
     ]
   },
@@ -2463,9 +2665,9 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "fabric-1.21.8",
+    "currentGenerator": "fabric-26.1.2",
     "credits": "@ItsCirtwitz on YT",
     "modElementsPackage": "net.mcreator.blocksandmore"
   },
-  "mcreatorVersion": 202600114619
+  "mcreatorVersion": 202600229418
 }

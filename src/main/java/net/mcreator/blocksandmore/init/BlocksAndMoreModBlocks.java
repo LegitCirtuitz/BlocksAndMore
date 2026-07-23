@@ -6,8 +6,8 @@ package net.mcreator.blocksandmore.init;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.Registries;
 
 import net.mcreator.blocksandmore.block.*;
@@ -70,6 +70,9 @@ public class BlocksAndMoreModBlocks {
 	public static Block BLACK_CONCRETE_SLAB;
 	public static Block GREEN_CONCRETE_SLAB;
 	public static Block BROWN_CONCRETE_SLAB;
+	public static Block WHITE_CONCRETE_STAIRS;
+	public static Block LIGHT_GRAY_CONCRETE_STAIRS;
+	public static Block DEEPSLATE_BEDROCK;
 
 	public static void load() {
 		RED_CONCRETE_STAIRS = register("red_concrete_stairs", RedConcreteStairsBlock::new);
@@ -126,11 +129,14 @@ public class BlocksAndMoreModBlocks {
 		BLACK_CONCRETE_SLAB = register("black_concrete_slab", BlackConcreteSlabBlock::new);
 		GREEN_CONCRETE_SLAB = register("green_concrete_slab", GreenConcreteSlabBlock::new);
 		BROWN_CONCRETE_SLAB = register("brown_concrete_slab", BrownConcreteSlabBlock::new);
+		WHITE_CONCRETE_STAIRS = register("white_concrete_stairs", WhiteConcreteStairsBlock::new);
+		LIGHT_GRAY_CONCRETE_STAIRS = register("light_gray_concrete_stairs", LightGrayConcreteStairsBlock::new);
+		DEEPSLATE_BEDROCK = register("deepslate_bedrock", DeepslateBedrockBlock::new);
 	}
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 	private static <B extends Block> B register(String name, Function<BlockBehaviour.Properties, B> supplier) {
-		return (B) Blocks.register(ResourceKey.create(Registries.BLOCK, ResourceLocation.fromNamespaceAndPath(BlocksAndMoreMod.MODID, name)), (Function<BlockBehaviour.Properties, Block>) supplier, BlockBehaviour.Properties.of());
+		return (B) Blocks.register(ResourceKey.create(Registries.BLOCK, Identifier.fromNamespaceAndPath(BlocksAndMoreMod.MODID, name)), (Function<BlockBehaviour.Properties, Block>) supplier, BlockBehaviour.Properties.of());
 	}
 }

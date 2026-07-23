@@ -5,6 +5,5 @@
     "bottom": "minecraft:block/orange_concrete",
     "top": "minecraft:block/orange_concrete",
     "side": "minecraft:block/orange_concrete"
-  },
-  "render_type": "solid"
+  }
 }
