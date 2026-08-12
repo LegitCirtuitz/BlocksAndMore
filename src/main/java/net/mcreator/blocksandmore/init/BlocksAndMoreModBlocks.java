@@ -16,17 +16,10 @@ import net.mcreator.blocksandmore.BlocksAndMoreMod;
 import java.util.function.Function;
 
 public class BlocksAndMoreModBlocks {
-	public static Block RED_CONCRETE_STAIRS;
 	public static Block BLOCK_OF_METAL;
-	public static Block ORANGE_CONCRETE_STAIRS;
-	public static Block YELLOW_CONCRETE_STAIRS;
-	public static Block GREEN_CONCRETE_STAIRS;
 	public static Block BEACON_STAIRS;
 	public static Block IRON_STAIRS;
 	public static Block LIQUID_SUGAR;
-	public static Block LIGHT_BLUE_CONCRETE_STAIRS;
-	public static Block CYAN_CONCRETE_STAIRS;
-	public static Block BLUE_CONCRETE_STAIRS;
 	public static Block GOLD_STAIRS;
 	public static Block COAL_STAIRS;
 	public static Block EMERALD_STAIR;
@@ -51,41 +44,18 @@ public class BlocksAndMoreModBlocks {
 	public static Block PALE_OAK_LOG_STAIRS;
 	public static Block CRIMSON_STEM_STAIRS;
 	public static Block WARPED_STEM_STAIRS;
-	public static Block ORANGE_CONCRETE_SLAB;
-	public static Block RED_CONCRETE_SLAB;
-	public static Block YELLOW_CONCRETE_SLAB;
-	public static Block WHITE_CONCRETE_SLAB;
-	public static Block MAGENTA_CONCRETE_SLAB;
-	public static Block LIGHT_BLUE_CONCRETE_SLAB;
-	public static Block LIME_CONCRETE_SLAB;
-	public static Block PINK_CONCRETE_SLAB;
-	public static Block GRAY_CONCRETE_SLAB;
-	public static Block LIGHT_GRAY_CONCRETE_SLAB;
 	public static Block BEACON_SLAB;
 	public static Block SANDSTONE_SLAB;
 	public static Block RED_SANDSTONE_SLAB;
-	public static Block CYAN_CONCRETE_SLAB;
-	public static Block PURPLE_CONCRETE_SLAB;
-	public static Block BLUE_CONCRETE_SLAB;
-	public static Block BLACK_CONCRETE_SLAB;
-	public static Block GREEN_CONCRETE_SLAB;
-	public static Block BROWN_CONCRETE_SLAB;
-	public static Block WHITE_CONCRETE_STAIRS;
-	public static Block LIGHT_GRAY_CONCRETE_STAIRS;
 	public static Block DEEPSLATE_BEDROCK;
+	public static Block RED_CONCRETE_WALL;
+	public static Block ORANGE_CONCRETE_WALL;
 
 	public static void load() {
-		RED_CONCRETE_STAIRS = register("red_concrete_stairs", RedConcreteStairsBlock::new);
 		BLOCK_OF_METAL = register("block_of_metal", BlockOfMetalBlock::new);
-		ORANGE_CONCRETE_STAIRS = register("orange_concrete_stairs", OrangeConcreteStairsBlock::new);
-		YELLOW_CONCRETE_STAIRS = register("yellow_concrete_stairs", YellowConcreteStairsBlock::new);
-		GREEN_CONCRETE_STAIRS = register("green_concrete_stairs", GreenConcreteStairsBlock::new);
 		BEACON_STAIRS = register("beacon_stairs", BeaconStairsBlock::new);
 		IRON_STAIRS = register("iron_stairs", IronStairsBlock::new);
 		LIQUID_SUGAR = register("liquid_sugar", LiquidSugarBlock::new);
-		LIGHT_BLUE_CONCRETE_STAIRS = register("light_blue_concrete_stairs", LightBlueConcreteStairsBlock::new);
-		CYAN_CONCRETE_STAIRS = register("cyan_concrete_stairs", CyanConcreteStairsBlock::new);
-		BLUE_CONCRETE_STAIRS = register("blue_concrete_stairs", BlueConcreteStairsBlock::new);
 		GOLD_STAIRS = register("gold_stairs", GoldStairsBlock::new);
 		COAL_STAIRS = register("coal_stairs", CoalStairsBlock::new);
 		EMERALD_STAIR = register("emerald_stair", EmeraldStairBlock::new);
@@ -110,28 +80,12 @@ public class BlocksAndMoreModBlocks {
 		PALE_OAK_LOG_STAIRS = register("pale_oak_log_stairs", PaleOakLogStairsBlock::new);
 		CRIMSON_STEM_STAIRS = register("crimson_stem_stairs", CrimsonStemStairsBlock::new);
 		WARPED_STEM_STAIRS = register("warped_stem_stairs", WarpedStemStairsBlock::new);
-		ORANGE_CONCRETE_SLAB = register("orange_concrete_slab", OrangeConcreteSlabBlock::new);
-		RED_CONCRETE_SLAB = register("red_concrete_slab", RedConcreteSlabBlock::new);
-		YELLOW_CONCRETE_SLAB = register("yellow_concrete_slab", YellowConcreteSlabBlock::new);
-		WHITE_CONCRETE_SLAB = register("white_concrete_slab", WhiteConcreteSlabBlock::new);
-		MAGENTA_CONCRETE_SLAB = register("magenta_concrete_slab", MagentaConcreteSlabBlock::new);
-		LIGHT_BLUE_CONCRETE_SLAB = register("light_blue_concrete_slab", LightBlueConcreteSlabBlock::new);
-		LIME_CONCRETE_SLAB = register("lime_concrete_slab", LimeConcreteSlabBlock::new);
-		PINK_CONCRETE_SLAB = register("pink_concrete_slab", PinkConcreteSlabBlock::new);
-		GRAY_CONCRETE_SLAB = register("gray_concrete_slab", GrayConcreteSlabBlock::new);
-		LIGHT_GRAY_CONCRETE_SLAB = register("light_gray_concrete_slab", LightGrayConcreteSlabBlock::new);
 		BEACON_SLAB = register("beacon_slab", BeaconSlabBlock::new);
 		SANDSTONE_SLAB = register("sandstone_slab", SandstoneSlabBlock::new);
 		RED_SANDSTONE_SLAB = register("red_sandstone_slab", RedSandstoneSlabBlock::new);
-		CYAN_CONCRETE_SLAB = register("cyan_concrete_slab", CyanConcreteSlabBlock::new);
-		PURPLE_CONCRETE_SLAB = register("purple_concrete_slab", PurpleConcreteSlabBlock::new);
-		BLUE_CONCRETE_SLAB = register("blue_concrete_slab", BlueConcreteSlabBlock::new);
-		BLACK_CONCRETE_SLAB = register("black_concrete_slab", BlackConcreteSlabBlock::new);
-		GREEN_CONCRETE_SLAB = register("green_concrete_slab", GreenConcreteSlabBlock::new);
-		BROWN_CONCRETE_SLAB = register("brown_concrete_slab", BrownConcreteSlabBlock::new);
-		WHITE_CONCRETE_STAIRS = register("white_concrete_stairs", WhiteConcreteStairsBlock::new);
-		LIGHT_GRAY_CONCRETE_STAIRS = register("light_gray_concrete_stairs", LightGrayConcreteStairsBlock::new);
 		DEEPSLATE_BEDROCK = register("deepslate_bedrock", DeepslateBedrockBlock::new);
+		RED_CONCRETE_WALL = register("red_concrete_wall", RedConcreteWallBlock::new);
+		ORANGE_CONCRETE_WALL = register("orange_concrete_wall", OrangeConcreteWallBlock::new);
 	}
 
 	// Start of user code block custom blocks

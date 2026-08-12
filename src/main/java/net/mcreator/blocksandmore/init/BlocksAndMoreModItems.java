@@ -19,17 +19,10 @@ import net.mcreator.blocksandmore.BlocksAndMoreMod;
 import java.util.function.Function;
 
 public class BlocksAndMoreModItems {
-	public static Item RED_CONCRETE_STAIRS;
 	public static Item BLOCK_OF_METAL;
-	public static Item ORANGE_CONCRETE_STAIRS;
-	public static Item YELLOW_CONCRETE_STAIRS;
-	public static Item GREEN_CONCRETE_STAIRS;
 	public static Item BEACON_STAIRS;
 	public static Item IRON_STAIRS;
 	public static Item LIQUID_SUGAR_BUCKET;
-	public static Item LIGHT_BLUE_CONCRETE_STAIRS;
-	public static Item CYAN_CONCRETE_STAIRS;
-	public static Item BLUE_CONCRETE_STAIRS;
 	public static Item GOLD_STAIRS;
 	public static Item COAL_STAIRS;
 	public static Item EMERALD_STAIR;
@@ -54,42 +47,19 @@ public class BlocksAndMoreModItems {
 	public static Item PALE_OAK_LOG_STAIRS;
 	public static Item CRIMSON_STEM_STAIRS;
 	public static Item WARPED_STEM_STAIRS;
-	public static Item ORANGE_CONCRETE_SLAB;
-	public static Item RED_CONCRETE_SLAB;
-	public static Item YELLOW_CONCRETE_SLAB;
-	public static Item WHITE_CONCRETE_SLAB;
-	public static Item MAGENTA_CONCRETE_SLAB;
-	public static Item LIGHT_BLUE_CONCRETE_SLAB;
-	public static Item LIME_CONCRETE_SLAB;
-	public static Item PINK_CONCRETE_SLAB;
-	public static Item GRAY_CONCRETE_SLAB;
-	public static Item LIGHT_GRAY_CONCRETE_SLAB;
 	public static Item BEACON_SLAB;
 	public static Item SANDSTONE_SLAB;
 	public static Item RED_SANDSTONE_SLAB;
-	public static Item CYAN_CONCRETE_SLAB;
-	public static Item PURPLE_CONCRETE_SLAB;
-	public static Item BLUE_CONCRETE_SLAB;
-	public static Item BLACK_CONCRETE_SLAB;
-	public static Item GREEN_CONCRETE_SLAB;
-	public static Item BROWN_CONCRETE_SLAB;
 	public static Item AMETHYST_BLADE;
-	public static Item WHITE_CONCRETE_STAIRS;
-	public static Item LIGHT_GRAY_CONCRETE_STAIRS;
 	public static Item DEEPSLATE_BEDROCK;
+	public static Item RED_CONCRETE_WALL;
+	public static Item ORANGE_CONCRETE_WALL;
 
 	public static void load() {
-		RED_CONCRETE_STAIRS = block(BlocksAndMoreModBlocks.RED_CONCRETE_STAIRS, "red_concrete_stairs");
 		BLOCK_OF_METAL = block(BlocksAndMoreModBlocks.BLOCK_OF_METAL, "block_of_metal", new Item.Properties().fireResistant());
-		ORANGE_CONCRETE_STAIRS = block(BlocksAndMoreModBlocks.ORANGE_CONCRETE_STAIRS, "orange_concrete_stairs");
-		YELLOW_CONCRETE_STAIRS = block(BlocksAndMoreModBlocks.YELLOW_CONCRETE_STAIRS, "yellow_concrete_stairs");
-		GREEN_CONCRETE_STAIRS = block(BlocksAndMoreModBlocks.GREEN_CONCRETE_STAIRS, "green_concrete_stairs");
 		BEACON_STAIRS = block(BlocksAndMoreModBlocks.BEACON_STAIRS, "beacon_stairs");
 		IRON_STAIRS = block(BlocksAndMoreModBlocks.IRON_STAIRS, "iron_stairs");
 		LIQUID_SUGAR_BUCKET = register("liquid_sugar_bucket", LiquidSugarItem::new);
-		LIGHT_BLUE_CONCRETE_STAIRS = block(BlocksAndMoreModBlocks.LIGHT_BLUE_CONCRETE_STAIRS, "light_blue_concrete_stairs");
-		CYAN_CONCRETE_STAIRS = block(BlocksAndMoreModBlocks.CYAN_CONCRETE_STAIRS, "cyan_concrete_stairs");
-		BLUE_CONCRETE_STAIRS = block(BlocksAndMoreModBlocks.BLUE_CONCRETE_STAIRS, "blue_concrete_stairs");
 		GOLD_STAIRS = block(BlocksAndMoreModBlocks.GOLD_STAIRS, "gold_stairs");
 		COAL_STAIRS = block(BlocksAndMoreModBlocks.COAL_STAIRS, "coal_stairs");
 		EMERALD_STAIR = block(BlocksAndMoreModBlocks.EMERALD_STAIR, "emerald_stair");
@@ -114,29 +84,13 @@ public class BlocksAndMoreModItems {
 		PALE_OAK_LOG_STAIRS = block(BlocksAndMoreModBlocks.PALE_OAK_LOG_STAIRS, "pale_oak_log_stairs");
 		CRIMSON_STEM_STAIRS = block(BlocksAndMoreModBlocks.CRIMSON_STEM_STAIRS, "crimson_stem_stairs");
 		WARPED_STEM_STAIRS = block(BlocksAndMoreModBlocks.WARPED_STEM_STAIRS, "warped_stem_stairs");
-		ORANGE_CONCRETE_SLAB = block(BlocksAndMoreModBlocks.ORANGE_CONCRETE_SLAB, "orange_concrete_slab");
-		RED_CONCRETE_SLAB = block(BlocksAndMoreModBlocks.RED_CONCRETE_SLAB, "red_concrete_slab");
-		YELLOW_CONCRETE_SLAB = block(BlocksAndMoreModBlocks.YELLOW_CONCRETE_SLAB, "yellow_concrete_slab");
-		WHITE_CONCRETE_SLAB = block(BlocksAndMoreModBlocks.WHITE_CONCRETE_SLAB, "white_concrete_slab");
-		MAGENTA_CONCRETE_SLAB = block(BlocksAndMoreModBlocks.MAGENTA_CONCRETE_SLAB, "magenta_concrete_slab");
-		LIGHT_BLUE_CONCRETE_SLAB = block(BlocksAndMoreModBlocks.LIGHT_BLUE_CONCRETE_SLAB, "light_blue_concrete_slab");
-		LIME_CONCRETE_SLAB = block(BlocksAndMoreModBlocks.LIME_CONCRETE_SLAB, "lime_concrete_slab");
-		PINK_CONCRETE_SLAB = block(BlocksAndMoreModBlocks.PINK_CONCRETE_SLAB, "pink_concrete_slab");
-		GRAY_CONCRETE_SLAB = block(BlocksAndMoreModBlocks.GRAY_CONCRETE_SLAB, "gray_concrete_slab");
-		LIGHT_GRAY_CONCRETE_SLAB = block(BlocksAndMoreModBlocks.LIGHT_GRAY_CONCRETE_SLAB, "light_gray_concrete_slab");
 		BEACON_SLAB = block(BlocksAndMoreModBlocks.BEACON_SLAB, "beacon_slab");
 		SANDSTONE_SLAB = block(BlocksAndMoreModBlocks.SANDSTONE_SLAB, "sandstone_slab");
 		RED_SANDSTONE_SLAB = block(BlocksAndMoreModBlocks.RED_SANDSTONE_SLAB, "red_sandstone_slab");
-		CYAN_CONCRETE_SLAB = block(BlocksAndMoreModBlocks.CYAN_CONCRETE_SLAB, "cyan_concrete_slab");
-		PURPLE_CONCRETE_SLAB = block(BlocksAndMoreModBlocks.PURPLE_CONCRETE_SLAB, "purple_concrete_slab");
-		BLUE_CONCRETE_SLAB = block(BlocksAndMoreModBlocks.BLUE_CONCRETE_SLAB, "blue_concrete_slab");
-		BLACK_CONCRETE_SLAB = block(BlocksAndMoreModBlocks.BLACK_CONCRETE_SLAB, "black_concrete_slab");
-		GREEN_CONCRETE_SLAB = block(BlocksAndMoreModBlocks.GREEN_CONCRETE_SLAB, "green_concrete_slab");
-		BROWN_CONCRETE_SLAB = block(BlocksAndMoreModBlocks.BROWN_CONCRETE_SLAB, "brown_concrete_slab");
 		AMETHYST_BLADE = register("amethyst_blade", AmethystBladeItem::new);
-		WHITE_CONCRETE_STAIRS = block(BlocksAndMoreModBlocks.WHITE_CONCRETE_STAIRS, "white_concrete_stairs");
-		LIGHT_GRAY_CONCRETE_STAIRS = block(BlocksAndMoreModBlocks.LIGHT_GRAY_CONCRETE_STAIRS, "light_gray_concrete_stairs");
 		DEEPSLATE_BEDROCK = block(BlocksAndMoreModBlocks.DEEPSLATE_BEDROCK, "deepslate_bedrock", new Item.Properties().rarity(Rarity.EPIC));
+		RED_CONCRETE_WALL = block(BlocksAndMoreModBlocks.RED_CONCRETE_WALL, "red_concrete_wall");
+		ORANGE_CONCRETE_WALL = block(BlocksAndMoreModBlocks.ORANGE_CONCRETE_WALL, "orange_concrete_wall");
 	}
 
 	// Start of user code block custom items

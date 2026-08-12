@@ -23,16 +23,10 @@ public class BlocksAndMoreModTabs {
 	public static void load() {
 		Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB, TAB_BLOCKS_AND_STUFF_1,
 				CreativeModeTab.builder(CreativeModeTab.Row.TOP, 0).title(Component.translatable("item_group.blocks_and_more.blocks_and_stuff_1")).icon(() -> new ItemStack(BlocksAndMoreModBlocks.GOLD_STAIRS)).displayItems((parameters, tabData) -> {
-					tabData.accept(BlocksAndMoreModBlocks.RED_CONCRETE_STAIRS.asItem());
 					tabData.accept(BlocksAndMoreModBlocks.BLOCK_OF_METAL.asItem());
-					tabData.accept(BlocksAndMoreModBlocks.ORANGE_CONCRETE_STAIRS.asItem());
-					tabData.accept(BlocksAndMoreModBlocks.YELLOW_CONCRETE_STAIRS.asItem());
 					tabData.accept(BlocksAndMoreModBlocks.BEACON_STAIRS.asItem());
 					tabData.accept(BlocksAndMoreModBlocks.IRON_STAIRS.asItem());
 					tabData.accept(BlocksAndMoreModItems.LIQUID_SUGAR_BUCKET);
-					tabData.accept(BlocksAndMoreModBlocks.LIGHT_BLUE_CONCRETE_STAIRS.asItem());
-					tabData.accept(BlocksAndMoreModBlocks.CYAN_CONCRETE_STAIRS.asItem());
-					tabData.accept(BlocksAndMoreModBlocks.BLUE_CONCRETE_STAIRS.asItem());
 					tabData.accept(BlocksAndMoreModBlocks.GOLD_STAIRS.asItem());
 					tabData.accept(BlocksAndMoreModBlocks.COAL_STAIRS.asItem());
 					tabData.accept(BlocksAndMoreModBlocks.EMERALD_STAIR.asItem());
@@ -57,28 +51,13 @@ public class BlocksAndMoreModTabs {
 					tabData.accept(BlocksAndMoreModBlocks.PALE_OAK_LOG_STAIRS.asItem());
 					tabData.accept(BlocksAndMoreModBlocks.CRIMSON_STEM_STAIRS.asItem());
 					tabData.accept(BlocksAndMoreModBlocks.WARPED_STEM_STAIRS.asItem());
-					tabData.accept(BlocksAndMoreModBlocks.ORANGE_CONCRETE_SLAB.asItem());
-					tabData.accept(BlocksAndMoreModBlocks.RED_CONCRETE_SLAB.asItem());
-					tabData.accept(BlocksAndMoreModBlocks.YELLOW_CONCRETE_SLAB.asItem());
-					tabData.accept(BlocksAndMoreModBlocks.WHITE_CONCRETE_SLAB.asItem());
-					tabData.accept(BlocksAndMoreModBlocks.LIGHT_BLUE_CONCRETE_SLAB.asItem());
-					tabData.accept(BlocksAndMoreModBlocks.LIME_CONCRETE_SLAB.asItem());
-					tabData.accept(BlocksAndMoreModBlocks.PINK_CONCRETE_SLAB.asItem());
-					tabData.accept(BlocksAndMoreModBlocks.GRAY_CONCRETE_SLAB.asItem());
-					tabData.accept(BlocksAndMoreModBlocks.LIGHT_GRAY_CONCRETE_SLAB.asItem());
 					tabData.accept(BlocksAndMoreModBlocks.BEACON_SLAB.asItem());
 					tabData.accept(BlocksAndMoreModBlocks.SANDSTONE_SLAB.asItem());
 					tabData.accept(BlocksAndMoreModBlocks.RED_SANDSTONE_SLAB.asItem());
-					tabData.accept(BlocksAndMoreModBlocks.CYAN_CONCRETE_SLAB.asItem());
-					tabData.accept(BlocksAndMoreModBlocks.PURPLE_CONCRETE_SLAB.asItem());
-					tabData.accept(BlocksAndMoreModBlocks.BLUE_CONCRETE_SLAB.asItem());
-					tabData.accept(BlocksAndMoreModBlocks.BLACK_CONCRETE_SLAB.asItem());
-					tabData.accept(BlocksAndMoreModBlocks.GREEN_CONCRETE_SLAB.asItem());
-					tabData.accept(BlocksAndMoreModBlocks.BROWN_CONCRETE_SLAB.asItem());
 					tabData.accept(BlocksAndMoreModItems.AMETHYST_BLADE);
-					tabData.accept(BlocksAndMoreModBlocks.WHITE_CONCRETE_STAIRS.asItem());
-					tabData.accept(BlocksAndMoreModBlocks.LIGHT_GRAY_CONCRETE_STAIRS.asItem());
 					tabData.accept(BlocksAndMoreModBlocks.DEEPSLATE_BEDROCK.asItem());
+					tabData.accept(BlocksAndMoreModBlocks.RED_CONCRETE_WALL.asItem());
+					tabData.accept(BlocksAndMoreModBlocks.ORANGE_CONCRETE_WALL.asItem());
 				}).build());
 		CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.TOOLS_AND_UTILITIES).register(tabData -> {
 			tabData.accept(BlocksAndMoreModItems.AMETHYST_BLADE);
