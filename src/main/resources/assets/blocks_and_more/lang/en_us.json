@@ -15,7 +15,7 @@
   "item.blocks_and_more.redstone_ore_stairs": "Redstone Ore Stairs",
   "item.blocks_and_more.spruce_log_stairs": "Spruce Log Stairs",
   "item.blocks_and_more.acacia_log_stairs": "Acacia Log Stairs",
-  "item_group.blocks_and_more.blocks_and_stuff_1": "Blocks And More ",
+  "item_group.blocks_and_more.blocks_and_stuff_1": "Buildy Blocks",
   "item.blocks_and_more.red_concrete_stairsw": "Red Concrete Stairs",
   "item.blocks_and_more.beacon_stairs": "Beacon Stairs",
   "item.blocks_and_more.iron_stairs": "Iron Stairs",
@@ -37,5 +37,12 @@
   "item.blocks_and_more.amethyst_blade": "Amethyst Blade",
   "item.blocks_and_more.deepslate_bedrock": "Deepslate Bedrock",
   "item.blocks_and_more.red_concrete_wall": "Red Concrete Wall",
-  "item.blocks_and_more.orange_concrete_wall": "Orange Concrete Wall"
+  "item.blocks_and_more.orange_concrete_wall": "Orange Concrete Wall",
+  "item.blocks_and_more.red_terracotta_stairs": "Red Terracotta Stairs",
+  "item.blocks_and_more.orange_terracotta_stairs": "Orange Terracotta Stairs",
+  "item.blocks_and_more.yellow_terracotta_stairs": "Yellow Terracotta Stairs",
+  "item.blocks_and_more.green_terracotta_stairs": "Green Terracotta Stairs",
+  "item_group.blocks_and_more.buildy_stairs": "Buildy Stairs",
+  "item_group.blocks_and_more.buildy_slabs": "Buildy Slabs",
+  "item_group.blocks_and_more.buildy_walls": "Buildy Walls"
 }

@@ -50,6 +50,10 @@ public class BlocksAndMoreModBlocks {
 	public static Block DEEPSLATE_BEDROCK;
 	public static Block RED_CONCRETE_WALL;
 	public static Block ORANGE_CONCRETE_WALL;
+	public static Block RED_TERRACOTTA_STAIRS;
+	public static Block ORANGE_TERRACOTTA_STAIRS;
+	public static Block YELLOW_TERRACOTTA_STAIRS;
+	public static Block GREEN_TERRACOTTA_STAIRS;
 
 	public static void load() {
 		BLOCK_OF_METAL = register("block_of_metal", BlockOfMetalBlock::new);
@@ -86,6 +90,10 @@ public class BlocksAndMoreModBlocks {
 		DEEPSLATE_BEDROCK = register("deepslate_bedrock", DeepslateBedrockBlock::new);
 		RED_CONCRETE_WALL = register("red_concrete_wall", RedConcreteWallBlock::new);
 		ORANGE_CONCRETE_WALL = register("orange_concrete_wall", OrangeConcreteWallBlock::new);
+		RED_TERRACOTTA_STAIRS = register("red_terracotta_stairs", RedTerracottaStairsBlock::new);
+		ORANGE_TERRACOTTA_STAIRS = register("orange_terracotta_stairs", OrangeTerracottaStairsBlock::new);
+		YELLOW_TERRACOTTA_STAIRS = register("yellow_terracotta_stairs", YellowTerracottaStairsBlock::new);
+		GREEN_TERRACOTTA_STAIRS = register("green_terracotta_stairs", GreenTerracottaStairsBlock::new);
 	}
 
 	// Start of user code block custom blocks

@@ -58,6 +58,9 @@ public class BlocksAndMoreModTabs {
 					tabData.accept(BlocksAndMoreModBlocks.DEEPSLATE_BEDROCK.asItem());
 					tabData.accept(BlocksAndMoreModBlocks.RED_CONCRETE_WALL.asItem());
 					tabData.accept(BlocksAndMoreModBlocks.ORANGE_CONCRETE_WALL.asItem());
+					tabData.accept(BlocksAndMoreModBlocks.RED_TERRACOTTA_STAIRS.asItem());
+					tabData.accept(BlocksAndMoreModBlocks.ORANGE_TERRACOTTA_STAIRS.asItem());
+					tabData.accept(BlocksAndMoreModBlocks.GREEN_TERRACOTTA_STAIRS.asItem());
 				}).build());
 		CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.TOOLS_AND_UTILITIES).register(tabData -> {
 			tabData.accept(BlocksAndMoreModItems.AMETHYST_BLADE);

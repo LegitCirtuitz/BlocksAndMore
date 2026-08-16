@@ -54,6 +54,10 @@ public class BlocksAndMoreModItems {
 	public static Item DEEPSLATE_BEDROCK;
 	public static Item RED_CONCRETE_WALL;
 	public static Item ORANGE_CONCRETE_WALL;
+	public static Item RED_TERRACOTTA_STAIRS;
+	public static Item ORANGE_TERRACOTTA_STAIRS;
+	public static Item YELLOW_TERRACOTTA_STAIRS;
+	public static Item GREEN_TERRACOTTA_STAIRS;
 
 	public static void load() {
 		BLOCK_OF_METAL = block(BlocksAndMoreModBlocks.BLOCK_OF_METAL, "block_of_metal", new Item.Properties().fireResistant());
@@ -91,6 +95,10 @@ public class BlocksAndMoreModItems {
 		DEEPSLATE_BEDROCK = block(BlocksAndMoreModBlocks.DEEPSLATE_BEDROCK, "deepslate_bedrock", new Item.Properties().rarity(Rarity.EPIC));
 		RED_CONCRETE_WALL = block(BlocksAndMoreModBlocks.RED_CONCRETE_WALL, "red_concrete_wall");
 		ORANGE_CONCRETE_WALL = block(BlocksAndMoreModBlocks.ORANGE_CONCRETE_WALL, "orange_concrete_wall");
+		RED_TERRACOTTA_STAIRS = block(BlocksAndMoreModBlocks.RED_TERRACOTTA_STAIRS, "red_terracotta_stairs");
+		ORANGE_TERRACOTTA_STAIRS = block(BlocksAndMoreModBlocks.ORANGE_TERRACOTTA_STAIRS, "orange_terracotta_stairs");
+		YELLOW_TERRACOTTA_STAIRS = block(BlocksAndMoreModBlocks.YELLOW_TERRACOTTA_STAIRS, "yellow_terracotta_stairs");
+		GREEN_TERRACOTTA_STAIRS = block(BlocksAndMoreModBlocks.GREEN_TERRACOTTA_STAIRS, "green_terracotta_stairs");
 	}
 
 	// Start of user code block custom items

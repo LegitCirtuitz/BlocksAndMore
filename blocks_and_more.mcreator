@@ -1301,6 +1301,119 @@
         ]
       },
       "path": "~/Blocks/Walls/Concrete/OrangeConcreteWall"
+    },
+    {
+      "name": "RedTerracottaStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_terracotta_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/blocks_and_more/blockstates/red_terracotta_stairs.json",
+          "src/main/resources/assets/blocks_and_more/models/block/red_terracotta_stairs_outer.json",
+          "src/main/java/net/mcreator/blocksandmore/block/RedTerracottaStairsBlock.java",
+          "src/main/resources/assets/blocks_and_more/items/red_terracotta_stairs.json",
+          "src/main/resources/data/blocks_and_more/loot_table/blocks/red_terracotta_stairs.json",
+          "src/main/resources/assets/blocks_and_more/models/item/red_terracotta_stairs.json",
+          "src/main/resources/assets/blocks_and_more/models/block/red_terracotta_stairs.json",
+          "src/main/resources/assets/blocks_and_more/models/block/red_terracotta_stairs_inner.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/TerracottaStairs"
+    },
+    {
+      "name": "OrangeTerracottaStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_terracotta_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/blocks_and_more/blockstates/orange_terracotta_stairs.json",
+          "src/main/resources/assets/blocks_and_more/models/item/orange_terracotta_stairs.json",
+          "src/main/java/net/mcreator/blocksandmore/block/OrangeTerracottaStairsBlock.java",
+          "src/main/resources/assets/blocks_and_more/models/block/orange_terracotta_stairs_outer.json",
+          "src/main/resources/assets/blocks_and_more/items/orange_terracotta_stairs.json",
+          "src/main/resources/assets/blocks_and_more/models/block/orange_terracotta_stairs_inner.json",
+          "src/main/resources/data/blocks_and_more/loot_table/blocks/orange_terracotta_stairs.json",
+          "src/main/resources/assets/blocks_and_more/models/block/orange_terracotta_stairs.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/TerracottaStairs"
+    },
+    {
+      "name": "YellowTerracottaStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_terracotta_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/blocks_and_more/models/item/yellow_terracotta_stairs.json",
+          "src/main/resources/assets/blocks_and_more/models/block/yellow_terracotta_stairs_inner.json",
+          "src/main/resources/assets/blocks_and_more/models/block/yellow_terracotta_stairs.json",
+          "src/main/resources/assets/blocks_and_more/items/yellow_terracotta_stairs.json",
+          "src/main/resources/assets/blocks_and_more/blockstates/yellow_terracotta_stairs.json",
+          "src/main/java/net/mcreator/blocksandmore/block/YellowTerracottaStairsBlock.java",
+          "src/main/resources/data/blocks_and_more/loot_table/blocks/yellow_terracotta_stairs.json",
+          "src/main/resources/assets/blocks_and_more/models/block/yellow_terracotta_stairs_outer.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/TerracottaStairs"
+    },
+    {
+      "name": "GreenTerracottaStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_terracotta_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/blocks_and_more/loot_table/blocks/green_terracotta_stairs.json",
+          "src/main/resources/assets/blocks_and_more/blockstates/green_terracotta_stairs.json",
+          "src/main/resources/assets/blocks_and_more/models/item/green_terracotta_stairs.json",
+          "src/main/resources/assets/blocks_and_more/items/green_terracotta_stairs.json",
+          "src/main/resources/assets/blocks_and_more/models/block/green_terracotta_stairs.json",
+          "src/main/resources/assets/blocks_and_more/models/block/green_terracotta_stairs_inner.json",
+          "src/main/java/net/mcreator/blocksandmore/block/GreenTerracottaStairsBlock.java",
+          "src/main/resources/assets/blocks_and_more/models/block/green_terracotta_stairs_outer.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/TerracottaStairs"
+    },
+    {
+      "name": "BuildyStairs",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buildy_stairs",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Others/Tab"
+    },
+    {
+      "name": "BuildySlabs",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buildy_slabs",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Others/Tab"
+    },
+    {
+      "name": "BuildyWalls",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buildy_walls",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Others/Tab"
     }
   ],
   "variable_elements": [],
@@ -1310,6 +1423,10 @@
       "~AmethystBlade@Items.AMETHYST_SHARD"
     ],
     "BLOCKS:minecraft:stairs": [
+      "~GreenTerracottaStairs@CUSTOM:GreenTerracottaStairs",
+      "~YellowTerracottaStairs@CUSTOM:YellowTerracottaStairs",
+      "~RedTerracottaStairs@CUSTOM:RedTerracottaStairs",
+      "~OrangeTerracottaStairs@CUSTOM:OrangeTerracottaStairs",
       "~WarpedStemStairs@CUSTOM:WarpedStemStairs",
       "~CrimsonStemStairs@CUSTOM:CrimsonStemStairs",
       "~PaleOakLogStairs@CUSTOM:PaleOakLogStairs",
@@ -1338,6 +1455,10 @@
       "~BeaconStairs@CUSTOM:BeaconStairs"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~GreenTerracottaStairs@CUSTOM:GreenTerracottaStairs",
+      "~YellowTerracottaStairs@CUSTOM:YellowTerracottaStairs",
+      "~RedTerracottaStairs@CUSTOM:RedTerracottaStairs",
+      "~OrangeTerracottaStairs@CUSTOM:OrangeTerracottaStairs",
       "~RedConcreteWall@CUSTOM:RedConcreteWall",
       "~OrangeConcreteWall@CUSTOM:OrangeConcreteWall",
       "~DeepslateBedrock@CUSTOM:DeepslateBedrock",
@@ -1420,7 +1541,7 @@
       "item.blocks_and_more.redstone_ore_stairs": "Redstone Ore Stairs",
       "item.blocks_and_more.spruce_log_stairs": "Spruce Log Stairs",
       "item.blocks_and_more.acacia_log_stairs": "Acacia Log Stairs",
-      "item_group.blocks_and_more.blocks_and_stuff_1": "Blocks And More ",
+      "item_group.blocks_and_more.blocks_and_stuff_1": "Buildy Blocks",
       "item.blocks_and_more.red_concrete_stairsw": "Red Concrete Stairs",
       "item.blocks_and_more.beacon_stairs": "Beacon Stairs",
       "item.blocks_and_more.iron_stairs": "Iron Stairs",
@@ -1442,7 +1563,14 @@
       "item.blocks_and_more.amethyst_blade": "Amethyst Blade",
       "item.blocks_and_more.deepslate_bedrock": "Deepslate Bedrock",
       "item.blocks_and_more.red_concrete_wall": "Red Concrete Wall",
-      "item.blocks_and_more.orange_concrete_wall": "Orange Concrete Wall"
+      "item.blocks_and_more.orange_concrete_wall": "Orange Concrete Wall",
+      "item.blocks_and_more.red_terracotta_stairs": "Red Terracotta Stairs",
+      "item.blocks_and_more.orange_terracotta_stairs": "Orange Terracotta Stairs",
+      "item.blocks_and_more.yellow_terracotta_stairs": "Yellow Terracotta Stairs",
+      "item.blocks_and_more.green_terracotta_stairs": "Green Terracotta Stairs",
+      "item_group.blocks_and_more.buildy_stairs": "Buildy Stairs",
+      "item_group.blocks_and_more.buildy_slabs": "Buildy Slabs",
+      "item_group.blocks_and_more.buildy_walls": "Buildy Walls"
     }
   },
   "metadata": {
@@ -1629,6 +1757,10 @@
                     "children": []
                   }
                 ]
+              },
+              {
+                "name": "TerracottaStairs",
+                "children": []
               }
             ]
           },
