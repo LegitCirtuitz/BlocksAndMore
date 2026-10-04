@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "buildy:blocks/gray_terracotta_stairs",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "buildy:gray_terracotta_stairs"
+        }
+      ]
+    }
+  ]
+}

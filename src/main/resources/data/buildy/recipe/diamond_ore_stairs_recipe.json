@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a  ",
+    "ab ",
+    "aba"
+  ],
+  "key": {
+    "a": "minecraft:diamond_ore",
+    "b": "minecraft:diamond"
+  },
+  "result": {
+    "id": "buildy:diamond_ore_stairs",
+    "count": 6
+  }
+}

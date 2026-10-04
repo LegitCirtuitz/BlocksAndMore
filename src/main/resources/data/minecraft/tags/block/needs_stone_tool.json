@@ -1,11 +1,11 @@
 {
   "replace": false,
   "values": [
-    "blocks_and_more:beacon_slab",
-    "blocks_and_more:orange_concrete_wall",
-    "blocks_and_more:redstone_ore_stairs",
-    "blocks_and_more:red_concrete_wall",
-    "blocks_and_more:iron_ore_stairs",
-    "blocks_and_more:coal_stairs"
+    "buildy:beacon_slab",
+    "buildy:orange_concrete_wall",
+    "buildy:redstone_ore_stairs",
+    "buildy:red_concrete_wall",
+    "buildy:iron_ore_stairs",
+    "buildy:coal_stairs"
   ]
 }

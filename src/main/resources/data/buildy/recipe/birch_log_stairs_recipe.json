@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a  ",
+    "aa ",
+    "aaa"
+  ],
+  "key": {
+    "a": "minecraft:birch_log"
+  },
+  "result": {
+    "id": "buildy:birch_log_stairs",
+    "count": 8
+  }
+}

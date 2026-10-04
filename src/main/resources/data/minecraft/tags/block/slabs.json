@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "blocks_and_more:beacon_slab",
-    "blocks_and_more:red_sandstone_slab",
-    "blocks_and_more:sandstone_slab"
+    "buildy:beacon_slab",
+    "buildy:red_sandstone_slab",
+    "buildy:sandstone_slab"
   ]
 }

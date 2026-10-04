@@ -1,0 +1,1951 @@
+{
+  "mod_elements": [
+    {
+      "name": "BlocksAndStuff1",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blocks_and_stuff_1",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Others/Tab"
+    },
+    {
+      "name": "BeaconStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beacon_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/buildy/models/block/beacon_stairs_outer.json",
+          "src/main/resources/assets/buildy/models/block/beacon_stairs_inner.json",
+          "src/main/resources/assets/buildy/models/block/beacon_stairs.json",
+          "src/main/resources/assets/buildy/items/beacon_stairs.json",
+          "src/main/java/net/mcreator/buildy/block/BeaconStairsBlock.java",
+          "src/main/resources/data/buildy/loot_table/blocks/beacon_stairs.json",
+          "src/main/resources/assets/buildy/models/item/beacon_stairs.json",
+          "src/main/resources/assets/buildy/blockstates/beacon_stairs.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/VanillaBasedStairs/BeaconStairs"
+    },
+    {
+      "name": "BeaconStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beacon_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buildy/recipe/beacon_stairs_recipe.json",
+          "src/main/resources/data/buildy/advancement/recipes/beacon_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/VanillaBasedStairs/BeaconStairs"
+    },
+    {
+      "name": "IronStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/buildy/blockstates/iron_stairs.json",
+          "src/main/resources/assets/buildy/items/iron_stairs.json",
+          "src/main/resources/data/buildy/loot_table/blocks/iron_stairs.json",
+          "src/main/resources/assets/buildy/models/block/iron_stairs_outer.json",
+          "src/main/resources/assets/buildy/models/item/iron_stairs.json",
+          "src/main/resources/assets/buildy/models/block/iron_stairs.json",
+          "src/main/java/net/mcreator/buildy/block/IronStairsBlock.java",
+          "src/main/resources/assets/buildy/models/block/iron_stairs_inner.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/VanillaBasedStairs/IronStairs"
+    },
+    {
+      "name": "IronStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buildy/advancement/recipes/iron_stairs_recipe.json",
+          "src/main/resources/data/buildy/recipe/iron_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/VanillaBasedStairs/IronStairs"
+    },
+    {
+      "name": "GoldStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/buildy/models/item/gold_stairs.json",
+          "src/main/resources/assets/buildy/models/block/gold_stairs_inner.json",
+          "src/main/resources/assets/buildy/items/gold_stairs.json",
+          "src/main/java/net/mcreator/buildy/block/GoldStairsBlock.java",
+          "src/main/resources/assets/buildy/models/block/gold_stairs.json",
+          "src/main/resources/data/buildy/loot_table/blocks/gold_stairs.json",
+          "src/main/resources/assets/buildy/blockstates/gold_stairs.json",
+          "src/main/resources/assets/buildy/models/block/gold_stairs_outer.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/VanillaBasedStairs/GoldStairs"
+    },
+    {
+      "name": "CoalStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/buildy/block/CoalStairsBlock.java",
+          "src/main/resources/assets/buildy/models/item/coal_stairs.json",
+          "src/main/resources/assets/buildy/blockstates/coal_stairs.json",
+          "src/main/resources/assets/buildy/models/block/coal_stairs_inner.json",
+          "src/main/resources/assets/buildy/items/coal_stairs.json",
+          "src/main/resources/assets/buildy/models/block/coal_stairs_outer.json",
+          "src/main/resources/assets/buildy/models/block/coal_stairs.json",
+          "src/main/resources/data/buildy/loot_table/blocks/coal_stairs.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/VanillaBasedStairs/CoalStairs"
+    },
+    {
+      "name": "GoldStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buildy/recipe/gold_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/VanillaBasedStairs/GoldStairs"
+    },
+    {
+      "name": "CoalStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buildy/recipe/coal_stairs_recipe.json",
+          "src/main/resources/data/buildy/advancement/recipes/coal_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/VanillaBasedStairs/CoalStairs"
+    },
+    {
+      "name": "EmeraldStair",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_stair",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/buildy/block/EmeraldStairBlock.java",
+          "src/main/resources/assets/buildy/models/block/emerald_stair_outer.json",
+          "src/main/resources/assets/buildy/models/item/emerald_stair.json",
+          "src/main/resources/data/buildy/loot_table/blocks/emerald_stair.json",
+          "src/main/resources/assets/buildy/models/block/emerald_stair.json",
+          "src/main/resources/assets/buildy/models/block/emerald_stair_inner.json",
+          "src/main/resources/assets/buildy/items/emerald_stair.json",
+          "src/main/resources/assets/buildy/blockstates/emerald_stair.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/VanillaBasedStairs/EmeraldStairs"
+    },
+    {
+      "name": "DiamondStair",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_stair",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/buildy/models/block/diamond_stair_outer.json",
+          "src/main/resources/assets/buildy/models/block/diamond_stair.json",
+          "src/main/resources/assets/buildy/models/block/diamond_stair_inner.json",
+          "src/main/resources/data/buildy/loot_table/blocks/diamond_stair.json",
+          "src/main/resources/assets/buildy/models/item/diamond_stair.json",
+          "src/main/resources/assets/buildy/items/diamond_stair.json",
+          "src/main/resources/assets/buildy/blockstates/diamond_stair.json",
+          "src/main/java/net/mcreator/buildy/block/DiamondStairBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Stairs/VanillaBasedStairs/DiamondStairs"
+    },
+    {
+      "name": "CommandBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "command_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buildy/recipe/command_block_default_recipe.json"
+        ]
+      },
+      "path": "~/Others/Recipe"
+    },
+    {
+      "name": "ChainCommandBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chain_command_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buildy/recipe/chain_command_block_recipe.json"
+        ]
+      },
+      "path": "~/Others/Recipe"
+    },
+    {
+      "name": "BarrierRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "barrier_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buildy/recipe/barrier_recipe.json"
+        ]
+      },
+      "path": "~/Others/Recipe"
+    },
+    {
+      "name": "MaceDupeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mace_dupe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buildy/recipe/mace_dupe_recipe.json",
+          "src/main/resources/data/buildy/advancement/recipes/mace_dupe_recipe.json"
+        ]
+      },
+      "path": "~/Others/Recipe"
+    },
+    {
+      "name": "EmeraldStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buildy/advancement/recipes/emerald_stairs_recipe.json",
+          "src/main/resources/data/buildy/recipe/emerald_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/VanillaBasedStairs/EmeraldStairs"
+    },
+    {
+      "name": "DiamondStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buildy/recipe/diamond_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/VanillaBasedStairs/DiamondStairs"
+    },
+    {
+      "name": "EmeraldOreStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_ore_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/buildy/blockstates/emerald_ore_stairs.json",
+          "src/main/resources/assets/buildy/items/emerald_ore_stairs.json",
+          "src/main/resources/assets/buildy/models/block/emerald_ore_stairs_inner.json",
+          "src/main/resources/assets/buildy/models/block/emerald_ore_stairs.json",
+          "src/main/resources/assets/buildy/models/item/emerald_ore_stairs.json",
+          "src/main/java/net/mcreator/buildy/block/EmeraldOreStairsBlock.java",
+          "src/main/resources/data/buildy/loot_table/blocks/emerald_ore_stairs.json",
+          "src/main/resources/assets/buildy/models/block/emerald_ore_stairs_outer.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/OreStairs/EmeraldOreStairs"
+    },
+    {
+      "name": "DeepslateEmeraldOreStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_emerald_ore_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/buildy/block/DeepslateEmeraldOreStairsBlock.java",
+          "src/main/resources/assets/buildy/models/block/deepslate_emerald_ore_stairs.json",
+          "src/main/resources/assets/buildy/models/block/deepslate_emerald_ore_stairs_outer.json",
+          "src/main/resources/data/buildy/loot_table/blocks/deepslate_emerald_ore_stairs.json",
+          "src/main/resources/assets/buildy/blockstates/deepslate_emerald_ore_stairs.json",
+          "src/main/resources/assets/buildy/models/item/deepslate_emerald_ore_stairs.json",
+          "src/main/resources/assets/buildy/models/block/deepslate_emerald_ore_stairs_inner.json",
+          "src/main/resources/assets/buildy/items/deepslate_emerald_ore_stairs.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/OreStairs/DeepslateEmeraldStairs"
+    },
+    {
+      "name": "EmeraldOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buildy/recipe/emerald_ore_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/OreStairs/EmeraldOreStairs"
+    },
+    {
+      "name": "DeepSlateEmeraldOreStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_slate_emerald_ore_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buildy/recipe/deep_slate_emerald_ore_stairs_recipe.json",
+          "src/main/resources/data/buildy/advancement/recipes/deep_slate_emerald_ore_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/OreStairs/DeepslateEmeraldStairs"
+    },
+    {
+      "name": "DeepslateDiamondStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_diamond_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buildy/loot_table/blocks/deepslate_diamond_stairs.json",
+          "src/main/resources/assets/buildy/blockstates/deepslate_diamond_stairs.json",
+          "src/main/resources/assets/buildy/models/block/deepslate_diamond_stairs.json",
+          "src/main/resources/assets/buildy/models/item/deepslate_diamond_stairs.json",
+          "src/main/java/net/mcreator/buildy/block/DeepslateDiamondStairsBlock.java",
+          "src/main/resources/assets/buildy/items/deepslate_diamond_stairs.json",
+          "src/main/resources/assets/buildy/models/block/deepslate_diamond_stairs_outer.json",
+          "src/main/resources/assets/buildy/models/block/deepslate_diamond_stairs_inner.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/OreStairs/DeepslateDiamondStairs"
+    },
+    {
+      "name": "OakLogStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_log_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/buildy/blockstates/oak_log_stairs.json",
+          "src/main/java/net/mcreator/buildy/block/OakLogStairsBlock.java",
+          "src/main/resources/assets/buildy/items/oak_log_stairs.json",
+          "src/main/resources/assets/buildy/models/block/oak_log_stairs_outer.json",
+          "src/main/resources/assets/buildy/models/item/oak_log_stairs.json",
+          "src/main/resources/assets/buildy/models/block/oak_log_stairs_inner.json",
+          "src/main/resources/assets/buildy/models/block/oak_log_stairs.json",
+          "src/main/resources/data/buildy/loot_table/blocks/oak_log_stairs.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/LogStairs/OakLogStairs"
+    },
+    {
+      "name": "AmethystStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buildy/loot_table/blocks/amethyst_stairs.json",
+          "src/main/resources/assets/buildy/models/block/amethyst_stairs.json",
+          "src/main/resources/assets/buildy/models/block/amethyst_stairs_outer.json",
+          "src/main/java/net/mcreator/buildy/block/AmethystStairsBlock.java",
+          "src/main/resources/assets/buildy/blockstates/amethyst_stairs.json",
+          "src/main/resources/assets/buildy/models/item/amethyst_stairs.json",
+          "src/main/resources/assets/buildy/models/block/amethyst_stairs_inner.json",
+          "src/main/resources/assets/buildy/items/amethyst_stairs.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/VanillaBasedStairs/AmethystStairs"
+    },
+    {
+      "name": "DiamondOreStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_ore_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/buildy/blockstates/diamond_ore_stairs.json",
+          "src/main/resources/assets/buildy/models/block/diamond_ore_stairs_inner.json",
+          "src/main/resources/assets/buildy/items/diamond_ore_stairs.json",
+          "src/main/resources/assets/buildy/models/block/diamond_ore_stairs.json",
+          "src/main/java/net/mcreator/buildy/block/DiamondOreStairsBlock.java",
+          "src/main/resources/assets/buildy/models/item/diamond_ore_stairs.json",
+          "src/main/resources/assets/buildy/models/block/diamond_ore_stairs_outer.json",
+          "src/main/resources/data/buildy/loot_table/blocks/diamond_ore_stairs.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/OreStairs/DiamondOreStair"
+    },
+    {
+      "name": "DarkOakLogStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_oak_log_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/buildy/models/block/dark_oak_log_stairs.json",
+          "src/main/java/net/mcreator/buildy/block/DarkOakLogStairsBlock.java",
+          "src/main/resources/assets/buildy/models/item/dark_oak_log_stairs.json",
+          "src/main/resources/assets/buildy/items/dark_oak_log_stairs.json",
+          "src/main/resources/assets/buildy/models/block/dark_oak_log_stairs_inner.json",
+          "src/main/resources/assets/buildy/models/block/dark_oak_log_stairs_outer.json",
+          "src/main/resources/data/buildy/loot_table/blocks/dark_oak_log_stairs.json",
+          "src/main/resources/assets/buildy/blockstates/dark_oak_log_stairs.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/LogStairs/DarkOakLogStairs"
+    },
+    {
+      "name": "IronOreStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_ore_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buildy/loot_table/blocks/iron_ore_stairs.json",
+          "src/main/resources/assets/buildy/models/block/iron_ore_stairs.json",
+          "src/main/resources/assets/buildy/models/item/iron_ore_stairs.json",
+          "src/main/resources/assets/buildy/models/block/iron_ore_stairs_outer.json",
+          "src/main/java/net/mcreator/buildy/block/IronOreStairsBlock.java",
+          "src/main/resources/assets/buildy/items/iron_ore_stairs.json",
+          "src/main/resources/assets/buildy/models/block/iron_ore_stairs_inner.json",
+          "src/main/resources/assets/buildy/blockstates/iron_ore_stairs.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/OreStairs/IronOreStairs"
+    },
+    {
+      "name": "RedstoneStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/buildy/blockstates/redstone_stairs.json",
+          "src/main/java/net/mcreator/buildy/block/RedstoneStairsBlock.java",
+          "src/main/resources/assets/buildy/items/redstone_stairs.json",
+          "src/main/resources/assets/buildy/models/block/redstone_stairs_inner.json",
+          "src/main/resources/data/buildy/loot_table/blocks/redstone_stairs.json",
+          "src/main/resources/assets/buildy/models/item/redstone_stairs.json",
+          "src/main/resources/assets/buildy/models/block/redstone_stairs.json",
+          "src/main/resources/assets/buildy/models/block/redstone_stairs_outer.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/VanillaBasedStairs/RedstoneStairs"
+    },
+    {
+      "name": "RedstoneOreStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_ore_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/buildy/block/RedstoneOreStairsBlock.java",
+          "src/main/resources/assets/buildy/blockstates/redstone_ore_stairs.json",
+          "src/main/resources/assets/buildy/models/block/redstone_ore_stairs_outer.json",
+          "src/main/resources/assets/buildy/models/item/redstone_ore_stairs.json",
+          "src/main/resources/assets/buildy/models/block/redstone_ore_stairs.json",
+          "src/main/resources/data/buildy/loot_table/blocks/redstone_ore_stairs.json",
+          "src/main/resources/assets/buildy/models/block/redstone_ore_stairs_inner.json",
+          "src/main/resources/assets/buildy/items/redstone_ore_stairs.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/OreStairs/RedstoneOreStairs"
+    },
+    {
+      "name": "SpruceLogStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spruce_log_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/buildy/models/item/spruce_log_stairs.json",
+          "src/main/resources/assets/buildy/models/block/spruce_log_stairs_outer.json",
+          "src/main/java/net/mcreator/buildy/block/SpruceLogStairsBlock.java",
+          "src/main/resources/assets/buildy/models/block/spruce_log_stairs.json",
+          "src/main/resources/assets/buildy/models/block/spruce_log_stairs_inner.json",
+          "src/main/resources/assets/buildy/items/spruce_log_stairs.json",
+          "src/main/resources/data/buildy/loot_table/blocks/spruce_log_stairs.json",
+          "src/main/resources/assets/buildy/blockstates/spruce_log_stairs.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/LogStairs/SpruceLogStairs"
+    },
+    {
+      "name": "AcaciaLogStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acacia_log_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/buildy/models/block/acacia_log_stairs_inner.json",
+          "src/main/resources/assets/buildy/models/block/acacia_log_stairs_outer.json",
+          "src/main/java/net/mcreator/buildy/block/AcaciaLogStairsBlock.java",
+          "src/main/resources/assets/buildy/models/block/acacia_log_stairs.json",
+          "src/main/resources/data/buildy/loot_table/blocks/acacia_log_stairs.json",
+          "src/main/resources/assets/buildy/models/item/acacia_log_stairs.json",
+          "src/main/resources/assets/buildy/blockstates/acacia_log_stairs.json",
+          "src/main/resources/assets/buildy/items/acacia_log_stairs.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/LogStairs/AcaciaLogStairs"
+    },
+    {
+      "name": "RedstoneStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buildy/recipe/redstone_stairs_recipe.json",
+          "src/main/resources/data/buildy/advancement/recipes/redstone_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/VanillaBasedStairs/RedstoneStairs"
+    },
+    {
+      "name": "DeepslateDiamondStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_diamond_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buildy/advancement/recipes/deepslate_diamond_stairs_recipe.json",
+          "src/main/resources/data/buildy/recipe/deepslate_diamond_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/OreStairs/DeepslateDiamondStairs"
+    },
+    {
+      "name": "OakLogStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_log_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buildy/recipe/oak_log_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/LogStairs/OakLogStairs"
+    },
+    {
+      "name": "AmethystStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buildy/recipe/amethyst_stairs_recipe.json",
+          "src/main/resources/data/buildy/advancement/recipes/amethyst_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/VanillaBasedStairs/AmethystStairs"
+    },
+    {
+      "name": "DiamondOreStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_ore_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buildy/recipe/diamond_ore_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/OreStairs/DiamondOreStair"
+    },
+    {
+      "name": "DarkOakLogStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_oak_log_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buildy/recipe/dark_oak_log_stairs_recipe.json",
+          "src/main/resources/data/buildy/advancement/recipes/dark_oak_log_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/LogStairs/DarkOakLogStairs"
+    },
+    {
+      "name": "IronOreStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_ore_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buildy/advancement/recipes/iron_ore_stairs_recipe.json",
+          "src/main/resources/data/buildy/recipe/iron_ore_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/OreStairs/IronOreStairs"
+    },
+    {
+      "name": "RedstoneOreStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_ore_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buildy/recipe/redstone_ore_stairs_recipe.json",
+          "src/main/resources/data/buildy/advancement/recipes/redstone_ore_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/OreStairs/RedstoneOreStairs"
+    },
+    {
+      "name": "SpruceLogStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spruce_log_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buildy/recipe/spruce_log_stairs_recipe.json",
+          "src/main/resources/data/buildy/advancement/recipes/spruce_log_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/LogStairs/SpruceLogStairs"
+    },
+    {
+      "name": "AcaciaLogStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acacia_log_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buildy/recipe/acacia_log_stairs_recipe.json",
+          "src/main/resources/data/buildy/advancement/recipes/acacia_log_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/LogStairs/AcaciaLogStairs"
+    },
+    {
+      "name": "BirchLogStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "birch_log_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/buildy/items/birch_log_stairs.json",
+          "src/main/java/net/mcreator/buildy/block/BirchLogStairsBlock.java",
+          "src/main/resources/data/buildy/loot_table/blocks/birch_log_stairs.json",
+          "src/main/resources/assets/buildy/models/block/birch_log_stairs_outer.json",
+          "src/main/resources/assets/buildy/models/item/birch_log_stairs.json",
+          "src/main/resources/assets/buildy/blockstates/birch_log_stairs.json",
+          "src/main/resources/assets/buildy/models/block/birch_log_stairs.json",
+          "src/main/resources/assets/buildy/models/block/birch_log_stairs_inner.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/LogStairs/BirchLogStairs"
+    },
+    {
+      "name": "BirchLogStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "birch_log_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buildy/recipe/birch_log_stairs_recipe.json",
+          "src/main/resources/data/buildy/advancement/recipes/birch_log_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/LogStairs/BirchLogStairs"
+    },
+    {
+      "name": "JungleLogStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jungle_log_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buildy/loot_table/blocks/jungle_log_stairs.json",
+          "src/main/java/net/mcreator/buildy/block/JungleLogStairsBlock.java",
+          "src/main/resources/assets/buildy/models/block/jungle_log_stairs_inner.json",
+          "src/main/resources/assets/buildy/models/block/jungle_log_stairs.json",
+          "src/main/resources/assets/buildy/items/jungle_log_stairs.json",
+          "src/main/resources/assets/buildy/models/item/jungle_log_stairs.json",
+          "src/main/resources/assets/buildy/blockstates/jungle_log_stairs.json",
+          "src/main/resources/assets/buildy/models/block/jungle_log_stairs_outer.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/LogStairs/JungleLogStairs"
+    },
+    {
+      "name": "JungleLogStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jungle_log_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buildy/advancement/recipes/jungle_log_stairs_recipe.json",
+          "src/main/resources/data/buildy/recipe/jungle_log_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/LogStairs/JungleLogStairs"
+    },
+    {
+      "name": "MangroveLogStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mangrove_log_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/buildy/items/mangrove_log_stairs.json",
+          "src/main/resources/assets/buildy/blockstates/mangrove_log_stairs.json",
+          "src/main/resources/data/buildy/loot_table/blocks/mangrove_log_stairs.json",
+          "src/main/resources/assets/buildy/models/block/mangrove_log_stairs.json",
+          "src/main/resources/assets/buildy/models/block/mangrove_log_stairs_outer.json",
+          "src/main/resources/assets/buildy/models/item/mangrove_log_stairs.json",
+          "src/main/resources/assets/buildy/models/block/mangrove_log_stairs_inner.json",
+          "src/main/java/net/mcreator/buildy/block/MangroveLogStairsBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Stairs/LogStairs/MangroveLogStairs"
+    },
+    {
+      "name": "MangroveLogStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mangrove_log_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buildy/recipe/mangrove_log_stairs_recipe.json",
+          "src/main/resources/data/buildy/advancement/recipes/mangrove_log_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/LogStairs/MangroveLogStairs"
+    },
+    {
+      "name": "CherryLogStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_log_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/buildy/block/CherryLogStairsBlock.java",
+          "src/main/resources/assets/buildy/models/item/cherry_log_stairs.json",
+          "src/main/resources/assets/buildy/models/block/cherry_log_stairs.json",
+          "src/main/resources/data/buildy/loot_table/blocks/cherry_log_stairs.json",
+          "src/main/resources/assets/buildy/models/block/cherry_log_stairs_inner.json",
+          "src/main/resources/assets/buildy/models/block/cherry_log_stairs_outer.json",
+          "src/main/resources/assets/buildy/blockstates/cherry_log_stairs.json",
+          "src/main/resources/assets/buildy/items/cherry_log_stairs.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/LogStairs/CherryLogStairs"
+    },
+    {
+      "name": "CherryLogStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_log_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buildy/advancement/recipes/cherry_log_stairs_recipe.json",
+          "src/main/resources/data/buildy/recipe/cherry_log_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/LogStairs/CherryLogStairs"
+    },
+    {
+      "name": "PaleOakLogStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pale_oak_log_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/buildy/models/block/pale_oak_log_stairs_inner.json",
+          "src/main/resources/data/buildy/loot_table/blocks/pale_oak_log_stairs.json",
+          "src/main/java/net/mcreator/buildy/block/PaleOakLogStairsBlock.java",
+          "src/main/resources/assets/buildy/models/block/pale_oak_log_stairs.json",
+          "src/main/resources/assets/buildy/items/pale_oak_log_stairs.json",
+          "src/main/resources/assets/buildy/blockstates/pale_oak_log_stairs.json",
+          "src/main/resources/assets/buildy/models/block/pale_oak_log_stairs_outer.json",
+          "src/main/resources/assets/buildy/models/item/pale_oak_log_stairs.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/LogStairs/PaleOakLogStairs"
+    },
+    {
+      "name": "PaleOakLogStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pale_oak_log_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buildy/recipe/pale_oak_log_stairs_recipe.json",
+          "src/main/resources/data/buildy/advancement/recipes/pale_oak_log_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/LogStairs/PaleOakLogStairs"
+    },
+    {
+      "name": "CrimsonStemStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_stem_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/buildy/models/block/crimson_stem_stairs_inner.json",
+          "src/main/resources/data/buildy/loot_table/blocks/crimson_stem_stairs.json",
+          "src/main/resources/assets/buildy/models/block/crimson_stem_stairs.json",
+          "src/main/java/net/mcreator/buildy/block/CrimsonStemStairsBlock.java",
+          "src/main/resources/assets/buildy/blockstates/crimson_stem_stairs.json",
+          "src/main/resources/assets/buildy/models/item/crimson_stem_stairs.json",
+          "src/main/resources/assets/buildy/items/crimson_stem_stairs.json",
+          "src/main/resources/assets/buildy/models/block/crimson_stem_stairs_outer.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/LogStairs/CrimsonStemStairs"
+    },
+    {
+      "name": "CrimsonStemStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_stem_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buildy/recipe/crimson_stem_stairs_recipe.json",
+          "src/main/resources/data/buildy/advancement/recipes/crimson_stem_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/LogStairs/CrimsonStemStairs"
+    },
+    {
+      "name": "WarpedStemStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warped_stem_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/buildy/blockstates/warped_stem_stairs.json",
+          "src/main/resources/assets/buildy/models/block/warped_stem_stairs.json",
+          "src/main/resources/assets/buildy/models/block/warped_stem_stairs_outer.json",
+          "src/main/resources/data/buildy/loot_table/blocks/warped_stem_stairs.json",
+          "src/main/resources/assets/buildy/items/warped_stem_stairs.json",
+          "src/main/resources/assets/buildy/models/item/warped_stem_stairs.json",
+          "src/main/java/net/mcreator/buildy/block/WarpedStemStairsBlock.java",
+          "src/main/resources/assets/buildy/models/block/warped_stem_stairs_inner.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/LogStairs/WarpedStemStairs"
+    },
+    {
+      "name": "WarpedStemStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warped_stem_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buildy/advancement/recipes/warped_stem_stairs_recipe.json",
+          "src/main/resources/data/buildy/recipe/warped_stem_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/LogStairs/WarpedStemStairs"
+    },
+    {
+      "name": "BeaconSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beacon_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/buildy/models/block/beacon_slab_top.json",
+          "src/main/java/net/mcreator/buildy/block/BeaconSlabBlock.java",
+          "src/main/resources/assets/buildy/items/beacon_slab.json",
+          "src/main/resources/assets/buildy/models/item/beacon_slab.json",
+          "src/main/resources/assets/buildy/models/block/beacon_slab.json",
+          "src/main/resources/assets/buildy/blockstates/beacon_slab.json",
+          "src/main/resources/assets/buildy/models/block/beacon_slab_full.json",
+          "src/main/resources/data/buildy/loot_table/blocks/beacon_slab.json"
+        ]
+      },
+      "path": "~/Blocks/Slabs/Misc Slabs/BeaconSlab"
+    },
+    {
+      "name": "BeaconSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beacon_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buildy/advancement/recipes/beacon_slab_recipe.json",
+          "src/main/resources/data/buildy/recipe/beacon_slab_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Slabs/Misc Slabs/BeaconSlab"
+    },
+    {
+      "name": "SandstoneSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandstone_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/buildy/block/SandstoneSlabBlock.java",
+          "src/main/resources/assets/buildy/models/block/sandstone_slab_full.json",
+          "src/main/resources/assets/buildy/models/block/sandstone_slab.json",
+          "src/main/resources/data/buildy/loot_table/blocks/sandstone_slab.json",
+          "src/main/resources/assets/buildy/models/item/sandstone_slab.json",
+          "src/main/resources/assets/buildy/blockstates/sandstone_slab.json",
+          "src/main/resources/assets/buildy/models/block/sandstone_slab_top.json",
+          "src/main/resources/assets/buildy/items/sandstone_slab.json"
+        ]
+      },
+      "path": "~/Blocks/Slabs/Misc Slabs/SandstoneSlab"
+    },
+    {
+      "name": "SandstoneSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandstone_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buildy/recipe/sandstone_slab_recipe.json",
+          "src/main/resources/data/buildy/advancement/recipes/sandstone_slab_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Slabs/Misc Slabs/SandstoneSlab"
+    },
+    {
+      "name": "RedSandstoneSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_sandstone_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/buildy/blockstates/red_sandstone_slab.json",
+          "src/main/resources/assets/buildy/items/red_sandstone_slab.json",
+          "src/main/resources/assets/buildy/models/block/red_sandstone_slab_top.json",
+          "src/main/resources/data/buildy/loot_table/blocks/red_sandstone_slab.json",
+          "src/main/java/net/mcreator/buildy/block/RedSandstoneSlabBlock.java",
+          "src/main/resources/assets/buildy/models/block/red_sandstone_slab_full.json",
+          "src/main/resources/assets/buildy/models/item/red_sandstone_slab.json",
+          "src/main/resources/assets/buildy/models/block/red_sandstone_slab.json"
+        ]
+      },
+      "path": "~/Blocks/Slabs/Misc Slabs/RedSandstoneSlab"
+    },
+    {
+      "name": "RedSandstoneSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_sandstone_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buildy/advancement/recipes/red_sandstone_slab_recipe.json",
+          "src/main/resources/data/buildy/recipe/red_sandstone_slab_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Slabs/Misc Slabs/RedSandstoneSlab"
+    },
+    {
+      "name": "AmethystBlade",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_blade",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/buildy/items/amethyst_blade.json",
+          "src/main/resources/assets/buildy/models/item/amethyst_blade.json",
+          "src/main/java/net/mcreator/buildy/item/AmethystBladeItem.java"
+        ]
+      },
+      "path": "~/Items/AmethystBlade"
+    },
+    {
+      "name": "AmethystShardRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_shard_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buildy/recipe/amethyst_shard_recipe.json",
+          "src/main/resources/data/buildy/advancement/recipes/amethyst_shard_recipe.json"
+        ]
+      },
+      "path": "~/Items/AmethystBlade"
+    },
+    {
+      "name": "AmethystBladeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_blade_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buildy/advancement/recipes/amethyst_blade_recipe.json",
+          "src/main/resources/data/buildy/recipe/amethyst_blade_recipe.json"
+        ]
+      },
+      "path": "~/Items/AmethystBlade"
+    },
+    {
+      "name": "RedConcreteWall",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_concrete_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/buildy/models/block/red_concrete_wall_side_tall.json",
+          "src/main/resources/data/buildy/loot_table/blocks/red_concrete_wall.json",
+          "src/main/resources/assets/buildy/models/block/red_concrete_wall_post.json",
+          "src/main/resources/assets/buildy/models/block/red_concrete_wall.json",
+          "src/main/resources/assets/buildy/models/block/red_concrete_wall_inventory.json",
+          "src/main/resources/assets/buildy/items/red_concrete_wall.json",
+          "src/main/resources/assets/buildy/models/item/red_concrete_wall.json",
+          "src/main/resources/assets/buildy/blockstates/red_concrete_wall.json",
+          "src/main/java/net/mcreator/buildy/block/RedConcreteWallBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Walls/Concrete/RedConcreteWall"
+    },
+    {
+      "name": "RedConcreteWallRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_concrete_wall_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buildy/advancement/recipes/red_concrete_wall_recipe.json",
+          "src/main/resources/data/buildy/recipe/red_concrete_wall_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Walls/Concrete/RedConcreteWall"
+    },
+    {
+      "name": "OrangeConcreteWall",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_concrete_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/buildy/models/block/orange_concrete_wall_inventory.json",
+          "src/main/resources/assets/buildy/items/orange_concrete_wall.json",
+          "src/main/resources/assets/buildy/models/item/orange_concrete_wall.json",
+          "src/main/java/net/mcreator/buildy/block/OrangeConcreteWallBlock.java",
+          "src/main/resources/assets/buildy/models/block/orange_concrete_wall_side_tall.json",
+          "src/main/resources/data/buildy/loot_table/blocks/orange_concrete_wall.json",
+          "src/main/resources/assets/buildy/blockstates/orange_concrete_wall.json",
+          "src/main/resources/assets/buildy/models/block/orange_concrete_wall.json",
+          "src/main/resources/assets/buildy/models/block/orange_concrete_wall_post.json"
+        ]
+      },
+      "path": "~/Blocks/Walls/Concrete/OrangeConcreteWall"
+    },
+    {
+      "name": "OrangeConcreteWallRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_concrete_wall_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buildy/advancement/recipes/orange_concrete_wall_recipe.json",
+          "src/main/resources/data/buildy/recipe/orange_concrete_wall_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Walls/Concrete/OrangeConcreteWall"
+    },
+    {
+      "name": "RedTerracottaStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_terracotta_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/buildy/models/block/red_terracotta_stairs_outer.json",
+          "src/main/resources/assets/buildy/models/block/red_terracotta_stairs.json",
+          "src/main/resources/assets/buildy/blockstates/red_terracotta_stairs.json",
+          "src/main/resources/assets/buildy/models/block/red_terracotta_stairs_inner.json",
+          "src/main/resources/assets/buildy/items/red_terracotta_stairs.json",
+          "src/main/resources/data/buildy/loot_table/blocks/red_terracotta_stairs.json",
+          "src/main/java/net/mcreator/buildy/block/RedTerracottaStairsBlock.java",
+          "src/main/resources/assets/buildy/models/item/red_terracotta_stairs.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/TerracottaStairs"
+    },
+    {
+      "name": "OrangeTerracottaStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_terracotta_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/buildy/blockstates/orange_terracotta_stairs.json",
+          "src/main/resources/assets/buildy/models/block/orange_terracotta_stairs_outer.json",
+          "src/main/resources/data/buildy/loot_table/blocks/orange_terracotta_stairs.json",
+          "src/main/java/net/mcreator/buildy/block/OrangeTerracottaStairsBlock.java",
+          "src/main/resources/assets/buildy/items/orange_terracotta_stairs.json",
+          "src/main/resources/assets/buildy/models/block/orange_terracotta_stairs.json",
+          "src/main/resources/assets/buildy/models/item/orange_terracotta_stairs.json",
+          "src/main/resources/assets/buildy/models/block/orange_terracotta_stairs_inner.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/TerracottaStairs"
+    },
+    {
+      "name": "YellowTerracottaStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_terracotta_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/buildy/models/block/yellow_terracotta_stairs.json",
+          "src/main/resources/assets/buildy/models/block/yellow_terracotta_stairs_inner.json",
+          "src/main/resources/data/buildy/loot_table/blocks/yellow_terracotta_stairs.json",
+          "src/main/resources/assets/buildy/models/item/yellow_terracotta_stairs.json",
+          "src/main/resources/assets/buildy/blockstates/yellow_terracotta_stairs.json",
+          "src/main/resources/assets/buildy/items/yellow_terracotta_stairs.json",
+          "src/main/java/net/mcreator/buildy/block/YellowTerracottaStairsBlock.java",
+          "src/main/resources/assets/buildy/models/block/yellow_terracotta_stairs_outer.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/TerracottaStairs"
+    },
+    {
+      "name": "GreenTerracottaStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_terracotta_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/buildy/items/green_terracotta_stairs.json",
+          "src/main/java/net/mcreator/buildy/block/GreenTerracottaStairsBlock.java",
+          "src/main/resources/assets/buildy/models/item/green_terracotta_stairs.json",
+          "src/main/resources/assets/buildy/blockstates/green_terracotta_stairs.json",
+          "src/main/resources/assets/buildy/models/block/green_terracotta_stairs_outer.json",
+          "src/main/resources/data/buildy/loot_table/blocks/green_terracotta_stairs.json",
+          "src/main/resources/assets/buildy/models/block/green_terracotta_stairs.json",
+          "src/main/resources/assets/buildy/models/block/green_terracotta_stairs_inner.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/TerracottaStairs"
+    },
+    {
+      "name": "BuildyStairs",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buildy_stairs",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Others/Tab"
+    },
+    {
+      "name": "BuildySlabs",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buildy_slabs",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Others/Tab"
+    },
+    {
+      "name": "BuildyWalls",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buildy_walls",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Others/Tab"
+    },
+    {
+      "name": "LimeTerracottaStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_terracotta_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/buildy/items/lime_terracotta_stairs.json",
+          "src/main/resources/assets/buildy/models/block/lime_terracotta_stairs.json",
+          "src/main/java/net/mcreator/buildy/block/LimeTerracottaStairsBlock.java",
+          "src/main/resources/assets/buildy/models/block/lime_terracotta_stairs_outer.json",
+          "src/main/resources/data/buildy/loot_table/blocks/lime_terracotta_stairs.json",
+          "src/main/resources/assets/buildy/models/block/lime_terracotta_stairs_inner.json",
+          "src/main/resources/assets/buildy/blockstates/lime_terracotta_stairs.json",
+          "src/main/resources/assets/buildy/models/item/lime_terracotta_stairs.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/TerracottaStairs"
+    },
+    {
+      "name": "BlackTerracottaStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_terracotta_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buildy/loot_table/blocks/black_terracotta_stairs.json",
+          "src/main/resources/assets/buildy/models/block/black_terracotta_stairs_inner.json",
+          "src/main/resources/assets/buildy/blockstates/black_terracotta_stairs.json",
+          "src/main/resources/assets/buildy/models/block/black_terracotta_stairs_outer.json",
+          "src/main/java/net/mcreator/buildy/block/BlackTerracottaStairsBlock.java",
+          "src/main/resources/assets/buildy/models/item/black_terracotta_stairs.json",
+          "src/main/resources/assets/buildy/items/black_terracotta_stairs.json",
+          "src/main/resources/assets/buildy/models/block/black_terracotta_stairs.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/TerracottaStairs"
+    },
+    {
+      "name": "WhiteTerracottaStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_terracotta_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/buildy/block/WhiteTerracottaStairsBlock.java",
+          "src/main/resources/assets/buildy/models/block/white_terracotta_stairs_inner.json",
+          "src/main/resources/assets/buildy/models/block/white_terracotta_stairs.json",
+          "src/main/resources/assets/buildy/models/block/white_terracotta_stairs_outer.json",
+          "src/main/resources/assets/buildy/models/item/white_terracotta_stairs.json",
+          "src/main/resources/assets/buildy/items/white_terracotta_stairs.json",
+          "src/main/resources/data/buildy/loot_table/blocks/white_terracotta_stairs.json",
+          "src/main/resources/assets/buildy/blockstates/white_terracotta_stairs.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/TerracottaStairs"
+    },
+    {
+      "name": "GrayTerracottaStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_terracotta_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buildy/loot_table/blocks/gray_terracotta_stairs.json",
+          "src/main/resources/assets/buildy/models/block/gray_terracotta_stairs_outer.json",
+          "src/main/resources/assets/buildy/blockstates/gray_terracotta_stairs.json",
+          "src/main/java/net/mcreator/buildy/block/GrayTerracottaStairsBlock.java",
+          "src/main/resources/assets/buildy/items/gray_terracotta_stairs.json",
+          "src/main/resources/assets/buildy/models/item/gray_terracotta_stairs.json",
+          "src/main/resources/assets/buildy/models/block/gray_terracotta_stairs.json",
+          "src/main/resources/assets/buildy/models/block/gray_terracotta_stairs_inner.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/TerracottaStairs"
+    },
+    {
+      "name": "LightGrayTerracotta",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_terracotta",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/buildy/blockstates/light_gray_terracotta.json",
+          "src/main/resources/assets/buildy/models/item/light_gray_terracotta.json",
+          "src/main/resources/assets/buildy/models/block/light_gray_terracotta_inner.json",
+          "src/main/resources/assets/buildy/items/light_gray_terracotta.json",
+          "src/main/resources/assets/buildy/models/block/light_gray_terracotta_outer.json",
+          "src/main/resources/assets/buildy/models/block/light_gray_terracotta.json",
+          "src/main/resources/data/buildy/loot_table/blocks/light_gray_terracotta.json",
+          "src/main/java/net/mcreator/buildy/block/LightGrayTerracottaBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Stairs/TerracottaStairs"
+    },
+    {
+      "name": "PinkTerracottaStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_terracotta_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/buildy/models/block/pink_terracotta_stairs.json",
+          "src/main/resources/assets/buildy/models/block/pink_terracotta_stairs_outer.json",
+          "src/main/java/net/mcreator/buildy/block/PinkTerracottaStairsBlock.java",
+          "src/main/resources/data/buildy/loot_table/blocks/pink_terracotta_stairs.json",
+          "src/main/resources/assets/buildy/models/item/pink_terracotta_stairs.json",
+          "src/main/resources/assets/buildy/items/pink_terracotta_stairs.json",
+          "src/main/resources/assets/buildy/blockstates/pink_terracotta_stairs.json",
+          "src/main/resources/assets/buildy/models/block/pink_terracotta_stairs_inner.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/TerracottaStairs"
+    },
+    {
+      "name": "MagentaTerracottaStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_terracotta_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/buildy/models/block/magenta_terracotta_stairs_inner.json",
+          "src/main/resources/assets/buildy/models/item/magenta_terracotta_stairs.json",
+          "src/main/resources/data/buildy/loot_table/blocks/magenta_terracotta_stairs.json",
+          "src/main/resources/assets/buildy/items/magenta_terracotta_stairs.json",
+          "src/main/resources/assets/buildy/models/block/magenta_terracotta_stairs_outer.json",
+          "src/main/java/net/mcreator/buildy/block/MagentaTerracottaStairsBlock.java",
+          "src/main/resources/assets/buildy/models/block/magenta_terracotta_stairs.json",
+          "src/main/resources/assets/buildy/blockstates/magenta_terracotta_stairs.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/TerracottaStairs"
+    },
+    {
+      "name": "BrownTerracottaStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_terracotta_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/buildy/models/block/brown_terracotta_stairs.json",
+          "src/main/resources/assets/buildy/models/item/brown_terracotta_stairs.json",
+          "src/main/resources/assets/buildy/models/block/brown_terracotta_stairs_inner.json",
+          "src/main/resources/assets/buildy/models/block/brown_terracotta_stairs_outer.json",
+          "src/main/java/net/mcreator/buildy/block/BrownTerracottaStairsBlock.java",
+          "src/main/resources/data/buildy/loot_table/blocks/brown_terracotta_stairs.json",
+          "src/main/resources/assets/buildy/blockstates/brown_terracotta_stairs.json",
+          "src/main/resources/assets/buildy/items/brown_terracotta_stairs.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/TerracottaStairs"
+    },
+    {
+      "name": "BlueTerracottaStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_terracotta_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buildy/loot_table/blocks/blue_terracotta_stairs.json",
+          "src/main/java/net/mcreator/buildy/block/BlueTerracottaStairsBlock.java",
+          "src/main/resources/assets/buildy/models/block/blue_terracotta_stairs.json",
+          "src/main/resources/assets/buildy/models/block/blue_terracotta_stairs_outer.json",
+          "src/main/resources/assets/buildy/items/blue_terracotta_stairs.json",
+          "src/main/resources/assets/buildy/blockstates/blue_terracotta_stairs.json",
+          "src/main/resources/assets/buildy/models/block/blue_terracotta_stairs_inner.json",
+          "src/main/resources/assets/buildy/models/item/blue_terracotta_stairs.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/TerracottaStairs"
+    },
+    {
+      "name": "LightBlueTerracottaStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_terracotta_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/buildy/models/block/light_blue_terracotta_stairs_inner.json",
+          "src/main/resources/assets/buildy/models/item/light_blue_terracotta_stairs.json",
+          "src/main/resources/assets/buildy/items/light_blue_terracotta_stairs.json",
+          "src/main/resources/assets/buildy/models/block/light_blue_terracotta_stairs_outer.json",
+          "src/main/resources/assets/buildy/models/block/light_blue_terracotta_stairs.json",
+          "src/main/resources/data/buildy/loot_table/blocks/light_blue_terracotta_stairs.json",
+          "src/main/resources/assets/buildy/blockstates/light_blue_terracotta_stairs.json",
+          "src/main/java/net/mcreator/buildy/block/LightBlueTerracottaStairsBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Stairs/TerracottaStairs"
+    },
+    {
+      "name": "CyanTerracottaStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_terracotta_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/buildy/items/cyan_terracotta_stairs.json",
+          "src/main/resources/assets/buildy/models/block/cyan_terracotta_stairs_outer.json",
+          "src/main/resources/assets/buildy/blockstates/cyan_terracotta_stairs.json",
+          "src/main/resources/assets/buildy/models/block/cyan_terracotta_stairs_inner.json",
+          "src/main/resources/assets/buildy/models/item/cyan_terracotta_stairs.json",
+          "src/main/resources/assets/buildy/models/block/cyan_terracotta_stairs.json",
+          "src/main/java/net/mcreator/buildy/block/CyanTerracottaStairsBlock.java",
+          "src/main/resources/data/buildy/loot_table/blocks/cyan_terracotta_stairs.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/TerracottaStairs"
+    },
+    {
+      "name": "PurpleTerracottaStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_terracotta_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/buildy/block/PurpleTerracottaStairsBlock.java",
+          "src/main/resources/assets/buildy/items/purple_terracotta_stairs.json",
+          "src/main/resources/assets/buildy/models/block/purple_terracotta_stairs_inner.json",
+          "src/main/resources/assets/buildy/models/block/purple_terracotta_stairs.json",
+          "src/main/resources/data/buildy/loot_table/blocks/purple_terracotta_stairs.json",
+          "src/main/resources/assets/buildy/models/item/purple_terracotta_stairs.json",
+          "src/main/resources/assets/buildy/models/block/purple_terracotta_stairs_outer.json",
+          "src/main/resources/assets/buildy/blockstates/purple_terracotta_stairs.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/TerracottaStairs"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:buildy:amethyst_blade_repair_items": [
+      "~AmethystBlade@Items.AMETHYST_SHARD"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~PurpleTerracottaStairs@CUSTOM:PurpleTerracottaStairs",
+      "~CyanTerracottaStairs@CUSTOM:CyanTerracottaStairs",
+      "~LightBlueTerracottaStairs@CUSTOM:LightBlueTerracottaStairs",
+      "~BlueTerracottaStairs@CUSTOM:BlueTerracottaStairs",
+      "~BrownTerracottaStairs@CUSTOM:BrownTerracottaStairs",
+      "~MagentaTerracottaStairs@CUSTOM:MagentaTerracottaStairs",
+      "~PinkTerracottaStairs@CUSTOM:PinkTerracottaStairs",
+      "~LightGrayTerracotta@CUSTOM:LightGrayTerracotta",
+      "~GrayTerracottaStairs@CUSTOM:GrayTerracottaStairs",
+      "~WhiteTerracottaStairs@CUSTOM:WhiteTerracottaStairs",
+      "~BlackTerracottaStairs@CUSTOM:BlackTerracottaStairs",
+      "~LimeTerracottaStairs@CUSTOM:LimeTerracottaStairs",
+      "~GreenTerracottaStairs@CUSTOM:GreenTerracottaStairs",
+      "~YellowTerracottaStairs@CUSTOM:YellowTerracottaStairs",
+      "~OrangeTerracottaStairs@CUSTOM:OrangeTerracottaStairs",
+      "~RedTerracottaStairs@CUSTOM:RedTerracottaStairs",
+      "~WarpedStemStairs@CUSTOM:WarpedStemStairs",
+      "~CrimsonStemStairs@CUSTOM:CrimsonStemStairs",
+      "~PaleOakLogStairs@CUSTOM:PaleOakLogStairs",
+      "~CherryLogStairs@CUSTOM:CherryLogStairs",
+      "~MangroveLogStairs@CUSTOM:MangroveLogStairs",
+      "~JungleLogStairs@CUSTOM:JungleLogStairs",
+      "~BirchLogStairs@CUSTOM:BirchLogStairs",
+      "~AcaciaLogStairs@CUSTOM:AcaciaLogStairs",
+      "~SpruceLogStairs@CUSTOM:SpruceLogStairs",
+      "~RedstoneOreStairs@CUSTOM:RedstoneOreStairs",
+      "~RedstoneStairs@CUSTOM:RedstoneStairs",
+      "~IronOreStairs@CUSTOM:IronOreStairs",
+      "~DarkOakLogStairs@CUSTOM:DarkOakLogStairs",
+      "~DiamondOreStairs@CUSTOM:DiamondOreStairs",
+      "~AmethystStairs@CUSTOM:AmethystStairs",
+      "~OakLogStairs@CUSTOM:OakLogStairs",
+      "~DeepslateDiamondStairs@CUSTOM:DeepslateDiamondStairs",
+      "~DeepslateEmeraldOreStairs@CUSTOM:DeepslateEmeraldOreStairs",
+      "~EmeraldOreStairs@CUSTOM:EmeraldOreStairs",
+      "~DiamondStair@CUSTOM:DiamondStair",
+      "~EmeraldStair@CUSTOM:EmeraldStair",
+      "~CoalStairs@CUSTOM:CoalStairs",
+      "~GoldStairs@CUSTOM:GoldStairs",
+      "~IronStairs@CUSTOM:IronStairs",
+      "~BeaconStairs@CUSTOM:BeaconStairs"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~PurpleTerracottaStairs@CUSTOM:PurpleTerracottaStairs",
+      "~CyanTerracottaStairs@CUSTOM:CyanTerracottaStairs",
+      "~LightBlueTerracottaStairs@CUSTOM:LightBlueTerracottaStairs",
+      "~BlueTerracottaStairs@CUSTOM:BlueTerracottaStairs",
+      "~BrownTerracottaStairs@CUSTOM:BrownTerracottaStairs",
+      "~MagentaTerracottaStairs@CUSTOM:MagentaTerracottaStairs",
+      "~PinkTerracottaStairs@CUSTOM:PinkTerracottaStairs",
+      "~LightGrayTerracotta@CUSTOM:LightGrayTerracotta",
+      "~GrayTerracottaStairs@CUSTOM:GrayTerracottaStairs",
+      "~WhiteTerracottaStairs@CUSTOM:WhiteTerracottaStairs",
+      "~BlackTerracottaStairs@CUSTOM:BlackTerracottaStairs",
+      "~LimeTerracottaStairs@CUSTOM:LimeTerracottaStairs",
+      "~GreenTerracottaStairs@CUSTOM:GreenTerracottaStairs",
+      "~YellowTerracottaStairs@CUSTOM:YellowTerracottaStairs",
+      "~OrangeTerracottaStairs@CUSTOM:OrangeTerracottaStairs",
+      "~RedTerracottaStairs@CUSTOM:RedTerracottaStairs",
+      "~OrangeConcreteWall@CUSTOM:OrangeConcreteWall",
+      "~RedConcreteWall@CUSTOM:RedConcreteWall",
+      "~RedSandstoneSlab@CUSTOM:RedSandstoneSlab",
+      "~SandstoneSlab@CUSTOM:SandstoneSlab",
+      "~BeaconSlab@CUSTOM:BeaconSlab",
+      "~RedstoneOreStairs@CUSTOM:RedstoneOreStairs",
+      "~IronOreStairs@CUSTOM:IronOreStairs",
+      "~DeepslateDiamondStairs@CUSTOM:DeepslateDiamondStairs",
+      "~EmeraldStair@CUSTOM:EmeraldStair",
+      "~CoalStairs@CUSTOM:CoalStairs",
+      "~GoldStairs@CUSTOM:GoldStairs",
+      "~IronStairs@CUSTOM:IronStairs"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~DeepslateDiamondStairs@CUSTOM:DeepslateDiamondStairs",
+      "~EmeraldStair@CUSTOM:EmeraldStair",
+      "~GoldStairs@CUSTOM:GoldStairs",
+      "~IronStairs@CUSTOM:IronStairs"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~OrangeConcreteWall@CUSTOM:OrangeConcreteWall",
+      "~RedConcreteWall@CUSTOM:RedConcreteWall",
+      "~BeaconSlab@CUSTOM:BeaconSlab",
+      "~RedstoneOreStairs@CUSTOM:RedstoneOreStairs",
+      "~IronOreStairs@CUSTOM:IronOreStairs",
+      "~CoalStairs@CUSTOM:CoalStairs"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~WarpedStemStairs@CUSTOM:WarpedStemStairs",
+      "~CrimsonStemStairs@CUSTOM:CrimsonStemStairs",
+      "~PaleOakLogStairs@CUSTOM:PaleOakLogStairs",
+      "~CherryLogStairs@CUSTOM:CherryLogStairs",
+      "~MangroveLogStairs@CUSTOM:MangroveLogStairs",
+      "~JungleLogStairs@CUSTOM:JungleLogStairs",
+      "~BirchLogStairs@CUSTOM:BirchLogStairs",
+      "~AcaciaLogStairs@CUSTOM:AcaciaLogStairs",
+      "~SpruceLogStairs@CUSTOM:SpruceLogStairs",
+      "~DarkOakLogStairs@CUSTOM:DarkOakLogStairs",
+      "~OakLogStairs@CUSTOM:OakLogStairs"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~RedSandstoneSlab@CUSTOM:RedSandstoneSlab",
+      "~SandstoneSlab@CUSTOM:SandstoneSlab",
+      "~BeaconSlab@CUSTOM:BeaconSlab"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~AmethystBlade@CUSTOM:AmethystBlade"
+    ],
+    "BLOCKS:minecraft:walls": [
+      "~OrangeConcreteWall@CUSTOM:OrangeConcreteWall",
+      "~RedConcreteWall@CUSTOM:RedConcreteWall"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.blocks_and_more.emerald_stair": "Emerald Stair",
+      "item.blocks_and_more.block_of_metal": "Block Of Metal",
+      "item.blocks_and_more.diamond_stair": "Diamond Stair",
+      "item.blocks_and_more.emerald_ore_stairs": "Emerald Ore Stairs",
+      "item.blocks_and_more.deepslate_emerald_ore_stairs": "Deepslate Emerald Ore Stairs",
+      "item.blocks_and_more.deepslate_diamond_stairs": "Deepslate Diamond Stairs",
+      "item.blocks_and_more.oak_log_stairs": "Oak Log Stairs",
+      "item.blocks_and_more.amethyst_stairs": "Amethyst Stairs",
+      "item.blocks_and_more.diamond_ore_stairs": "Diamond Ore Stairs",
+      "item.blocks_and_more.dark_oak_log_stairs": "Dark Oak Log Stairs",
+      "item.blocks_and_more.iron_ore_stairs": "Iron Ore Stairs",
+      "item.blocks_and_more.redstone_stairs": "Redstone Stairs",
+      "item.blocks_and_more.redstone_ore_stairs": "Redstone Ore Stairs",
+      "item.blocks_and_more.spruce_log_stairs": "Spruce Log Stairs",
+      "item.blocks_and_more.acacia_log_stairs": "Acacia Log Stairs",
+      "item_group.blocks_and_more.blocks_and_stuff_1": "Buildy Blocks",
+      "item.blocks_and_more.red_concrete_stairsw": "Red Concrete Stairs",
+      "item.blocks_and_more.beacon_stairs": "Beacon Stairs",
+      "item.blocks_and_more.iron_stairs": "Iron Stairs",
+      "item.blocks_and_more.gold_stairs": "Gold Stairs",
+      "item.blocks_and_more.coal_stairs": "Coal Stairs",
+      "item.blocks_and_more.birch_log_stairs": "Birch Log Stairs",
+      "item.blocks_and_more.jungle_log_stairs": "Jungle Log Stairs",
+      "item.blocks_and_more.mangrove_log_stairs": "Mangrove Log Stairs",
+      "item.blocks_and_more.cherry_log_stairs": "Cherry Log Stairs",
+      "item.blocks_and_more.pale_oak_log_stairs": "Pale Oak Log Stairs",
+      "item.blocks_and_more.crimson_stem_stairs": "Crimson Stem Stairs",
+      "item.blocks_and_more.warped_stem_stairs": "Warped Stem Stairs",
+      "item.blocks_and_more.beacon_slab": "Beacon Slab",
+      "item.blocks_and_more.sandstone_slab": "Sandstone Slab",
+      "item.blocks_and_more.red_sandstone_slab": "Red Sandstone Slab",
+      "item.blocks_and_more.amethyst_blade": "Amethyst Blade",
+      "item.blocks_and_more.deepslate_bedrock": "Deepslate Bedrock",
+      "item.blocks_and_more.red_concrete_wall": "Red Concrete Wall",
+      "item.blocks_and_more.orange_concrete_wall": "Orange Concrete Wall",
+      "item.blocks_and_more.red_terracotta_stairs": "Red Terracotta Stairs",
+      "item.blocks_and_more.orange_terracotta_stairs": "Orange Terracotta Stairs",
+      "item.blocks_and_more.yellow_terracotta_stairs": "Yellow Terracotta Stairs",
+      "item.blocks_and_more.green_terracotta_stairs": "Green Terracotta Stairs",
+      "item_group.blocks_and_more.buildy_stairs": "Buildy Stairs",
+      "item_group.blocks_and_more.buildy_slabs": "Buildy Slabs",
+      "item_group.blocks_and_more.buildy_walls": "Buildy Walls",
+      "item.blocks_and_more.lime_terracotta_stairs": "Lime Terracotta Stairs",
+      "item.blocks_and_more.black_terracotta_stairs": "Black Terracotta Stairs",
+      "item.blocks_and_more.white_terracotta_stairs": "White Terracotta Stairs",
+      "item.blocks_and_more.gray_terracotta_stairs": "Gray Terracotta Stairs",
+      "item.blocks_and_more.light_gray_terracotta": "Light Gray Terracotta",
+      "item.blocks_and_more.pink_terracotta_stairs": "Pink Terracotta Stairs",
+      "item_group.buildy.blocks_and_stuff_1": "Buildy Blocks",
+      "item.buildy.beacon_stairs": "Beacon Stairs",
+      "item.buildy.iron_stairs": "Iron Stairs",
+      "item.buildy.gold_stairs": "Gold Stairs",
+      "item.buildy.coal_stairs": "Coal Stairs",
+      "item.buildy.emerald_stair": "Emerald Stair",
+      "item.buildy.diamond_stair": "Diamond Stair",
+      "item.buildy.emerald_ore_stairs": "Emerald Ore Stairs",
+      "item.buildy.deepslate_emerald_ore_stairs": "Deepslate Emerald Ore Stairs",
+      "item.buildy.deepslate_diamond_stairs": "Deepslate Diamond Stairs",
+      "item.buildy.oak_log_stairs": "Oak Log Stairs",
+      "item.buildy.amethyst_stairs": "Amethyst Stairs",
+      "item.buildy.diamond_ore_stairs": "Diamond Ore Stairs",
+      "item.buildy.dark_oak_log_stairs": "Dark Oak Log Stairs",
+      "item.buildy.iron_ore_stairs": "Iron Ore Stairs",
+      "item.buildy.redstone_stairs": "Redstone Stairs",
+      "item.buildy.redstone_ore_stairs": "Redstone Ore Stairs",
+      "item.buildy.spruce_log_stairs": "Spruce Log Stairs",
+      "item.buildy.acacia_log_stairs": "Acacia Log Stairs",
+      "item.buildy.birch_log_stairs": "Birch Log Stairs",
+      "item.buildy.jungle_log_stairs": "Jungle Log Stairs",
+      "item.buildy.mangrove_log_stairs": "Mangrove Log Stairs",
+      "item.buildy.cherry_log_stairs": "Cherry Log Stairs",
+      "item.buildy.pale_oak_log_stairs": "Pale Oak Log Stairs",
+      "item.buildy.crimson_stem_stairs": "Crimson Stem Stairs",
+      "item.buildy.warped_stem_stairs": "Warped Stem Stairs",
+      "item.buildy.beacon_slab": "Beacon Slab",
+      "item.buildy.sandstone_slab": "Sandstone Slab",
+      "item.buildy.red_sandstone_slab": "Red Sandstone Slab",
+      "item.buildy.amethyst_blade": "Amethyst Blade",
+      "item.buildy.red_concrete_wall": "Red Concrete Wall",
+      "item.buildy.orange_concrete_wall": "Orange Concrete Wall",
+      "item.buildy.red_terracotta_stairs": "Red Terracotta Stairs",
+      "item.buildy.orange_terracotta_stairs": "Orange Terracotta Stairs",
+      "item.buildy.yellow_terracotta_stairs": "Yellow Terracotta Stairs",
+      "item.buildy.green_terracotta_stairs": "Green Terracotta Stairs",
+      "item_group.buildy.buildy_stairs": "Buildy Stairs",
+      "item_group.buildy.buildy_slabs": "Buildy Slabs",
+      "item_group.buildy.buildy_walls": "Buildy Walls",
+      "item.buildy.lime_terracotta_stairs": "Lime Terracotta Stairs",
+      "item.buildy.black_terracotta_stairs": "Black Terracotta Stairs",
+      "item.buildy.white_terracotta_stairs": "White Terracotta Stairs",
+      "item.buildy.gray_terracotta_stairs": "Gray Terracotta Stairs",
+      "item.buildy.light_gray_terracotta": "Light Gray Terracotta",
+      "item.buildy.pink_terracotta_stairs": "Pink Terracotta Stairs",
+      "item.buildy.magenta_terracotta_stairs": "Magenta Terracotta Stairs",
+      "item.buildy.brown_terracotta_stairs": "Brown Terracotta Stairs",
+      "item.buildy.blue_terracotta_stairs": "Blue Terracotta Stairs",
+      "item.buildy.light_blue_terracotta_stairs": "Light Blue Terracotta Stairs",
+      "item.buildy.cyan_terracotta_stairs": "Cyan Terracotta Stairs",
+      "item.buildy.purple_terracotta_stairs": "Purple Terracotta Stairs"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/buildy/init/BuildyModBlocks.java",
+      "src/main/java/net/mcreator/buildy/mixin/ServerPlayerMixin.java",
+      "src/main/java/net/mcreator/buildy/init/BuildyModItems.java",
+      "src/main/java/net/mcreator/buildy/mixin/RepairItemRecipeMixin.java",
+      "src/main/java/net/mcreator/buildy/mixin/CommandsMixin.java",
+      "src/main/java/net/mcreator/buildy/event/LivingEntityEvents.java",
+      "src/main/resources/fabric.mod.json",
+      "src/main/java/net/mcreator/buildy/mixin/BoneMealItemMixin.java",
+      "src/main/java/net/mcreator/buildy/event/BlockEvents.java",
+      "src/main/resources/META-INF/buildy.classtweaker",
+      "src/main/java/net/mcreator/buildy/event/PlayerEvents.java",
+      "src/main/java/net/mcreator/buildy/mixin/PlayerMixin.java",
+      "src/main/java/net/mcreator/buildy/init/BuildyModTabs.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/buildy/event/ItemEvents.java",
+      "src/main/java/net/mcreator/buildy/mixin/LivingEntityMixin.java",
+      "src/main/java/net/mcreator/buildy/mixin/ItemStackMixin.java",
+      "src/main/java/net/mcreator/buildy/BuildyMod.java",
+      "src/main/java/net/mcreator/buildy/event/MiscEvents.java",
+      "src/main/resources/buildy.mixins.json",
+      "src/main/java/net/mcreator/buildy/BuildyModClient.java",
+      "src/main/java/net/mcreator/buildy/mixin/BlockItemMixin.java",
+      "src/main/java/net/mcreator/buildy/mixin/ExperienceOrbMixin.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Others",
+        "children": [
+          {
+            "name": "Tab",
+            "children": []
+          },
+          {
+            "name": "Recipe",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Blocks",
+        "children": [
+          {
+            "name": "Stairs",
+            "children": [
+              {
+                "name": "OreStairs",
+                "children": [
+                  {
+                    "name": "EmeraldOreStairs",
+                    "children": []
+                  },
+                  {
+                    "name": "DeepslateEmeraldStairs",
+                    "children": []
+                  },
+                  {
+                    "name": "DeepslateDiamondStairs",
+                    "children": []
+                  },
+                  {
+                    "name": "DiamondOreStair",
+                    "children": []
+                  },
+                  {
+                    "name": "IronOreStairs",
+                    "children": []
+                  },
+                  {
+                    "name": "RedstoneOreStairs",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "VanillaBasedStairs",
+                "children": [
+                  {
+                    "name": "BeaconStairs",
+                    "children": []
+                  },
+                  {
+                    "name": "IronStairs",
+                    "children": []
+                  },
+                  {
+                    "name": "DiamondStairs",
+                    "children": []
+                  },
+                  {
+                    "name": "EmeraldStairs",
+                    "children": []
+                  },
+                  {
+                    "name": "GoldStairs",
+                    "children": []
+                  },
+                  {
+                    "name": "CoalStairs",
+                    "children": []
+                  },
+                  {
+                    "name": "RedstoneStairs",
+                    "children": []
+                  },
+                  {
+                    "name": "AmethystStairs",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "LogStairs",
+                "children": [
+                  {
+                    "name": "OakLogStairs",
+                    "children": []
+                  },
+                  {
+                    "name": "DarkOakLogStairs",
+                    "children": []
+                  },
+                  {
+                    "name": "SpruceLogStairs",
+                    "children": []
+                  },
+                  {
+                    "name": "AcaciaLogStairs",
+                    "children": []
+                  },
+                  {
+                    "name": "BirchLogStairs",
+                    "children": []
+                  },
+                  {
+                    "name": "JungleLogStairs",
+                    "children": []
+                  },
+                  {
+                    "name": "MangroveLogStairs",
+                    "children": []
+                  },
+                  {
+                    "name": "CherryLogStairs",
+                    "children": []
+                  },
+                  {
+                    "name": "PaleOakLogStairs",
+                    "children": []
+                  },
+                  {
+                    "name": "CrimsonStemStairs",
+                    "children": []
+                  },
+                  {
+                    "name": "WarpedStemStairs",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "TerracottaStairs",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "BasicBlocks",
+            "children": []
+          },
+          {
+            "name": "Slabs",
+            "children": [
+              {
+                "name": "Misc Slabs",
+                "children": [
+                  {
+                    "name": "SandstoneSlab",
+                    "children": []
+                  },
+                  {
+                    "name": "BeaconSlab",
+                    "children": []
+                  },
+                  {
+                    "name": "RedSandstoneSlab",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Walls",
+            "children": [
+              {
+                "name": "Concrete",
+                "children": [
+                  {
+                    "name": "RedConcreteWall",
+                    "children": []
+                  },
+                  {
+                    "name": "OrangeConcreteWall",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Items",
+        "children": [
+          {
+            "name": "AmethystBlade",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "buildy",
+    "modName": "Buildy",
+    "version": "1.3",
+    "description": "A Collection of custom added Minecraft features made by Cirtwitz.",
+    "author": "ItsCirtwitz",
+    "websiteURL": "https://mcreator.net",
+    "license": "MIT License",
+    "serverSideOnly": false,
+    "requiredMods": [
+      "fabric-api"
+    ],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-26.1.2",
+    "credits": "@ItsCirtwitz on YT",
+    "modElementsPackage": "net.mcreator.buildy"
+  },
+  "mcreatorVersion": 202600233518
+}

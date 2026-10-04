@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "buildy:block/beacon_slab"
+    },
+    "type=top": {
+      "model": "buildy:block/beacon_slab_top"
+    },
+    "type=double": {
+      "model": "buildy:block/beacon_slab_full"
+    }
+  }
+}
