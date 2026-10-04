@@ -2,7 +2,6 @@
   "item.blocks_and_more.emerald_stair": "Emerald Stair",
   "item.blocks_and_more.block_of_metal": "Block Of Metal",
   "item.blocks_and_more.diamond_stair": "Diamond Stair",
-  "item.blocks_and_more.wemmbu_stair": "Wemmbu Stair",
   "item.blocks_and_more.emerald_ore_stairs": "Emerald Ore Stairs",
   "item.blocks_and_more.deepslate_emerald_ore_stairs": "Deepslate Emerald Ore Stairs",
   "item.blocks_and_more.deepslate_diamond_stairs": "Deepslate Diamond Stairs",
@@ -19,9 +18,6 @@
   "item.blocks_and_more.red_concrete_stairsw": "Red Concrete Stairs",
   "item.blocks_and_more.beacon_stairs": "Beacon Stairs",
   "item.blocks_and_more.iron_stairs": "Iron Stairs",
-  "item.blocks_and_more.liquid_sugar_bucket": "Bucket of Liquid Sugar",
-  "block.blocks_and_more.liquid_sugar": "Liquid Sugar",
-  "fluid.blocks_and_more.liquid_sugar": "Liquid Sugar",
   "item.blocks_and_more.gold_stairs": "Gold Stairs",
   "item.blocks_and_more.coal_stairs": "Coal Stairs",
   "item.blocks_and_more.birch_log_stairs": "Birch Log Stairs",
@@ -44,5 +40,9 @@
   "item.blocks_and_more.green_terracotta_stairs": "Green Terracotta Stairs",
   "item_group.blocks_and_more.buildy_stairs": "Buildy Stairs",
   "item_group.blocks_and_more.buildy_slabs": "Buildy Slabs",
-  "item_group.blocks_and_more.buildy_walls": "Buildy Walls"
+  "item_group.blocks_and_more.buildy_walls": "Buildy Walls",
+  "item.blocks_and_more.lime_terracotta_stairs": "Lime Terracotta Stairs",
+  "item.blocks_and_more.black_terracotta_stairs": "Black Terracotta Stairs",
+  "item.blocks_and_more.white_terracotta_stairs": "White Terracotta Stairs",
+  "item.blocks_and_more.gray_terracotta_stairs": "Gray Terracotta Stairs"
 }

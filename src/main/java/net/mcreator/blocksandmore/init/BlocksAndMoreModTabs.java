@@ -19,6 +19,7 @@ import net.fabricmc.fabric.api.creativetab.v1.CreativeModeTabEvents;
 
 public class BlocksAndMoreModTabs {
 	public static ResourceKey<CreativeModeTab> TAB_BLOCKS_AND_STUFF_1 = ResourceKey.create(Registries.CREATIVE_MODE_TAB, Identifier.fromNamespaceAndPath(BlocksAndMoreMod.MODID, "blocks_and_stuff_1"));
+	public static ResourceKey<CreativeModeTab> TAB_BUILDY_STAIRS = ResourceKey.create(Registries.CREATIVE_MODE_TAB, Identifier.fromNamespaceAndPath(BlocksAndMoreMod.MODID, "buildy_stairs"));
 
 	public static void load() {
 		Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB, TAB_BLOCKS_AND_STUFF_1,
@@ -26,12 +27,10 @@ public class BlocksAndMoreModTabs {
 					tabData.accept(BlocksAndMoreModBlocks.BLOCK_OF_METAL.asItem());
 					tabData.accept(BlocksAndMoreModBlocks.BEACON_STAIRS.asItem());
 					tabData.accept(BlocksAndMoreModBlocks.IRON_STAIRS.asItem());
-					tabData.accept(BlocksAndMoreModItems.LIQUID_SUGAR_BUCKET);
 					tabData.accept(BlocksAndMoreModBlocks.GOLD_STAIRS.asItem());
 					tabData.accept(BlocksAndMoreModBlocks.COAL_STAIRS.asItem());
 					tabData.accept(BlocksAndMoreModBlocks.EMERALD_STAIR.asItem());
 					tabData.accept(BlocksAndMoreModBlocks.DIAMOND_STAIR.asItem());
-					tabData.accept(BlocksAndMoreModBlocks.WEMMBU_STAIR.asItem());
 					tabData.accept(BlocksAndMoreModBlocks.EMERALD_ORE_STAIRS.asItem());
 					tabData.accept(BlocksAndMoreModBlocks.DEEPSLATE_EMERALD_ORE_STAIRS.asItem());
 					tabData.accept(BlocksAndMoreModBlocks.DEEPSLATE_DIAMOND_STAIRS.asItem());
@@ -61,6 +60,15 @@ public class BlocksAndMoreModTabs {
 					tabData.accept(BlocksAndMoreModBlocks.RED_TERRACOTTA_STAIRS.asItem());
 					tabData.accept(BlocksAndMoreModBlocks.ORANGE_TERRACOTTA_STAIRS.asItem());
 					tabData.accept(BlocksAndMoreModBlocks.GREEN_TERRACOTTA_STAIRS.asItem());
+					tabData.accept(BlocksAndMoreModBlocks.LIME_TERRACOTTA_STAIRS.asItem());
+					tabData.accept(BlocksAndMoreModBlocks.WHITE_TERRACOTTA_STAIRS.asItem());
+					tabData.accept(BlocksAndMoreModBlocks.GRAY_TERRACOTTA_STAIRS.asItem());
+				}).build());
+		Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB, TAB_BUILDY_STAIRS,
+				CreativeModeTab.builder(CreativeModeTab.Row.TOP, 0).title(Component.translatable("item_group.blocks_and_more.buildy_stairs")).icon(() -> new ItemStack(BlocksAndMoreModBlocks.IRON_STAIRS)).displayItems((parameters, tabData) -> {
+					tabData.accept(BlocksAndMoreModBlocks.LIME_TERRACOTTA_STAIRS.asItem());
+					tabData.accept(BlocksAndMoreModBlocks.WHITE_TERRACOTTA_STAIRS.asItem());
+					tabData.accept(BlocksAndMoreModBlocks.GRAY_TERRACOTTA_STAIRS.asItem());
 				}).build());
 		CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.TOOLS_AND_UTILITIES).register(tabData -> {
 			tabData.accept(BlocksAndMoreModItems.AMETHYST_BLADE);

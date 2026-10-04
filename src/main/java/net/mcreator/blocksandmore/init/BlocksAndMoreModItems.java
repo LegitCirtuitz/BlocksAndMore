@@ -12,7 +12,6 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.Registries;
 
-import net.mcreator.blocksandmore.item.LiquidSugarItem;
 import net.mcreator.blocksandmore.item.AmethystBladeItem;
 import net.mcreator.blocksandmore.BlocksAndMoreMod;
 
@@ -22,12 +21,10 @@ public class BlocksAndMoreModItems {
 	public static Item BLOCK_OF_METAL;
 	public static Item BEACON_STAIRS;
 	public static Item IRON_STAIRS;
-	public static Item LIQUID_SUGAR_BUCKET;
 	public static Item GOLD_STAIRS;
 	public static Item COAL_STAIRS;
 	public static Item EMERALD_STAIR;
 	public static Item DIAMOND_STAIR;
-	public static Item WEMMBU_STAIR;
 	public static Item EMERALD_ORE_STAIRS;
 	public static Item DEEPSLATE_EMERALD_ORE_STAIRS;
 	public static Item DEEPSLATE_DIAMOND_STAIRS;
@@ -58,17 +55,19 @@ public class BlocksAndMoreModItems {
 	public static Item ORANGE_TERRACOTTA_STAIRS;
 	public static Item YELLOW_TERRACOTTA_STAIRS;
 	public static Item GREEN_TERRACOTTA_STAIRS;
+	public static Item LIME_TERRACOTTA_STAIRS;
+	public static Item BLACK_TERRACOTTA_STAIRS;
+	public static Item WHITE_TERRACOTTA_STAIRS;
+	public static Item GRAY_TERRACOTTA_STAIRS;
 
 	public static void load() {
 		BLOCK_OF_METAL = block(BlocksAndMoreModBlocks.BLOCK_OF_METAL, "block_of_metal", new Item.Properties().fireResistant());
 		BEACON_STAIRS = block(BlocksAndMoreModBlocks.BEACON_STAIRS, "beacon_stairs");
 		IRON_STAIRS = block(BlocksAndMoreModBlocks.IRON_STAIRS, "iron_stairs");
-		LIQUID_SUGAR_BUCKET = register("liquid_sugar_bucket", LiquidSugarItem::new);
 		GOLD_STAIRS = block(BlocksAndMoreModBlocks.GOLD_STAIRS, "gold_stairs");
 		COAL_STAIRS = block(BlocksAndMoreModBlocks.COAL_STAIRS, "coal_stairs");
 		EMERALD_STAIR = block(BlocksAndMoreModBlocks.EMERALD_STAIR, "emerald_stair");
 		DIAMOND_STAIR = block(BlocksAndMoreModBlocks.DIAMOND_STAIR, "diamond_stair");
-		WEMMBU_STAIR = block(BlocksAndMoreModBlocks.WEMMBU_STAIR, "wemmbu_stair");
 		EMERALD_ORE_STAIRS = block(BlocksAndMoreModBlocks.EMERALD_ORE_STAIRS, "emerald_ore_stairs");
 		DEEPSLATE_EMERALD_ORE_STAIRS = block(BlocksAndMoreModBlocks.DEEPSLATE_EMERALD_ORE_STAIRS, "deepslate_emerald_ore_stairs");
 		DEEPSLATE_DIAMOND_STAIRS = block(BlocksAndMoreModBlocks.DEEPSLATE_DIAMOND_STAIRS, "deepslate_diamond_stairs");
@@ -99,6 +98,10 @@ public class BlocksAndMoreModItems {
 		ORANGE_TERRACOTTA_STAIRS = block(BlocksAndMoreModBlocks.ORANGE_TERRACOTTA_STAIRS, "orange_terracotta_stairs");
 		YELLOW_TERRACOTTA_STAIRS = block(BlocksAndMoreModBlocks.YELLOW_TERRACOTTA_STAIRS, "yellow_terracotta_stairs");
 		GREEN_TERRACOTTA_STAIRS = block(BlocksAndMoreModBlocks.GREEN_TERRACOTTA_STAIRS, "green_terracotta_stairs");
+		LIME_TERRACOTTA_STAIRS = block(BlocksAndMoreModBlocks.LIME_TERRACOTTA_STAIRS, "lime_terracotta_stairs");
+		BLACK_TERRACOTTA_STAIRS = block(BlocksAndMoreModBlocks.BLACK_TERRACOTTA_STAIRS, "black_terracotta_stairs");
+		WHITE_TERRACOTTA_STAIRS = block(BlocksAndMoreModBlocks.WHITE_TERRACOTTA_STAIRS, "white_terracotta_stairs");
+		GRAY_TERRACOTTA_STAIRS = block(BlocksAndMoreModBlocks.GRAY_TERRACOTTA_STAIRS, "gray_terracotta_stairs");
 	}
 
 	// Start of user code block custom items

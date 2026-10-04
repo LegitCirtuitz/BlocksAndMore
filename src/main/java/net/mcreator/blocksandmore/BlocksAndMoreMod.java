@@ -10,7 +10,6 @@ import net.minecraft.server.TickTask;
 
 import net.mcreator.blocksandmore.init.BlocksAndMoreModTabs;
 import net.mcreator.blocksandmore.init.BlocksAndMoreModItems;
-import net.mcreator.blocksandmore.init.BlocksAndMoreModFluids;
 import net.mcreator.blocksandmore.init.BlocksAndMoreModFeatures;
 import net.mcreator.blocksandmore.init.BlocksAndMoreModBlocks;
 
@@ -42,7 +41,6 @@ public class BlocksAndMoreMod implements ModInitializer {
 		LOGGER.info("Initializing BlocksAndMoreMod");
 		BlocksAndMoreModTabs.load();
 		BlocksAndMoreModFeatures.load();
-		BlocksAndMoreModFluids.load();
 		BlocksAndMoreModBlocks.load();
 		BlocksAndMoreModItems.load();
 		tick();

@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "blocks_and_more:wemmbu_stair",
     "blocks_and_more:beacon_slab",
     "blocks_and_more:orange_concrete_wall",
     "blocks_and_more:redstone_ore_stairs",

@@ -1,7 +1,5 @@
 package net.mcreator.blocksandmore;
 
-import net.mcreator.blocksandmore.init.BlocksAndMoreModFluids;
-
 import net.fabricmc.api.Environment;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.ClientModInitializer;
@@ -12,7 +10,6 @@ public class BlocksAndMoreModClient implements ClientModInitializer {
 	public void onInitializeClient() {
 		// Start of user code block mod constructor
 		// End of user code block mod constructor
-		BlocksAndMoreModFluids.clientLoad();
 		// Start of user code block mod init
 		// End of user code block mod init
 	}

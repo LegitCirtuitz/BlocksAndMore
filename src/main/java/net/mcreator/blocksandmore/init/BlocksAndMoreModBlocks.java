@@ -19,12 +19,10 @@ public class BlocksAndMoreModBlocks {
 	public static Block BLOCK_OF_METAL;
 	public static Block BEACON_STAIRS;
 	public static Block IRON_STAIRS;
-	public static Block LIQUID_SUGAR;
 	public static Block GOLD_STAIRS;
 	public static Block COAL_STAIRS;
 	public static Block EMERALD_STAIR;
 	public static Block DIAMOND_STAIR;
-	public static Block WEMMBU_STAIR;
 	public static Block EMERALD_ORE_STAIRS;
 	public static Block DEEPSLATE_EMERALD_ORE_STAIRS;
 	public static Block DEEPSLATE_DIAMOND_STAIRS;
@@ -54,17 +52,19 @@ public class BlocksAndMoreModBlocks {
 	public static Block ORANGE_TERRACOTTA_STAIRS;
 	public static Block YELLOW_TERRACOTTA_STAIRS;
 	public static Block GREEN_TERRACOTTA_STAIRS;
+	public static Block LIME_TERRACOTTA_STAIRS;
+	public static Block BLACK_TERRACOTTA_STAIRS;
+	public static Block WHITE_TERRACOTTA_STAIRS;
+	public static Block GRAY_TERRACOTTA_STAIRS;
 
 	public static void load() {
 		BLOCK_OF_METAL = register("block_of_metal", BlockOfMetalBlock::new);
 		BEACON_STAIRS = register("beacon_stairs", BeaconStairsBlock::new);
 		IRON_STAIRS = register("iron_stairs", IronStairsBlock::new);
-		LIQUID_SUGAR = register("liquid_sugar", LiquidSugarBlock::new);
 		GOLD_STAIRS = register("gold_stairs", GoldStairsBlock::new);
 		COAL_STAIRS = register("coal_stairs", CoalStairsBlock::new);
 		EMERALD_STAIR = register("emerald_stair", EmeraldStairBlock::new);
 		DIAMOND_STAIR = register("diamond_stair", DiamondStairBlock::new);
-		WEMMBU_STAIR = register("wemmbu_stair", WemmbuStairBlock::new);
 		EMERALD_ORE_STAIRS = register("emerald_ore_stairs", EmeraldOreStairsBlock::new);
 		DEEPSLATE_EMERALD_ORE_STAIRS = register("deepslate_emerald_ore_stairs", DeepslateEmeraldOreStairsBlock::new);
 		DEEPSLATE_DIAMOND_STAIRS = register("deepslate_diamond_stairs", DeepslateDiamondStairsBlock::new);
@@ -94,6 +94,10 @@ public class BlocksAndMoreModBlocks {
 		ORANGE_TERRACOTTA_STAIRS = register("orange_terracotta_stairs", OrangeTerracottaStairsBlock::new);
 		YELLOW_TERRACOTTA_STAIRS = register("yellow_terracotta_stairs", YellowTerracottaStairsBlock::new);
 		GREEN_TERRACOTTA_STAIRS = register("green_terracotta_stairs", GreenTerracottaStairsBlock::new);
+		LIME_TERRACOTTA_STAIRS = register("lime_terracotta_stairs", LimeTerracottaStairsBlock::new);
+		BLACK_TERRACOTTA_STAIRS = register("black_terracotta_stairs", BlackTerracottaStairsBlock::new);
+		WHITE_TERRACOTTA_STAIRS = register("white_terracotta_stairs", WhiteTerracottaStairsBlock::new);
+		GRAY_TERRACOTTA_STAIRS = register("gray_terracotta_stairs", GrayTerracottaStairsBlock::new);
 	}
 
 	// Start of user code block custom blocks

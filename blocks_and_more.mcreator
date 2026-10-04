@@ -126,57 +126,6 @@
       "path": "~/Blocks/Stairs/VanillaBasedStairs/IronStairs"
     },
     {
-      "name": "LiquidSugar",
-      "type": "fluid",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "liquid_sugar",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/blocks_and_more/models/item/liquid_sugar_bucket.json",
-          "src/main/resources/assets/blocks_and_more/models/block/liquid_sugar.json",
-          "src/main/resources/assets/blocks_and_more/blockstates/liquid_sugar.json",
-          "src/main/java/net/mcreator/blocksandmore/fluid/LiquidSugarFluid.java",
-          "src/main/java/net/mcreator/blocksandmore/block/LiquidSugarBlock.java",
-          "src/main/java/net/mcreator/blocksandmore/item/LiquidSugarItem.java",
-          "src/main/resources/assets/blocks_and_more/items/liquid_sugar_bucket.json"
-        ]
-      },
-      "path": "~/Others/Fluid/LiquidSugar"
-    },
-    {
-      "name": "SugarSpeed",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sugar_speed",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ],
-        "files": [
-          "src/main/java/net/mcreator/blocksandmore/procedures/SugarSpeedProcedure.java"
-        ]
-      },
-      "path": "~/Others/Fluid/LiquidSugar"
-    },
-    {
-      "name": "LiquidSugarBucket",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "liquid_sugar_bucket",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/blocks_and_more/recipe/liquid_sugar_bucket_recipe.json"
-        ]
-      },
-      "path": "~/Others/Fluid/LiquidSugar"
-    },
-    {
       "name": "GoldStairs",
       "type": "block",
       "compiles": true,
@@ -282,39 +231,6 @@
         ]
       },
       "path": "~/Blocks/Stairs/VanillaBasedStairs/DiamondStairs"
-    },
-    {
-      "name": "WemmbuStair",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "wemmbu_stair",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/blocks_and_more/loot_table/blocks/wemmbu_stair.json",
-          "src/main/resources/assets/blocks_and_more/models/block/wemmbu_stair_outer.json",
-          "src/main/java/net/mcreator/blocksandmore/block/WemmbuStairBlock.java",
-          "src/main/resources/assets/blocks_and_more/blockstates/wemmbu_stair.json",
-          "src/main/resources/assets/blocks_and_more/items/wemmbu_stair.json",
-          "src/main/resources/assets/blocks_and_more/models/block/wemmbu_stair_inner.json",
-          "src/main/resources/assets/blocks_and_more/models/item/wemmbu_stair.json",
-          "src/main/resources/assets/blocks_and_more/models/block/wemmbu_stair.json"
-        ]
-      },
-      "path": "~/Blocks/Stairs/MiscStairs/WemmbuStair"
-    },
-    {
-      "name": "WemmbuStairRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "wemmbu_stair_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/blocks_and_more/recipe/wemmbu_stair_recipe.json"
-        ]
-      },
-      "path": "~/Blocks/Stairs/MiscStairs/WemmbuStair"
     },
     {
       "name": "CommandBlockRecipe",
@@ -1414,6 +1330,86 @@
         "files": []
       },
       "path": "~/Others/Tab"
+    },
+    {
+      "name": "LimeTerracottaStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_terracotta_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/blocks_and_more/models/item/lime_terracotta_stairs.json",
+          "src/main/resources/assets/blocks_and_more/models/block/lime_terracotta_stairs_outer.json",
+          "src/main/resources/assets/blocks_and_more/models/block/lime_terracotta_stairs.json",
+          "src/main/java/net/mcreator/blocksandmore/block/LimeTerracottaStairsBlock.java",
+          "src/main/resources/data/blocks_and_more/loot_table/blocks/lime_terracotta_stairs.json",
+          "src/main/resources/assets/blocks_and_more/models/block/lime_terracotta_stairs_inner.json",
+          "src/main/resources/assets/blocks_and_more/items/lime_terracotta_stairs.json",
+          "src/main/resources/assets/blocks_and_more/blockstates/lime_terracotta_stairs.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/TerracottaStairs"
+    },
+    {
+      "name": "BlackTerracottaStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_terracotta_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/blocks_and_more/models/block/black_terracotta_stairs_inner.json",
+          "src/main/java/net/mcreator/blocksandmore/block/BlackTerracottaStairsBlock.java",
+          "src/main/resources/assets/blocks_and_more/models/block/black_terracotta_stairs_outer.json",
+          "src/main/resources/assets/blocks_and_more/models/block/black_terracotta_stairs.json",
+          "src/main/resources/assets/blocks_and_more/models/item/black_terracotta_stairs.json",
+          "src/main/resources/assets/blocks_and_more/items/black_terracotta_stairs.json",
+          "src/main/resources/data/blocks_and_more/loot_table/blocks/black_terracotta_stairs.json",
+          "src/main/resources/assets/blocks_and_more/blockstates/black_terracotta_stairs.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/TerracottaStairs"
+    },
+    {
+      "name": "WhiteTerracottaStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_terracotta_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/blocks_and_more/models/block/white_terracotta_stairs_outer.json",
+          "src/main/resources/assets/blocks_and_more/models/item/white_terracotta_stairs.json",
+          "src/main/resources/assets/blocks_and_more/blockstates/white_terracotta_stairs.json",
+          "src/main/resources/assets/blocks_and_more/models/block/white_terracotta_stairs.json",
+          "src/main/java/net/mcreator/blocksandmore/block/WhiteTerracottaStairsBlock.java",
+          "src/main/resources/assets/blocks_and_more/items/white_terracotta_stairs.json",
+          "src/main/resources/data/blocks_and_more/loot_table/blocks/white_terracotta_stairs.json",
+          "src/main/resources/assets/blocks_and_more/models/block/white_terracotta_stairs_inner.json"
+        ]
+      },
+      "path": "~/Blocks/Stairs/TerracottaStairs"
+    },
+    {
+      "name": "GrayTerracottaStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_terracotta_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/blocks_and_more/models/block/gray_terracotta_stairs_outer.json",
+          "src/main/resources/data/blocks_and_more/loot_table/blocks/gray_terracotta_stairs.json",
+          "src/main/resources/assets/blocks_and_more/models/item/gray_terracotta_stairs.json",
+          "src/main/resources/assets/blocks_and_more/models/block/gray_terracotta_stairs_inner.json",
+          "src/main/resources/assets/blocks_and_more/items/gray_terracotta_stairs.json",
+          "src/main/resources/assets/blocks_and_more/blockstates/gray_terracotta_stairs.json",
+          "src/main/resources/assets/blocks_and_more/models/block/gray_terracotta_stairs.json",
+          "src/main/java/net/mcreator/blocksandmore/block/GrayTerracottaStairsBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Stairs/TerracottaStairs"
     }
   ],
   "variable_elements": [],
@@ -1423,9 +1419,13 @@
       "~AmethystBlade@Items.AMETHYST_SHARD"
     ],
     "BLOCKS:minecraft:stairs": [
+      "~GrayTerracottaStairs@CUSTOM:GrayTerracottaStairs",
+      "~WhiteTerracottaStairs@CUSTOM:WhiteTerracottaStairs",
+      "~BlackTerracottaStairs@CUSTOM:BlackTerracottaStairs",
+      "~LimeTerracottaStairs@CUSTOM:LimeTerracottaStairs",
+      "~RedTerracottaStairs@CUSTOM:RedTerracottaStairs",
       "~GreenTerracottaStairs@CUSTOM:GreenTerracottaStairs",
       "~YellowTerracottaStairs@CUSTOM:YellowTerracottaStairs",
-      "~RedTerracottaStairs@CUSTOM:RedTerracottaStairs",
       "~OrangeTerracottaStairs@CUSTOM:OrangeTerracottaStairs",
       "~WarpedStemStairs@CUSTOM:WarpedStemStairs",
       "~CrimsonStemStairs@CUSTOM:CrimsonStemStairs",
@@ -1446,7 +1446,6 @@
       "~DeepslateDiamondStairs@CUSTOM:DeepslateDiamondStairs",
       "~DeepslateEmeraldOreStairs@CUSTOM:DeepslateEmeraldOreStairs",
       "~EmeraldOreStairs@CUSTOM:EmeraldOreStairs",
-      "~WemmbuStair@CUSTOM:WemmbuStair",
       "~DiamondStair@CUSTOM:DiamondStair",
       "~EmeraldStair@CUSTOM:EmeraldStair",
       "~CoalStairs@CUSTOM:CoalStairs",
@@ -1455,9 +1454,13 @@
       "~BeaconStairs@CUSTOM:BeaconStairs"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~GrayTerracottaStairs@CUSTOM:GrayTerracottaStairs",
+      "~WhiteTerracottaStairs@CUSTOM:WhiteTerracottaStairs",
+      "~BlackTerracottaStairs@CUSTOM:BlackTerracottaStairs",
+      "~LimeTerracottaStairs@CUSTOM:LimeTerracottaStairs",
+      "~RedTerracottaStairs@CUSTOM:RedTerracottaStairs",
       "~GreenTerracottaStairs@CUSTOM:GreenTerracottaStairs",
       "~YellowTerracottaStairs@CUSTOM:YellowTerracottaStairs",
-      "~RedTerracottaStairs@CUSTOM:RedTerracottaStairs",
       "~OrangeTerracottaStairs@CUSTOM:OrangeTerracottaStairs",
       "~RedConcreteWall@CUSTOM:RedConcreteWall",
       "~OrangeConcreteWall@CUSTOM:OrangeConcreteWall",
@@ -1468,7 +1471,6 @@
       "~RedstoneOreStairs@CUSTOM:RedstoneOreStairs",
       "~IronOreStairs@CUSTOM:IronOreStairs",
       "~DeepslateDiamondStairs@CUSTOM:DeepslateDiamondStairs",
-      "~WemmbuStair@CUSTOM:WemmbuStair",
       "~EmeraldStair@CUSTOM:EmeraldStair",
       "~CoalStairs@CUSTOM:CoalStairs",
       "~GoldStairs@CUSTOM:GoldStairs",
@@ -1481,7 +1483,6 @@
       "~BeaconSlab@CUSTOM:BeaconSlab",
       "~RedstoneOreStairs@CUSTOM:RedstoneOreStairs",
       "~IronOreStairs@CUSTOM:IronOreStairs",
-      "~WemmbuStair@CUSTOM:WemmbuStair",
       "~CoalStairs@CUSTOM:CoalStairs"
     ],
     "BLOCKS:minecraft:needs_iron_tool": [
@@ -1489,9 +1490,6 @@
       "~EmeraldStair@CUSTOM:EmeraldStair",
       "~GoldStairs@CUSTOM:GoldStairs",
       "~IronStairs@CUSTOM:IronStairs"
-    ],
-    "BLOCKS:minecraft:replaceable": [
-      "~LiquidSugar@CUSTOM:LiquidSugar"
     ],
     "BLOCKS:minecraft:mineable/axe": [
       "~WarpedStemStairs@CUSTOM:WarpedStemStairs",
@@ -1528,7 +1526,6 @@
       "item.blocks_and_more.emerald_stair": "Emerald Stair",
       "item.blocks_and_more.block_of_metal": "Block Of Metal",
       "item.blocks_and_more.diamond_stair": "Diamond Stair",
-      "item.blocks_and_more.wemmbu_stair": "Wemmbu Stair",
       "item.blocks_and_more.emerald_ore_stairs": "Emerald Ore Stairs",
       "item.blocks_and_more.deepslate_emerald_ore_stairs": "Deepslate Emerald Ore Stairs",
       "item.blocks_and_more.deepslate_diamond_stairs": "Deepslate Diamond Stairs",
@@ -1545,9 +1542,6 @@
       "item.blocks_and_more.red_concrete_stairsw": "Red Concrete Stairs",
       "item.blocks_and_more.beacon_stairs": "Beacon Stairs",
       "item.blocks_and_more.iron_stairs": "Iron Stairs",
-      "item.blocks_and_more.liquid_sugar_bucket": "Bucket of Liquid Sugar",
-      "block.blocks_and_more.liquid_sugar": "Liquid Sugar",
-      "fluid.blocks_and_more.liquid_sugar": "Liquid Sugar",
       "item.blocks_and_more.gold_stairs": "Gold Stairs",
       "item.blocks_and_more.coal_stairs": "Coal Stairs",
       "item.blocks_and_more.birch_log_stairs": "Birch Log Stairs",
@@ -1570,13 +1564,15 @@
       "item.blocks_and_more.green_terracotta_stairs": "Green Terracotta Stairs",
       "item_group.blocks_and_more.buildy_stairs": "Buildy Stairs",
       "item_group.blocks_and_more.buildy_slabs": "Buildy Slabs",
-      "item_group.blocks_and_more.buildy_walls": "Buildy Walls"
+      "item_group.blocks_and_more.buildy_walls": "Buildy Walls",
+      "item.blocks_and_more.lime_terracotta_stairs": "Lime Terracotta Stairs",
+      "item.blocks_and_more.black_terracotta_stairs": "Black Terracotta Stairs",
+      "item.blocks_and_more.white_terracotta_stairs": "White Terracotta Stairs",
+      "item.blocks_and_more.gray_terracotta_stairs": "Gray Terracotta Stairs"
     }
   },
   "metadata": {
     "files": [
-      "src/main/java/net/mcreator/blocksandmore/init/BlocksAndMoreModFluids.java",
-      "src/main/resources/data/minecraft/tags/fluid/water.json",
       "src/main/java/net/mcreator/blocksandmore/init/BlocksAndMoreModBlocks.java",
       "src/main/java/net/mcreator/blocksandmore/mixin/RepairItemRecipeMixin.java",
       "src/main/java/net/mcreator/blocksandmore/mixin/ServerPlayerMixin.java",
@@ -1609,15 +1605,6 @@
       {
         "name": "Others",
         "children": [
-          {
-            "name": "Fluid",
-            "children": [
-              {
-                "name": "LiquidSugar",
-                "children": []
-              }
-            ]
-          },
           {
             "name": "Tab",
             "children": []
@@ -1745,15 +1732,6 @@
                   },
                   {
                     "name": "WarpedStemStairs",
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "name": "MiscStairs",
-                "children": [
-                  {
-                    "name": "WemmbuStair",
                     "children": []
                   }
                 ]
